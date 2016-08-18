@@ -21,6 +21,7 @@ var urlloading=[];
 var dailis=[];
 var getNumber=0;
 var tempdaili='182.90.252.10:2226';
+
 box.connect(function(conn1,cb){
 	conn1.query('set names utf8',function(err,res){
 		if(err){
@@ -29,22 +30,28 @@ box.connect(function(conn1,cb){
 		} else{
 			conn=conn1;
 			console.log("mysql conn is ok!");
+			getDailiList();
+			get(firstUrl);
+			setInterval(function(){cleanDali();},20000);
 		}
 		
 	});
 	
 });
 
-get(firstUrl,tempdaili);
-function get(url,daili){
-	//console.log("正在访问:"+url);
+
+function get(url){
+	console.log("正在访问:"+url);
 	var hosts=url.match(/http:\/\/(.*?)\//);
 	var host=hosts[1];
-	url=url.replace(host,daili);
+	var daili=dailis.length>0?dailis.shift():host;
+	
+	if (dailis.length<=3) getDailiList();
+	url1=url.replace(host,daili);
 	//console.log(host);
 
-	console.log(url);
-	superagent.get(url)
+	console.log(url1);
+	superagent.get(url1)
 	.set("Host",host)
 		.set("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0")
 	.set("Content-Type","application/x-www-form-urlencoded; charset=UTF-8")
@@ -55,10 +62,19 @@ function get(url,daili){
 	.end(function(err,data){
 		//console.log(data.text);
 		//console.log(err);
-		if(err) return console.log("访问代理发布页 %s 失败",url);
+		if(err) {
+			console.log("访问代理发布页 %s 失败",url);
+			get(url);
+			return false;
+		}
 		if(data.status==200){
 			$=cheerio.load(data.text);
 			var nexturl=$(".next_page").attr("href");
+			if(nexturl==undefined){
+				get(url);
+				return false;
+				
+			}
 			$(".odd").each(function(index,element){
 				ele=$(element);
 				var ip=ele.find("td").eq(1).text();
@@ -66,40 +82,73 @@ function get(url,daili){
 				testdali(ip,port);
 				//console.log(ip,port);
 			});
-			setTimeout(get("http://www.xicidaili.com"+nexturl,tempdaili),1500*getNumber++);
+			setTimeout(get("http://www.xicidaili.com"+nexturl),1500*getNumber++);
 		}
 	});
 }
 
 function testdali(ip,port){
-	conn.query("select count(1) as num from daili where ip='"+ip+"'",function(err,res){
-		if(err) return console.error(err);
-		if(res[0]['num']==0){
-			superagent.get(ip+":"+port+"/s?wd=pycharm%205%20注册码")
+	
+	superagent.get(ip+":"+port+"/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=111&sugmode=2&json=1&p=3&bs=111&pwd=111")
 			.set("Host","www.baidu.com")
+			.timeout(3000)
 			.end(function(err,data){
 
 			if(err){
 				//console.log(data);
 				//close();
-				console.log("验证代理 %s 失败",ip);
+				//console.log("验证代理 %s 失败",ip);
+				writeDaili(ip,port,'-1');
 				//console.log(error.status);
-				conn.query("insert into daili (ip,port,status) values ('"+ip+"','"+port+"','-1')",function(err,res){
+				
+			}else{
+				console.log("验证代理 %s 成功",ip);
+				writeDaili(ip,port,'1');
+			}
+			});
+	
+	
+}
+
+function writeDaili(ip,port,dailiStatus){
+	conn.query("select count(1) as num from daili where ip='"+ip+"' and port='"+port+"'",function(err,res){
+		if(err) return console.error(err);
+		if(res[0]['num']==0){
+			conn.query("insert into daili (ip,port,status) values ('"+ip+"','"+port+"','"+dailiStatus+"')",function(err,res){
 					if(err) return console.error(err);
 					
 				});
-			}else{
-				console.log("验证代理 %s 成功",ip);
-				conn.query("insert into daili (ip,port,status) values ('"+ip+"','"+port+"','1')",function(err,res){
-					if(err) return console.error(err);
-
-				});
-			}
-			});
 		}else{
 			//console.log("%s 已存在",ip);
+			conn.query("update daili set status='"+dailiStatus+"' where ip='"+ip+"' and port='"+port+"'",function(err,res){
+					if(err) return console.error(err);
+					
+				});
 			return;
 		}
 	});
-	
+}
+
+function getDailiList(){
+	conn.query("select ip,port from daili where status='1' limit 10",function(err,res){
+		if(err) return console.error(err);
+		for(var i=0;i<res.length;i++){
+			dailis.push(res[i]['ip']+':'+res[i]['port']);
+			
+		}
+		console.log(dailis);
+		console.log(res);
+		return true;
+	});
+}
+
+function cleanDali(){
+	conn.query("select ip,port from daili",function(err,res){
+		if(err) return console.error(err);
+		for(var i=0;i<res.length;i++){
+			testdali(res[i]['ip'],res[i]['port']);
+			
+		}
+		return true;
+	});
 }
