@@ -72,7 +72,7 @@
 		"runmode": "normal",/*两个值，liberate或normal，前者在应用安装时释放资源，后者不需要释放资源*/
 		"signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
 		"distribute": {
-			"debug": "",/*可选，是否为debug模式，可取值：true表示debug模式运行，false表示release模式运行，默认值为false*/
+			"debug": true,/*可选，是否为debug模式，可取值：true表示debug模式运行，false表示release模式运行，默认值为false*/
 			"apple": {
 				"appid": "",/*iOS必选，苹果开发网站申请的appid，如com.dheaven.hbuilder*/
 				"mobileprovision": "",/*iOS必选，打包配置文件*/
@@ -80,14 +80,16 @@
 				"p12": "",/*iOS必选，打包配置文件关联的个人证书*/
 				"devices": "universal",/*iphone，可取值iphone/ipad/universal*/
 				"frameworks":[]/*用户在调用 Native.js 或开发第三方插件时使用到的 FrameWork 名*/
+				/*开启沉浸式菜单* "UIReserveStatusbarOffset":false*/
 			},
 			"google": {
 				"packagename": "",/*Android必选，程序包名，如com.dheaven.hbuilder*/
 				"keystore": "",/*Android必选，打包证书文件*/
 				"password": "",/*Android必选，打包证书密码*/
 				"aliasname": "",/*Android必选，打包证书别名*/
-				"permissions": ["<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>","<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-feature android:name=\"android.hardware.camera\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.CAMERA\"/>"]
+				"permissions": ["<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>","<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-feature android:name=\"android.hardware.camera\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.CAMERA\"/>"],
 				/*使用 Native.js 调用原生安卓 API 需要申请的系统权限，用户可以添加多个权限的字符串*/
+				"immersedStatusbar":true
 			},
 			"orientation": ["portrait-primary", "landscape-primary", "portrait-secondary", "landscape-secondary"],/*必选*/
 			"icons": {
@@ -1024,7 +1026,11 @@
 					"img/banner/2.jpg",
 					"img/banner/4.jpg",
 					"css/index.css",
-					"examples/ad.html"
+					"examples/ad.html",
+					"img/bigPic2.jpg",
+					"images/cbd.jpg",
+					"images/muwu.jpg",
+					"images/shuijiao.jpg"
 				],
 				"refer": [
 					"examples/tab-webview-main.html",
@@ -1033,14 +1039,20 @@
 					"examples/setting.html",
 					"examples/beecloud.html",
 					"examples/icons.html",
-					"examples/template.html"
+					"examples/template.html",
+					"examples/guide.html",
+					"examples/tab-with-viewpagerindicator.html",
+					"html/ad.html",
+					"html/radio.html",
+					"html/dict.html"
 				],
 				"priority": 0
 			},
 			"index-menu-me.html": {
 				"resources": [],
 				"refer": [
-					"examples/offcanvas-drag-left.html"
+					"examples/offcanvas-drag-left.html",
+					"examples/pullrefresh_main.html"
 				],
 				"priority": 0
 			},
@@ -1049,6 +1061,38 @@
 					"html/js/mui.enterfocus.js",
 					"html/js/app.js",
 					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/ad.html": {
+				"resources": [
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/radio.html": {
+				"resources": [
+					"css/app.css",
+					"js/mui.min.js",
+					"fonts/mui.ttf",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"html/dict.html": {
+				"resources": [
+					"css/app.css",
+					"js/mui.min.js",
+					"css/mui.min.css",
+					"css/dict-index.css",
+					"img/bigPic2.jpg",
+					"js/juery3.1.0.min.js",
+					"fonts/mui.ttf"
 				],
 				"refer": [],
 				"priority": 0

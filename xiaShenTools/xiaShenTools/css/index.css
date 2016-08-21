@@ -1,3 +1,104 @@
 .logo img{
 	width: 100%;
 }
+.index-top-search{
+	width: 100%;
+	height: 200px;
+	background-image: url(../img/bigPic2.jpg);
+	background-size:cover;
+	padding-top: 130px;
+}
+.search-box{
+	margin: auto;
+	border: 1px solid  rgba(255,154,20,1);
+	width: 92%;
+	height: 40px;
+	border-radius: 10px;
+	background-color: rgba(255,154,20,1);
+}
+.search-text{
+	width: 80%;
+	height: 100%;
+	float: left;
+	border-radius: 10px;
+	background-color:  rgba(255,154,20,1);
+}
+.search-text input{
+	border: 0;
+	height: 100%;
+	border-top-left-radius:10px;
+	border-bottom-left-radius: 10px;
+}
+.search-but{
+	float: left;
+	width: 20%;
+}
+.search-but button{
+	border: 1px solid rgba(255,154,20,1);
+	width: 100%;
+	height: 40px;
+	background-color: rgba(255,154,20,1);
+	margin-top:-1px ;
+	font-family:  "微软雅黑";
+	font-size: 16px;
+	color: white;
+}
+.banner{
+	height: 100px;
+	
+}
+.banner-box{
+	margin-top:8px;
+	
+	margin-left: 2%;
+	border: 1px solid rgba(184,192,55,1);
+	width: 96%;
+	box-shadow:1px 1px 4px #6D6D72 ;
+	border-radius: 4px;
+}
+#Gallery{
+	background-color: white;
+	border-top:1px solid  #C7C7CC;
+	border-bottom:1px solid  #C7C7CC;
+}
+.article{
+	
+	margin: auto;
+	border-radius: 7px;
+	background-color: white;
+	border-bottom:1px solid  #DDDDDD ;
+	height: 120px;
+	width: 92%;
+}
+.article a{
+	height: 120px;
+}
+.article a img{
+	height: 95px!important;
+	max-width: 95px!important;
+}
+.article a div{
+	height: 95px!important;
+	word-break:break-all;
+}
+.article a div p{
+	height: 65px!important;
+	width: 100%;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+	overflow:hidden; 
+}
+
+.mui-table-view{
+	background-color: #EFEFF4!important;
+	margin-top:10px ;
+	border: 0;
+}
+
+.mui-table-view::before{
+	background-color: #EFEFF4!important;
+}
+.titles{
+	background-color: rgba(255,255,255,1)!important;
+}
+

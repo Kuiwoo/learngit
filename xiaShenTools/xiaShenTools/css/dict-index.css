@@ -1,0 +1,158 @@
+.dict-top-box{
+	height: 60px;
+	padding-top: 10px;
+	background-image: url(../img/bigPic2.jpg);
+}
+
+.search-box{
+	margin: auto;
+	width: 92%;
+	height: 40px;
+	border-radius: 10px;
+	background-color: rgba(176,232,0,1);;
+}
+#search-text{
+	width: 80%;
+	height: 100%;
+	float: left;
+	border-top-left-radius:10px;
+	border-bottom-left-radius: 10px;
+}
+#search-but {
+	border: 1px solid rgba(176,232,0,1);
+	width: 20%;
+	height: 100%;
+	background-color: rgba(176,232,0,1);
+	margin-top:0px ;
+	font-family:  "微软雅黑";
+	font-size: 16px;
+	color: white;
+}
+.mui-row{
+	margin-top: 0px;
+	padding: 0px;
+}
+.allBox{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+[class^='mui-col-sm']{
+
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin-top: -3px;
+}
+.read{
+	min-height: 120px;
+	background-color: rgb(176,232,0);
+	color:  black;
+	padding-left: 12px;
+	padding-top: 12px;
+}
+.dict-name{
+	line-height: 24px;
+	font-size: 22px;
+	min-height: 48px;
+}
+.dict-pinyin{
+	margin-top: 3px;
+	line-height: 16px;
+	font-family: wst_span;
+	color:#797979;
+}
+.write{
+	min-height: 120px;
+	background-color: rgb(255,140,20);
+	color: white;
+	padding-left: 12px;
+	padding-top: 12px;
+}
+.from{
+	min-height: 350px;
+	background-color: rgb(232,7,120);
+	color: white;
+	padding-left: 12px;
+	padding-top: 12px;
+	word-break:break-all;
+	overflow: visible;
+}
+.dict-paraphrase{
+	width: 92%;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+	color: white;
+}
+.paraphrase{
+	height: 470px;
+	background-color: rgb(176,232,0);
+	color: black;
+	padding-left: 12px;
+	padding-top: 12px;
+	margin-top: -6px;
+	word-break:break-all;
+	overflow: visible;
+}
+.dict-from{
+	width: 92%;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+	color: black;
+}
+.opposite{
+	min-height: 136px;
+	background-color: rgb(176,232,0);
+	color: black;
+	padding-left: 12px;
+	padding-top: 12px;
+	word-break:break-all;
+}
+.dict-jin{
+	color: black;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+}
+.dict-fan{
+	color: black;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+}
+.dict-translate{
+	color: white;
+	white-space: pre-line!important;
+	text-overflow:ellipsis!important;
+}
+.translate{
+	min-height: 136px;
+	background-color: rgb(255,140,20);
+	color: white;
+	padding-left: 12px;
+	padding-top: 12px;
+	word-break:break-all;
+}
+.dict-bushou{
+	height: 28px;
+}
+.searchs{
+	position:absolute;
+	width: 100%;
+	height: auto;
+}
+#middlePopover{
+	width: 73%;
+	margin-left: 4%;
+	border-radius: 4px;
+	
+}
+.chengS{
+	margin: auto;
+}
+.chengOne{
+	border-bottom: 1px solid #CCCCCC;
+	border-radius:3px ;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+	font-family: "微软雅黑";
+	color: #000000;
+	font-size: 16px;
+}

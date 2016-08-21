@@ -12,11 +12,11 @@
 	</head>
 
 	<body>
-		<header class="mui-bar mui-bar-nav">
+		<!--<header class="mui-bar mui-bar-nav">
 			<a class="mui-icon mui-icon-bars mui-pull-left mui-plus-visible"></a>
 			<a id="info" class="mui-icon mui-icon-info-filled mui-pull-right" style="color: #999;"></a>
 			<h1 class="mui-title">Hello mui</h1>
-		</header>
+		</header>-->
 		<script src="js/mui.min.js"></script>
 		<script src="js/update.js" type="text/javascript" charset="utf-8"></script>
 		<script>
@@ -30,10 +30,10 @@
 					doubletap: true
 				},
 				subpages: [{
-					id: 'list',
+					id: '',
 					url: 'html/index.html',
 					styles: {
-						top: '45px',
+						top: '0px',
 						bottom: 0,
 						bounce: 'vertical'
 					}
@@ -120,15 +120,15 @@
 				}
 			};
 			//点击左上角侧滑图标，打开侧滑菜单；
-			document.querySelector('.mui-icon-bars').addEventListener('tap', function(e) {
+			/*document.querySelector('.mui-icon-bars').addEventListener('tap', function(e) {
 				if (showMenu) {
 					closeMenu();
 				} else {
 					openMenu();
 				}
-			});
-			//敲击顶部导航，内容区回到顶部
-			document.querySelector('header').addEventListener('doubletap', function() {
+			});*/
+			//敲击顶部导航，内容区回到顶部1
+			/*document.querySelector('header').addEventListener('doubletap', function() {
 				main.children()[0].evalJS('mui.scrollTo(0, 100)');
 			});
 			//主界面向右滑动，若菜单未显示，则显示菜单；否则不做任何操作
@@ -137,7 +137,7 @@
 			window.addEventListener("swipeleft", closeMenu);
 			//侧滑菜单触发关闭菜单命令
 			window.addEventListener("menu:close", closeMenu);
-			window.addEventListener("menu:open", openMenu);
+			window.addEventListener("menu:open", openMenu);*/
 			//重写mui.menu方法，Android版本menu按键按下可自动打开、关闭侧滑菜单；
 			mui.menu = function() {
 					if (showMenu) {
@@ -149,7 +149,7 @@
 				//处理右上角关于图标的点击事件；
 			var subWebview = null,
 				template = null;
-			document.getElementById('info').addEventListener('tap', function() {
+		/*	document.getElementById('info').addEventListener('tap', function() {
 				if (!mui.os.plus) {
 					mui.openWindow({
 						url: "examples/info.html",
@@ -183,7 +183,7 @@
 				//						duration:300
 				//					}
 				//				});
-			});
+			});*/
 			//首页返回键处理
 			//处理逻辑：1秒内，连续两次按返回键，则退出应用；
 			var first = null;

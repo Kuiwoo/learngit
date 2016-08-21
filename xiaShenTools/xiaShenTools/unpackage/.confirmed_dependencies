@@ -1,157 +1,230 @@
 {
-	"index.html": {
-		"resources": [
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css",
-			"js/update.js",
-			"list.html",
-			"html/index.html"
-		],
-		"refer": [
-			"index-menu.html",
-			"list.html",
-			"html/index.html",
-			"index-menu-me.html"
-		]
-	},
-	"examples/tab-webview-subpage-contact.html": {
-		"resources": [
-			"images/60x60.gif"
-		],
-		"refer": []
-	},
-	"examples/tab-webview-main.html": {
-		"resources": [
-			"examples/tab-webview-subpage-about.html",
-			"fonts/mui.ttf"
-		],
-		"refer": [
-			"examples/tab-webview-subpage-setting.html",
-			"examples/tab-webview-subpage-chat.html",
-			"examples/tab-webview-subpage-contact.html",
-			"examples/tab-webview-subpage-about.html"
-		]
-	},
-	"list.html": {
-		"refer": [
-			"examples/template.html",
-			"examples/tab-webview-main.html",
-			"examples/pullrefresh_main.html",
-			"examples/guide.html",
-			"examples/tableviews-with-swipe.html",
-			"examples/grid-pagination.html",
-			"examples/info.html",
-			"examples/tab-with-viewpagerindicator.html",
-			"examples/accordion.html"
-		],
-		"resources": [
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css"
-		]
-	},
-	"examples/pullrefresh_main.html": {
-		"resources": [
-			"examples/pullrefresh_sub.html"
-		],
-		"refer": [
-			"examples/pullrefresh_sub.html"
-		]
-	},
-	"examples/tableviews-with-swipe.html": {
-		"resources": [
-			"css/app.css"
-		],
-		"refer": []
-	},
-	"examples/info.html": {
-		"resources": [
-			"images/qrcode.png",
-			"css/app.css"
-		],
-		"refer": []
-	},
-	"index-menu.html": {
-		"refer": [
-			"examples/offcanvas-drag-left.html"
-		],
-		"resources": []
-	},
-	"examples/tab-with-viewpagerindicator.html": {
-		"resources": [
-			"js/mui.min.js",
-			"css/app.css",
-			"fonts/mui.ttf",
-			"css/mui.min.css"
-		]
-	},
-	"html/index.html": {
-		"resources": [
-			"css/mui.min.css",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/app.css",
-			"img/banner/1.jpg",
-			"img/banner/3.jpg",
-			"img/banner/2.jpg",
-			"img/banner/4.jpg",
-			"css/index.css",
-			"examples/ad.html"
-		],
-		"refer": [
-			"examples/tab-webview-main.html",
-			"examples/pullrefresh_main.html",
-			"examples/tableviews-with-swipe.html",
-			"examples/setting.html",
-			"examples/beecloud.html",
-			"examples/icons.html",
-			"examples/template.html",
-			"examples/ad.html"
-		]
-	},
-	"examples/setting.html": {
-		"resources": [
-			"css/feedback.css",
-			"images/logo.png",
-			"js/feedback.js",
-			"js/mui.view.js"
-		]
-	},
-	"examples/beecloud.html": {
-		"resources": [
-			"js/beecloud.js",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css"
-		]
-	},
-	"examples/icons.html": {
-		"resources": [
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css"
-		]
-	},
-	"index-menu-me.html": {
-		"refer": [
-			"examples/offcanvas-drag-left.html"
-		]
-	},
-	"examples/accordion.html": {
-		"resources": [
-			"images/cbd.jpg",
-			"images/muwu.jpg",
-			"images/yuantiao.jpg",
-			"css/app.css",
-			"images/shuijiao.jpg"
-		]
-	},
-	"html/login.html": {
-		"resources": [
-			"html/js/mui.enterfocus.js",
-			"html/js/app.js",
-			"css/mui.min.css"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/update.js",
+      "list.html",
+      "html/index.html"
+    ],
+    "refer": [
+      "index-menu.html",
+      "list.html",
+      "html/index.html",
+      "index-menu-me.html"
+    ]
+  },
+  "examples/tab-webview-subpage-contact.html": {
+    "resources": [
+      "images/60x60.gif"
+    ],
+    "refer": []
+  },
+  "examples/tab-webview-main.html": {
+    "resources": [
+      "examples/tab-webview-subpage-about.html",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "examples/tab-webview-subpage-setting.html",
+      "examples/tab-webview-subpage-chat.html",
+      "examples/tab-webview-subpage-contact.html",
+      "examples/tab-webview-subpage-about.html"
+    ]
+  },
+  "list.html": {
+    "refer": [
+      "examples/template.html",
+      "examples/tab-webview-main.html",
+      "examples/pullrefresh_main.html",
+      "examples/guide.html",
+      "examples/tableviews-with-swipe.html",
+      "examples/grid-pagination.html",
+      "examples/info.html",
+      "examples/tab-with-viewpagerindicator.html",
+      "examples/accordion.html"
+    ],
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ]
+  },
+  "examples/pullrefresh_main.html": {
+    "resources": [
+      "examples/pullrefresh_sub.html",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "examples/pullrefresh_sub.html"
+    ]
+  },
+  "examples/tableviews-with-swipe.html": {
+    "resources": [
+      "css/app.css"
+    ],
+    "refer": []
+  },
+  "examples/info.html": {
+    "resources": [
+      "images/qrcode.png",
+      "css/app.css"
+    ],
+    "refer": []
+  },
+  "index-menu.html": {
+    "refer": [
+      "examples/offcanvas-drag-left.html"
+    ],
+    "resources": []
+  },
+  "examples/tab-with-viewpagerindicator.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/app.css",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "html/index.html": {
+    "resources": [
+      "css/mui.min.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/app.css",
+      "img/banner/1.jpg",
+      "img/banner/3.jpg",
+      "img/banner/2.jpg",
+      "img/banner/4.jpg",
+      "css/index.css",
+      "examples/ad.html",
+      "img/bigPic2.jpg",
+      "images/cbd.jpg",
+      "images/muwu.jpg",
+      "images/shuijiao.jpg"
+    ],
+    "refer": [
+      "examples/tab-webview-main.html",
+      "examples/pullrefresh_main.html",
+      "examples/tableviews-with-swipe.html",
+      "examples/setting.html",
+      "examples/beecloud.html",
+      "examples/icons.html",
+      "examples/template.html",
+      "examples/ad.html",
+      "examples/guide.html",
+      "examples/tab-with-viewpagerindicator.html",
+      "html/ad.html",
+      "html/radio.html",
+      "html/dict.html"
+    ]
+  },
+  "examples/setting.html": {
+    "resources": [
+      "css/feedback.css",
+      "images/logo.png",
+      "js/feedback.js",
+      "js/mui.view.js"
+    ],
+    "refer": []
+  },
+  "examples/beecloud.html": {
+    "resources": [
+      "js/beecloud.js",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/icons.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "index-menu-me.html": {
+    "refer": [
+      "examples/offcanvas-drag-left.html",
+      "examples/pullrefresh_main.html"
+    ],
+    "resources": []
+  },
+  "examples/accordion.html": {
+    "resources": [
+      "images/cbd.jpg",
+      "images/muwu.jpg",
+      "images/yuantiao.jpg",
+      "css/app.css",
+      "images/shuijiao.jpg"
+    ],
+    "refer": []
+  },
+  "html/login.html": {
+    "resources": [
+      "html/js/mui.enterfocus.js",
+      "html/js/app.js",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/ad.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/offcanvas-drag-left.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "html/ad.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "html/radio.html": {
+    "resources": [
+      "css/app.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "examples/template.html": {
+    "resources": [
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "html/dict.html": {
+    "resources": [
+      "css/app.css",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "css/dict-index.css",
+      "img/bigPic2.jpg",
+      "js/juery3.1.0.min.js",
+      "fonts/mui.ttf"
+    ],
+    "refer": []
+  }
 }

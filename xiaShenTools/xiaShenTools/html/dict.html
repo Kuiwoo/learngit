@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/dict-index.css"/>
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+	</head>
+
+	<body>
+
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">词典</h1>
+		</header>
+		<div class="mui-content">
+			<!--
+            	作者：410232436@qq.com
+            	时间：2016-08-21
+            	描述：搜索框
+            -->
+			<div class="mui-row">
+				<div class="dict-top-box">
+				<div class="search-box mui-col-xs-11 mui-col-sm-11">
+					<input type="text" name="" id="search-text" value=""  placeholder="输入字词"/>
+					<button id="search-but">
+						查询
+					</button>
+				</input>
+			</div>
+			</div>
+			<!--
+            	作者：410232436@qq.com
+            	时间：2016-08-21
+            	描述：成语联想
+            -->
+
+            <div class="mui-row searchs" >
+            	
+            	<div id="middlePopover" class="mui-popover mui-col-sm-8 mui-col-xs-8" >
+            		<div class="mui-col-sm-12 mui-col-xs-12 chengS">
+            			<div class="mui-row chengOne mui-table-view-cell">
+            				三金
+            			</div>
+            			<div class="mui-row chengOne mui-table-view-cell">
+            				三金
+            			</div>
+            			<div class="mui-row chengOne mui-table-view-cell">
+            				三金
+            			</div>
+            		</div>
+					<!--<div class="mui-popover-arrow"></div>-->
+					
+		
+				</div>
+            </div>
+			<!--
+            	作者：410232436@qq.com
+            	时间：2016-08-21
+            	描述：搜索结果
+            -->
+            <div class="mui-row allBox">
+            	<div class="mui-row" id="top">
+            		<div class="mui-col-sm-8 mui-col-xs-8">
+            			<div class="mui-row">
+            				<div class="mui-col-sm-6 mui-col-xs-6 read">
+            					<div class="dict-name mui-row">拼音</div>
+            					<div class="dict-pinyin mui-row">pin yin </div>
+            					<div class="mui-row"><span >部首:</span><span class="dict-bushou"></span></div>
+            				</div>
+            				<div class="mui-col-sm-6 mui-col-xs-6 write">
+            					书写:
+            					<div class="dict-write"></div>
+            				</div>
+            			</div>
+            			<div class="mui-row from">
+            				释义:
+            				<p class='mui-ellipsis dict-paraphrase'> </p>
+            			</div>
+            		</div>
+            		<div class="mui-col-sm-4 mui-col-xs-4 paraphrase">
+            			出处:
+            			<p class='mui-ellipsis dict-from'> </p>
+            		</div>
+            	</div>
+            	<div class="mui-row">
+            		<div class="mui-col-sm-6 mui-col-xs-6 opposite">
+            					近义词:
+            					<p class='mui-ellipsis dict-jin'></p>
+            					反义词:
+            					<p class='mui-ellipsis dict-fan'></p>
+            				</div>
+            				<div class="mui-col-sm-6 mui-col-xs-6 translate">
+            					举例:
+            					<p class='mui-ellipsis dict-translate'> </p>
+            				</div>
+            	</div>
+            </div>
+            <!--
+            	作者：410232436@qq.com
+            	时间：2016-08-21
+            	描述：随机推荐字词
+            -->
+            <div>
+            	
+            </div>
+		</div>
+		
+	</body>
+	<script src="../js/mui.min.js"></script>
+	<script src="../js/juery3.1.0.min.js"></script>
+	<script>
+		mui.init({
+			swipeBack:true //启用右滑关闭功能
+		});
+		mui('.mui-scroll-wrapper').scroll();
+			mui('body').on('shown', '.mui-popover', function(e) {
+				//console.log('shown', e.detail.id);//detail为当前popover元素
+			});
+			mui('body').on('hidden', '.mui-popover', function(e) {
+				//console.log('hidden', e.detail.id);//detail为当前popover元素
+			});
+		
+		/*var info = document.getElementById("info");
+		document.querySelector('.mui-table-view.mui-table-view-radio').addEventListener('selected',function(e){
+			info.innerHTML = "当前选中的为："+e.detail.el.innerText;
+		});*/
+		$(function(){
+			$('#search-but').click(function(){
+				var searchText=$('#search-text').val();
+				searchText=$.trim(searchText);
+				switch(searchText.length){
+					case 0:
+						return false;
+						break;
+					case 1:
+						oneDirct(searchText);
+						break;
+					default:
+						mui('#middlePopover').popover('show');
+						chengDirct(searchText);1
+						break;
+				}
+			});
+		});
+		$(function(){
+			$('#search-text').keyup(function(key){
+				if(key.keyCode==13){
+					$('#search-but').click();
+				}
+			});
+		});
+		
+		$(function(){
+			$('.chengOne').click(function(){
+				alert(id);
+				var id=$(this).attr('data-id');
+				
+				if(id==''){
+					return false;
+				}else{
+					oneCheng(id);
+				}
+			});
+		});
+		
+		function oneCheng(id1){
+			mui('#middlePopover').popover('hide');
+			clearnData();
+			//alert(123);
+			mui.ajax('http://192.168.0.106/index.php?app=api&act=chengOne',{
+				data:{
+					id:id1
+				},
+				dataType:'json',//服务器返回json格式数据
+				crossDomain:true,
+				type:'get',//HTTP请求类型
+				success:function(data){
+					//获得服务器响应
+					//alert(data.error_code);
+						if(data.error_code!=0 ||! data.result) {return false;}
+						//console.log(data);
+						var  dict=data.result;
+						$('.dict-name').text(dict.name);
+						$('.dict-pinyin').text(dict.spell);
+						$('.dict-bushou').text(dict.bushou);
+						$('.dict-paraphrase').html(dict.content);
+						$('.dict-from').text(dict.derivation);
+						$('.dict-jin').text('无');
+						$('.dict-fan').text('无');
+						$('.dict-translate').text(data.samples);
+						setHeight();
+					},
+				error:function(obj,err,errobj){
+					alert(errobj);
+				}
+			});
+		}
+		
+		function oneDirct(value){
+			clearnData();
+			//alert(123);
+			mui.ajax('http://192.168.0.106/index.php?app=api&act=oneDirct',{
+				data:{
+					key:value
+				},
+				dataType:'json',//服务器返回json格式数据
+				crossDomain:true,
+				type:'get',//HTTP请求类型
+				success:function(data){
+					//获得服务器响应
+					//alert(data.error_code);
+						if(data.error_code!=0 || data.result.length==0) {return false;}
+						//console.log(data);
+						var  dict=data.result[0];
+						$('.dict-name').text(dict.hanzi);
+						$('.dict-pinyin').text(dict.duyin);
+						$('.dict-bushou').text(dict.bushou);
+						$('.dict-paraphrase').html(dict.xiangjie);
+						$('.dict-from').text('无');
+						$('.dict-jin').text('无');
+						$('.dict-fan').text('无');
+						$('.dict-translate').text('无');
+						setHeight();
+					},
+				error:function(obj,err,errobj){
+					alert(errobj);
+				}
+			});
+		}
+		
+		function chengDirct(value){
+			clearnData();
+			$('.chengS').html('');
+			$('.chengS').append('<div class="mui-row chengOne mui-table-view-cell" data-id="">	</div>');
+			//alert(123);
+			mui.ajax('http://192.168.0.106/index.php?app=api&act=chengDirct',{
+				data:{
+					key:value
+				},
+				dataType:'json',//服务器返回json格式数据
+				crossDomain:true,
+				type:'get',//HTTP请求类型
+				success:function(data){
+					//获得服务器响应
+					//alert(data.error_code);
+						if(data.error_code!=0 || data.result.length==0) {
+							//1$('.chengS').append('<div class="mui-row chengOne mui-table-view-cell" data-id="">	</div>');
+							return false;
+						}
+						//console.log(data);
+						$('.chengS').html('');
+						var  dict=data.result;
+						for (var i=0;i<dict.length;i++){
+							$('.chengS').append('<div class="mui-row chengOne mui-table-view-cell" onclick="oneCheng(\''+dict[i]['id']+'\');" data-id="'+dict[i]['id']+'">	'+dict[i]['name']+'</div>');
+						}
+						
+					},
+				error:function(obj,err,errobj){
+					alert(errobj);
+				}
+			});
+		}
+		
+		
+		function clearnData(){
+			$('.dict-name').text('');
+			$('.dict-pinyin').text('');
+			
+			$('.dict-from').text('');
+			$('.dict-paraphrase').text('');
+			$('.dict-jin').text('');
+			$('.dict-fan').text('');
+			$('.dict-translate').text('');
+			$('.dict-bushou').text('');
+			$('.read').height('120px');
+			$('.write').height('120px');
+			$('.paraphrase').height('470px');
+/*			$('.from').height('350px');
+			
+			$('.opposite').height('136px');
+			$('.translate').height('136px');*/
+			
+		}
+		
+		function setHeight(){
+			var readh=$('.read').height();
+			var writeh=$('.write').height();
+			var fromh=$('.from').outerHeight();
+			var paraphraseh=$('.paraphrase').height();
+			var oppositeh=$('.opposite').height();
+			var translateh=$('.translate').height();
+			readh>writeh?$('.write').height(readh):$('.read').height(writeh);
+			readh+fromh>=paraphraseh?$('.paraphrase').height(readh+fromh):$('.from').height(paraphraseh-readh);
+			translateh>=oppositeh?$('.opposite').height(translateh):$('.translate').height(oppositeh);
+			/*$('#top').height($('.paraphrase').height());*/
+		}
+	</script>
+</html>
