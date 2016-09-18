@@ -1,0 +1,14 @@
+{
+	"fileAge":{
+		"default":3600,
+		"html":604800,
+		"txt":604800
+	},
+	"fileClose":[
+	"mp3"
+	],
+	"charset":"charset=utf-8",
+	"header":{
+		"Access-Control-Allow-Origin":"*"
+	}
+}

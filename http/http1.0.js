@@ -1,15 +1,31 @@
  var http = require('http') ;
  var fs=require('fs');
+ var ContentTypeS=require("load/typeS.json");
  var server = http.createServer(function(req,res){
+
+ /*
+ url璺敱
+ */
+ 	argens=req.url.split('/');
+ 	argens.shift();
+ 	console.log(argens);
+ 	switch(argens[0]){
+ 		case 'resource':
+ 			break;
+ 		case 'resource':
+ 			break;
+ 		case 'resource':
+ 			break;	
+ 	}
 	  if (req.url == "/") {
 		 res.writeHeader(200,{
 			 'Content-Type' : 'text/html;charset=utf-8'  // ??charset=utf-8
 		 }) ;
-		 //res.end("Hello,??á");
+		 //res.end("Hello,????");
 		 
 		 fs.readFile('index.html',function(err,data){
 			 if(err){
-				 res.end("读取失败");
+				 res.end("??取失??");
 			 }else{
 				 res.end(data.toString());
 			 }		 
@@ -24,10 +40,10 @@
 		/*
 		fs.readFile('test.mp4',function(err,data){
 			 if(err){
-				 console.log('读取mp4失败');
-				 res.end("读取失败");
+				 console.log('??取mp4失??);
+				 res.end("??取失??);
 			 }else{
-				 console.log('读取MP4成功');
+				 console.log('??取MP4?晒?');
 				 res.end(data);
 			 }		 
 		 });
