@@ -35,20 +35,36 @@
 	  	if(argens[0] in temp){
 	  		res.writeHead(200, getHeader(argens[0],temp[argens[0]].header));
 			res.end(temp[argens[0]].data);
+			return;
 	  	}
 		fs.stat('resource'+argens[0], function(err,stats) {
 
     		if(err||stats.isFile()==false){
-    			res.writeHead(404, getHeader(argens[0],{ "Content-Type": "text/plain"+';'+conf.charset}));
+    			res.writeHead(404, { "Content-Type": "text/plain"+';'+conf.charset});
 				res.end("404 error! File not found.");
     		}else{
     			console.log(stats);
     			var tempHeader=getHeader(argens[0])
-    			//var namelast=nameL(argens[0]);
-    			//var type=getContentType(namelast);
+    			
     			res.writeHead(200, tempHeader);
-    			var rs = fs.createReadStream('resource'+argens[0]);
-				rs.pipe(res);
+    			if(stats.size<=conf.tempSize){
+    				fs.readFile('resource'+argens[0],function(err,data){
+    					if(err){
+    						res.writeHead(404, { "Content-Type": "text/plain"+';'+conf.charset});
+							res.end("404 error! File not found.");
+    					}else{
+    						temp[argens[0]]={};
+    						temp[argens[0]]['header']=tempHeader;
+    						temp[argens[0]]['data']=data;
+    						res.end(data);
+    					}
+    				});
+    			}else{
+    				var rs = fs.createReadStream('resource'+argens[0]);
+					rs.pipe(res);
+    			}
+    			
+    			
     		}
 		});
 		
