@@ -1,0 +1,21 @@
+.dice-menu {
+    padding: 0;
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.dice-menu li {
+    display: block;
+    border-width: 0;
+    padding: 45px;
+    overflow: hidden;
+    background-color: #e84c3d;
+    color: #fff;
+    opacity: 0;
+    cursor: pointer;
+    margin: 0;
+}
+.dice-menu li:first-child {
+    opacity: .8;
+}
