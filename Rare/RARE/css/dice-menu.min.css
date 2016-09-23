@@ -8,13 +8,13 @@
 .dice-menu li {
     display: block;
     border-width: 0;
-    padding: 45px;
-    overflow: hidden;
-    background-color: #e84c3d;
+    padding: 30%;
+   overflow: hidden;
+    background-color:  #CDA70D;
     color: #fff;
     opacity: 0;
     cursor: pointer;
-    margin: 0;
+    margin: 2px;
 }
 .dice-menu li:first-child {
     opacity: .8;

@@ -64,6 +64,7 @@ Main components
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   z-index: 2;
 }
+
 .cd-header:after {
   content: "";
   display: table;
@@ -112,6 +113,7 @@ Main components
   -o-transform: translateY(50px);
   transform: translateY(50px);
 }
+/*
 .cd-main-nav a {
   display: block;
   height: 50px;
@@ -121,6 +123,7 @@ Main components
   border-top: 1px solid #453c3d;
   color: #8e7d7f;
 }
+*/
 @media only screen and (min-width: 768px) {
   .cd-main-nav {
     width: auto;
@@ -149,6 +152,7 @@ Main components
     display: inline-block;
     margin-left: 1em;
   }
+  /*
   .cd-main-nav a {
     display: inline-block;
     height: auto;
@@ -162,6 +166,7 @@ Main components
     font-size: 14px;
     font-size: 0.875rem;
   }
+  */
   .no-touch .cd-main-nav a:hover {
     color: #99a478;
   }

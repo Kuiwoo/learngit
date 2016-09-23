@@ -1,3 +1,4 @@
+/*@import url(http://fonts.useso.com/css?family=Raleway:200,500,700,800);*/
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?rretjt');
@@ -52,10 +53,12 @@ body{
 	font-size: 1.05em;
 	font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif, FreeSans, Arimo;
 }
-a{ color: rgba(255, 255, 255, 0.6);outline: none;text-decoration: none;-webkit-transition: 0.2s;transition: 0.2s;}
-a:hover,a:focus{color:#74777b;text-decoration: none;}
+a{color: #2fa0ec;text-decoration: none;outline: none;}
+a:hover,a:focus{color:#74777b;}
+
 .htmleaf-container{
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .bgcolor-1 { background: #f0efee; }
@@ -76,7 +79,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	padding: 1em 190px 1em;
 	letter-spacing: -1px;
 	text-align: center;
-	background-image: url(../images/dark-logs-bg.jpg);
+	background: #66677c;
 }
 .htmleaf-header h1 {
 	color: #D5D6E2;
@@ -116,7 +119,7 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	margin-left: -1px;
 	width: 2px;
 	height: 100%;
-	
+	background: #dbdbdb;
 	content: '';
 	-webkit-transform: rotate3d(0,0,1,22.5deg);
 	transform: rotate3d(0,0,1,22.5deg);
@@ -194,9 +197,8 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 .related a:active img {
 	opacity: 1;
 }
-.related h3{font-family: "Microsoft YaHei", sans-serif;font-size: 1.2em}
+.related h3{font-family: "Microsoft YaHei", sans-serif;}
 .related a h3 {
-	font-size: 0.85em;
 	font-weight: 300;
 	margin-top: 0.15em;
 	color: #fff;
@@ -210,47 +212,24 @@ a:hover,a:focus{color:#74777b;text-decoration: none;}
 	content: "\e5001";
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 50em) {
 	.htmleaf-header {
-		padding: 2em 10% 2em;
+		padding: 3em 10% 4em;
 	}
 	.htmleaf-header h1 {
-        font-size:1.4em;
+        font-size:2em;
     }
-    .htmleaf-links{font-size: 1.4em}
 }
 
-@media screen and (max-width: 960px) {
-	.htmleaf-header {
-		padding: 2em 10% 2em;
-	}
+
+@media screen and (max-width: 40em) {
 	.htmleaf-header h1 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 30em) {
+    .htmleaf-header h1 {
         font-size:1.2em;
     }
-    .htmleaf-links{font-size: 1.2em}
-    .related h3{font-size: 1em;}
-	.related a h3 {
-		font-size: 0.8em;
-	}
-}
-
-@media screen and (max-width: 766px) {
-	.htmleaf-header h1 {
-        font-size:1.3em;
-    }
-    .htmleaf-links{font-size: 1.3em}
-}
-
-@media screen and (max-width: 640px) {
-	.htmleaf-header {
-		padding: 2em 10% 2em;
-	}
-	.htmleaf-header h1 {
-        font-size:1em;
-    }
-    .htmleaf-links{font-size: 1em}
-    .related h3{font-size: 0.8em;}
-	.related a h3 {
-		font-size: 0.6em;
-	}
 }
