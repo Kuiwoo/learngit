@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+
+        <meta name="description" content="Violate Responsive Admin Template">
+        <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
+
+        <title>Super Admin Responsive Template</title>
+            
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/form.css" rel="stylesheet">
+        <link href="css/calendar.css" rel="stylesheet">
+        <link href="css/media-player.css" rel="stylesheet">
+        <link href="css/style-write.css" rel="stylesheet">
+        <link href="css/icons.css" rel="stylesheet">
+        <link href="css/generics.css" rel="stylesheet"> 
+    </head>
+    <body id="skin-blur-violate">
+
+        
+     
+        
+        <section id="main" class="p-relative" role="main">
+            
+       
+            <section id="content" class="container">
+            
+           
+   
+                <h4 class="page-title">CONTENT WIDGETS</h4>
+                                
+                <div class="block-area">
+                    <div class="row m-container">
+                        
+
+                        <div class="col-xs-1 col-md-1 col-sm-0"></div>
+                        <div class="col-xs-10 col-md-10 col-sm-12">
+                            
+
+
+                            <!-- Quick Posting -->
+                            <div class="tile">
+                                <h2 class="tile-title">Quick Posting</h2>
+                                <div class="tile-config dropdown">
+                                    <a data-toggle="dropdown" href="" class="tooltips tile-menu" title="" data-original-title="Options"></a>
+                                    <ul class="dropdown-menu pull-right text-right">
+                                        <li><a href="">Edit</a></li>
+                                        <li><a href="">Delete</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <form role="form" class="p-15">
+                                    <div class="form-group m-b-15">
+                                        <label>Post Title</label>
+                                        <input type="text" class="form-control input-sm">
+                                    </div>
+                                    
+                                    <div class="form-group m-b-15">
+                                        <label>Post Category</label>
+                                        <select class="select">
+                                            <option>Default</option>
+                                            <option>Toyota Avalon</option>
+                                            <option>Toyota Crown</option>
+                                            <option>Lexus LX570</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group m-b-15">
+                                        <label>Post Content</label>
+                                        <div class="wysiwye-editor"></div>
+                                    </div>
+                                    
+                                    <button type="submit" class="btn btn-sm">Submit</button>
+                                    <button type="submit" class="btn btn-sm">Clear</button>
+                                    
+                                </form>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <!-- Javascript Libraries -->
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery Library -->
+        <script src="js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Form Related -->
+        <script src="js/select.min.js"></script> <!-- Custom Select -->
+        <script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+        
+        <!-- Text Editor -->
+        <script src="js/editor.min.js"></script> <!-- WYSIWYG Editor -->
+        
+
+        <!-- UX -->
+        <script src="js/scroll.min.js"></script> <!-- Custom Scrollbar -->
+        
+        <!-- Other -->
+        <script src="js/calendar.min.js"></script> <!-- Calendar -->
+        <script src="js/feeds.min.js"></script> <!-- News Feeds -->
+        
+        
+        <!-- All JS functions -->
+        <script src="js/functions.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+                
+                //Calendar
+                (function(){
+                    var date = new Date();
+                    var d = date.getDate();
+                    var m = date.getMonth();
+                    var y = date.getFullYear();
+                    
+                    
+                    $('body').on('click', '#addEvent', function(){
+                         var eventForm =  $(this).closest('.modal').find('.form-validation');
+                         eventForm.validationEngine('validate');
+                         
+                         if (!(eventForm).find('.formErrorContent')[0]) {
+                              
+                              //Event Name
+                              var eventName = $('#eventName').val();
+    
+                              //Render Event
+                              $('#calendar').fullCalendar('renderEvent',{
+                                   title: eventName,
+                                   start: $('#getStart').val(),
+                                   end:  $('#getEnd').val(),
+                                   allDay: true,
+                              },true ); //Stick the event
+                              
+                              $('#addNew-event form')[0].reset()
+                              $('#addNew-event').modal('hide');
+                         } 
+                    });
+                    
+                    //Calendar views
+                    $('body').on('click', '.calendar-actions > li > a', function(e){
+                        e.preventDefault();
+                        var dataView = $(this).attr('data-view');
+                        $('#calendar').fullCalendar('changeView', dataView);
+                        
+                        //Custom scrollbar
+                        var overflowRegular, overflowInvisible = false;
+                        overflowRegular = $('.overflow').niceScroll();     
+                    });      
+                })();
+            });    
+            
+            $(function(){
+            	$('.note-editable').css('height','400px');
+            	
+            });
+            
+       </script>
+    </body>
+</html>
+
