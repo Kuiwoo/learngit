@@ -81,10 +81,12 @@ $(document).ready(function(){
 	}
 
         //Select
+        /*
 	if($('.select')[0]) {
 	    $('.select').selectpicker();
 	}
-        
+	*/
+       
         //Sortable
         if($('.sortable')[0]) {
 	    $('.sortable').sortable();

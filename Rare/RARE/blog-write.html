@@ -8,7 +8,7 @@
         <meta name="description" content="Violate Responsive Admin Template">
         <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
 
-        <title>Super Admin Responsive Template</title>
+        <title>write</title>
             
         <!-- CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,11 @@
         <link href="css/style-write.css" rel="stylesheet">
         <link href="css/icons.css" rel="stylesheet">
         <link href="css/generics.css" rel="stylesheet"> 
+        <style type="text/css">
+        	.addSome{
+        		color: #33BE40!important;
+        	}
+        </style>
     </head>
     <body id="skin-blur-violate">
 
@@ -33,7 +38,7 @@
             
            
    
-                <h4 class="page-title">CONTENT WIDGETS</h4>
+              <a href="blog.html">  <h4 class="page-title">返回</h4></a>
                                 
                 <div class="block-area">
                     <div class="row m-container">
@@ -46,33 +51,48 @@
 
                             <!-- Quick Posting -->
                             <div class="tile">
-                                <h2 class="tile-title">Quick Posting</h2>
-                                <div class="tile-config dropdown">
+                                <h2 class="tile-title">write</h2>
+                                <!--div class="tile-config dropdown">
                                     <a data-toggle="dropdown" href="" class="tooltips tile-menu" title="" data-original-title="Options"></a>
                                     <ul class="dropdown-menu pull-right text-right">
                                         <li><a href="">Edit</a></li>
                                         <li><a href="">Delete</a></li>
                                     </ul>
-                                </div>
+                                </div-->
                                 
                                 <form role="form" class="p-15">
                                     <div class="form-group m-b-15">
-                                        <label>Post Title</label>
+                                        <label>标题</label>
                                         <input type="text" class="form-control input-sm">
                                     </div>
                                     
-                                    <div class="form-group m-b-15">
-                                        <label>Post Category</label>
-                                        <select class="select">
-                                            <option>Default</option>
-                                            <option>Toyota Avalon</option>
-                                            <option>Toyota Crown</option>
-                                            <option>Lexus LX570</option>
+                                    <div class="form-group m-b-15 col-xs-4">
+                                        <label>分类</label>
+                                        <select class="select" id="type1">
+                                            <option>普通（无）</option>
+                                           
+                                            <option class="addSome addType1" id="addType1">新增分类</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group m-b-15 col-xs-4">
+                                        <label>次级分类</label>
+                                        <select class="select" id="type2">
+                                           <option>普通（无）</option>
+                                           
+                                            <option class="addSome addType1" id="addType2">新增分类</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group m-b-15 col-xs-4">
+                                        <label>小分类</label>
+                                        <select class="select" id="type3">
+                                            <option>普通（无）</option>
+                                          
+                                            <option class="addSome"  id="addType3">新增分类</option>
                                         </select>
                                     </div>
                                     
-                                    <div class="form-group m-b-15">
-                                        <label>Post Content</label>
+                                    <div class="form-group m-b-15" style="margin-top: 70px;">
+                                        <label></label>
                                         <div class="wysiwye-editor"></div>
                                     </div>
                                     
@@ -96,10 +116,7 @@
         <!-- Bootstrap -->
         <script src="js/bootstrap.min.js"></script>
         
-        <!-- Form Related -->
-        <script src="js/select.min.js"></script> <!-- Custom Select -->
-        <script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
-        
+      
         <!-- Text Editor -->
         <script src="js/editor.min.js"></script> <!-- WYSIWYG Editor -->
         
@@ -116,6 +133,12 @@
         <script src="js/functions.js"></script>
         
         <script type="text/javascript">
+        typeList={};
+        typeData=null;
+        	$(function(){
+        		getTypeList();
+        	});
+        
             $(document).ready(function() {
                 
                 //Calendar
@@ -150,7 +173,7 @@
                     
                     //Calendar views
                     $('body').on('click', '.calendar-actions > li > a', function(e){
-                        e.preventDefault();
+                       // e.preventDefault();
                         var dataView = $(this).attr('data-view');
                         $('#calendar').fullCalendar('changeView', dataView);
                         
@@ -166,7 +189,59 @@
             	
             });
             
+            function getTypeList(){
+            	$.ajax({
+					url: 'http://localhost/index.php?app=user&act=typeList',
+					type: 'GET',
+					success: function(result) {
+						if(result && result.retval!=false){
+							var data=result.retval;
+							typeData=data;
+							
+							for(var i in data['0']){
+								console.log(data['0'][i].title);
+								$('#addType1').before('<option value="'+data['0'][i].Id+'">'+data['0'][i].title+'</option>');
+								typeList[data['0'][i].title]=data['0'][i].id;
+							}
+								
+								
+						if($('.select')[0]) {
+						    $('.select').selectpicker();
+						}
+				//$('.select').selectpicker();
+						//location.reload();
+						}else{
+						alert('获取数据出错');
+        			return false;
+						}
+						}
+					});
+            	
+            }
+            $('.select').change(function(){
+            	var selected=$(this).find("option:selected").text();
+            	var selectId=$(this).attr('id');
+            	var id=selectId.replace('type','');
+            	
+            	if(id<3){
+            		var chaildListId=typeList[selected];
+            		var chaildList=typeData[chaildListId];
+            		console.log(typeList);
+            		console.log(chaildListId);
+            			for(var i in chaildList){
+								console.log(chaildList[i].title);
+								$('#addType'+(id+1)).before('<option value="'+chaildList[i].Id+'">'+chaildList[i].title+'</option>');
+								typeList[chaildList[i].title]=chaildList[i].Id;
+							}
+            			$('.select').selectpicker();
+            	}
+            });
        </script>
+       
+         <!-- Form Related -->
+       <script src="js/select.min.js"></script> <!--  Custom Select -->
+        <script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
+        
     </body>
 </html>
 
