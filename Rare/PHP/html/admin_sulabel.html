@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Super Label </title>
+    <link rel="Stylesheet" type="text/css" href="/data/resours_admin/easyui/themes/icon.css"/>
+    <link rel="Stylesheet" type="text/css" href="/data/resours_admin/easyui/themes/default/easyui.css" />
+    <script type="text/javascript" src="/data/resours_admin/easyui/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/data/resours_admin/easyui/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/data/resours_admin/layer/layer.js" ></script>
+	<style type="text/css">
+		.upsub, .nowpage, .nextsub{
+			width: 30px;
+			height: 30px;
+			border: 1px solid wheat;
+			float: left;
+			text-align: center;
+			margin-top: 10px;
+			cursor: pointer;
+			background: #F8F8F8;
+			box-shadow: 0 0 3px #000;
+		}
+		.sumpage{
+			width: 30px;
+			height: 30px;
+			border: 1px solid wheat;
+			float: left;
+			text-align: center;
+			margin-top: 10px;
+			background: #F8F8F8;
+			box-shadow: 0 0 3px #000;
+		}
+		#search{
+			width: 100%;
+			height: 50px;
+		}
+		.form-wrapper input{
+			margin-left: 20px;
+			width: 200px;
+			margin-top: 5px;
+			height: 30px;
+		}
+		.form-wrapper button{
+			color: white;
+			width: 70px;
+			margin-top: 3px;
+			height: 33px;
+			margin-left: -4px;
+			background: #F36A5A;
+		}
+	</style>
+    <script>
+	    $(function () {
+		   $("#dg").datagrid({
+				singleSelect: true,
+				height: 380,
+				toolbar: [
+								{ iconCls: 'icon-add', text: '添加', handler: function () { open_win_order_add(); } }, '-'
+								],
+				columns: [[
+								{ field: "order_Id", title: "ID",width: 50 },
+								{ field: "order_Code", title: "标签",width:  100 },
+								{ field: "order_Total", title: "状态", width:  100, align: "center" },
+								/* { field: "order_Totas", title: "手机号", width:  170, align: "center" },
+								{ field: "order_Totar", title: "姓名", width:  90, align: "center" },
+								{ field: "order_time", title: "头像", width:  190, align: "center" },
+								{ field: "order_upnet", title: "标识", width:  100, align: "center" }, */
+								
+								//添加数据
+								//{ field: "order_Totat", title: "好机会", width: 90, align: "center" },
+								
+								
+								{ field: "action", title: "操作", width:  100, align: "center",
+									formatter: function (value, row, index) {
+										var s ='<button type="button" id="openbut"  onclick="opentag(this)" >开启</button><button type="button" id="closebut" onclick="closetag(this)">关闭</button>' ;
+										return s;
+									}
+								}
+							]]
+			});
+		})
+
+		//�򿪶�����Ӵ���
+		function open_win_order_add(){
+			$("#win_order_add").window("open");
+		}
+
+		//��Ӷ������
+	/* 	function order_add(){
+			var ordercode=$.trim($("#text_code").val());
+			var total=$.trim($("#text_total").val());
+			var totas=$.trim($("#text_totas").val());
+			var totar=$.trim($("#text_totar").val());
+			//添加数据
+			//var totat=$.trim($("#text_totar").val());
+			
+            var rows = $("#dg").datagrid("getRows");
+
+			$("#dg").datagrid("insertRow", {
+				index: rows.length,
+				row: { order_Code: ordercode, order_Total: total,order_Totas:totas, order_Totar:totar }
+			});
+		}
+		 */
+		function order_add(infos){
+			 for (i in infos)
+			 {
+				 console.log(infos[i].id);
+				 var orderid=infos[i].Id;
+				 var ordercode=infos[i].tag;
+				 var total=infos[i].status==1?'无效':'有效';
+				console.log(infos[i].status);
+				console.log(total);
+				// var tostr='<button type="button" id="openbut"  onclick="opentag(this)" '+total=='有效'?'':'style="display:none;"'
+				// +'>开启</button><button type="button" id="closebut" onclick="closetag(this)"  '+total=='有效'?'style="display:none;"':''+'>关闭</button>';
+				// var downnet=Digit.round(infos[i].downnet/(1024*1024),2)+'MB';
+					//添加数据
+					//var totat=$.trim($("#text_totar").val());
+					
+		            var rows = $("#dg").datagrid("getRows");
+
+					var res=$("#dg").datagrid("insertRow", {
+						index: rows.length,
+						row: { order_Id:orderid,order_Code: ordercode, order_Total: total
+						}
+					});
+					/* console.log(res.children().last());
+					
+					if(infos[i].status==0)
+						{
+						res.children().last().find('#closebut').show();
+						res.children().last().find('#openbut').hide()
+						}else{
+							res.children().last().find('#closebut').hide();
+							res.children().last().find('#openbut').show()
+						} */
+					
+			 }
+			
+		}
+
+		 var Digit = {};
+		 Digit.round = function(digit, length) {
+		     length = length ? parseInt(length) : 0;
+		     if (length <= 0) return Math.round(digit);
+		     digit = Math.round(digit * Math.pow(10, length)) / Math.pow(10, length);
+		     return digit;
+		 };
+
+		//ɾ�����
+		function order_del(row) {
+			var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+			var index=parseInt(tr.attr('datagrid-row-index'));  //得到行的index
+			$("#dg").datagrid("deleteRow", index);              //删除
+		}
+	</script>
+ </head>
+
+ <body>
+ 	<div class="foot_content1">
+		<span>标签信息</span>
+	</div>
+	<div id="search">
+		<form class="form-wrapper cf">
+			<!-- <input class="searchtext" type="text" placeholder="Search here..." required>
+			<button type="submit" onclick="search();return false;">Search</button> -->
+		</form>
+	</div>
+ 	<div style="width: 100%;height: auto;" class="adduserbox">
+		<div class="easyui-window" id="win_order_add" minimizable="false" maximizable="false" collapsible="false" title="新增用户"  closed="true" style="width:500px;height:300px">
+			 <form class="adduserform">
+			 <p style="margin-left:100px;margin-top: 60px;">标&nbsp;&nbsp;&nbsp;&nbsp;签:<input id="text_code " class="username" style="width:200px" value=""/></p>
+			 <p style="margin-left:100px">状&nbsp;&nbsp;&nbsp;&nbsp;态:
+			 	<select name="" id="" class="status" style="width:200px;">
+			 		<option value="0">有效</option>
+			 		<option value="1">无效</option>
+			 	</select>
+			 </p>
+			 <div style="text-align:center">
+				 <a href="javascript:void(0);" class="easyui-linkbutton" id="btn_order_add" iconCls="icon-add" onClick="adduser();">确定添加</a>
+			 </div>
+			 </form>
+		</div>
+	    <table id="dg"></table> 
+    </div>
+    
+    <!-- 修改 -->
+    <!-- 	<div style="width: 100%;height: auto;">
+		<div class="easyui-window" minimizable="false" id="changeuserinfo" maximizable="false" collapsible="false" title="修改用户"  closed="true" style="width:500px;height:400px">
+			 <form class="adduserform">
+			 <p style="margin-left:100px;margin-top: 60px;">用户名:<input id="text_code1 "  class="username1"style="width:200px" value="" disabled/></p>
+			  <p style="margin-left:100px">密&nbsp;&nbsp;&nbsp;&nbsp;码:<input id="text_total "  class="password1" style="width:200px" value=""/></p>
+			 <p style="margin-left:100px;">手机号:<input id="text_totas " style="width:200px"  class="telphone1" value=""/></p>
+			 <p style="margin-left:100px">姓&nbsp;&nbsp;&nbsp;&nbsp;名:<input id="text_totar "   class="name1" style="width:200px" value=""/></p>
+			 <p style="margin-left:100px">头像名:<input id="text_time " style="width:200px"  class="headimg1" value=""/></p>
+			 <p style="margin-left:100px">标&nbsp;&nbsp;&nbsp;&nbsp;识:<input id="text_upnet "  class="sign1" style="width:200px" value=""/></p>
+			 <div style="text-align:center">
+				 <a href="javascript:void(0);" onclick="changeuserinfo();" class="easyui-linkbutton" id="btn_order_add1" iconCls="icon-add">确定修改</a>
+			 </div>
+			 </form>
+		</div>
+	    <table id="dg"></table>  -->
+    </div>
+    
+    <div id="page" style="width: 100%;height: 80px;">
+    	<ul type="none" style="float: right;">
+    		<li class="sumpage" style="width:70px;" onclick="">共<span class="allpage">5</span>页</li> 
+    		<li class="sumpage" style="width:70px;" onclick="">共<span class="allusernumber">5</span>账号</li>
+    		<li class="upsub" style="width: 70px;height: 30px;display:none" onclick="getuplist();">上一页</li>
+    		<li class="nowpage">1</li>
+    		<li class="nextsub" style="width: 70px;height: 30px; display:none" onclick="getnextlist();">下一页</li>
+    	</ul>
+    </div>
+    
+    <script>
+    nowpage=1;
+    nowsearch='';
+    function deleteall()
+    {
+    	//console.log($('.datagrid-row').length+'为前一页行数');
+    	var number=$('.datagrid-row:last').attr('datagrid-row-index')==0?0:$('.datagrid-row:last').attr('datagrid-row-index');
+    	for (i=0;i<=number;i++)
+    	{
+    		$("#dg").datagrid("deleteRow", 0);
+    	}
+    	
+    }
+    
+    function getlist(v)
+    {
+    	if(v>1)
+    	{
+    		$('.upsub').show();
+    	}else{
+    		$('.upsub').hide();
+    	}
+    	$('.nowpage').text(v);
+    	
+    	deleteall();
+    	//console.log('开始获取数据');
+    	var pagenum=v;
+    	$.ajax({
+       	 type:"GET",
+      		 url:"index.php?app=admin&act=taglist",
+      		 data:{page:pagenum,search:nowsearch},
+      		 dataType:"json",
+      		 success:function(data)
+      		 {
+      			 if(data.retval==false)
+      			 {
+      				alert('获取失败');
+      			 }else{
+      				 if(data.retval.data.length==20){
+      					 $('.nextsub').show();
+      				 }else{
+      					 $('.nextsub').hide();
+      				 }
+      				 $('.allusernumber').text(data.retval.number);
+      				 //pageall=data.retval.number%20
+      				 $('.allpage').text(Math.ceil(data.retval.number / 20) );
+      				 order_add(data.retval.data);
+      				 
+      				 
+      			 }
+      		 }
+       	});
+    }
+    
+    function getnextlist()
+    {
+    	nowpage+=1;
+    	getlist(nowpage);
+    	
+    }
+    
+    function getuplist()
+    {
+    	nowpage-=1;
+    	getlist(nowpage);
+    	
+    }
+    
+    function search()
+    {
+    	nowsearch=$('.searchtext').val();
+    	nowpage=1;
+    	getlist(nowpage);
+    }
+    
+    
+    function closetag(row)
+    {
+    	var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+		var index=tr.find('.datagrid-cell').eq(1).text();  //得到行的index
+		//var status1=tr.find('.datagrid-cell').eq(2).text();
+		$.ajax({
+        	 type:"get",
+       		 url:"index.php?app=admin&act=settagstatus",
+       		 data:{status:1,tag:index},
+       		 dataType:"json",
+       		 success:function(data)
+       		 {
+       			 if(data.retval==false)
+       			 {
+       				alert('禁用失败');
+       			 }else{
+       				tr.find('.datagrid-cell').eq(2).text('无效');
+       				
+       			 }
+       		 }
+        	});
+    }
+    
+    function opentag(row)
+    {
+    	var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+		var index=tr.find('.datagrid-cell').eq(1).text();  //得到行的index
+		//var status1=tr.find('.datagrid-cell').eq(2).text();
+		$.ajax({
+        	 type:"get",
+       		 url:"index.php?app=admin&act=settagstatus",
+       		 data:{status:0,tag:index},
+       		 dataType:"json",
+       		 success:function(data)
+       		 {
+       			 if(data.retval==false)
+       			 {
+       				alert('开启失败');
+       			 }else{
+       				tr.find('.datagrid-cell').eq(2).text('有效');
+       				
+       			 }
+       		 }
+        	});
+    }
+    
+    function closeuser(row)
+    {
+    	var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+		var index=tr.find('.datagrid-cell').eq(1).text();  //得到行的index	
+		
+		$.ajax({
+         	 type:"PUT",
+        		 url:"index.php?app=admin&act=userinfo",
+        		 data:{usergroup:'close',username:index},
+        		 dataType:"json",
+        		 success:function(data)
+        		 {
+        			 if(data.retval==false)
+        			 {
+        				alert('禁用失败');
+        			 }else{
+        				tr.find('.closeuser').hide();
+        				tr.find('.datagrid-cell').eq(3).text('close');
+        				 nowsearch=username1;
+        				 getlist(1);
+        			 }
+        		 }
+         	});
+		//console.log(tr);
+		//alert(index);
+		
+    }
+    
+    
+    function changeuserinfo()
+    {
+    	var username1=$('.username1').val();         //获得要删除的行
+		var password1=$('.password1').val(); //得到行的index	
+		var telphone1=$('.telphone1').val();
+    	var name1=$('.name1').val();
+    	var headimg1=$('.headimg1').val();
+    	var sign1=$('.sign1').val();
+		
+		$.ajax({
+         	 type:"PUT",
+        		 url:"index.php?app=admin&act=userinfo",
+        		 data:{username:username1,password:password1,telphone:telphone1,name:name1,headimg:headimg1,sign:sign1},
+        		 dataType:"json",
+        		 success:function(data)
+        		 {
+        			 if(data.retval==false)
+        			 {
+        				alert('禁用失败');
+        			 }else{
+        				//tr.find('.closeuser').hide();
+        				//tr.find('.datagrid-cell').eq(3).text('close');
+        				// nowsearch=username1;
+        				 getlist(1);
+        				 $('#changeuserinfo').window('close');
+        			 }
+        		 }
+         	});
+		//console.log(tr);
+		//alert(index);
+		
+    }
+    
+    function adduser()
+    {
+    	var username1=$('.username').val();         //获得要删除的行
+		var password1=$('.status option:selected').val(); //得到行的index	
+		//alert(password1);
+    	
+    	
+    	 $.ajax({
+          	 type:"POST",
+         		 url:"index.php?app=admin&act=tag",
+         		 data:{tag:username1,status:password1},
+         		 dataType:"json",
+         		 success:function(data)
+         		 {
+         			 if(data.retval==false)
+         			 {
+         				alert('添加用户失败');
+         			 }else{
+         				
+         				$('.adduserform')[0].reset();
+         				alert('添加用户成功');
+         				//$('.searchtext').val(username1);
+         				//$('.adduserbox').hide();
+         				// nowsearch=username1;
+         				 getlist(1);
+         			 }
+         		 }
+          	}); 
+    }
+    
+    /* function getusergroup()
+    {
+    	$.ajax({
+          	 type:"GET",
+         		 url:"index.php?app=admin&act=usergroup",
+         		 dataType:"json",
+         		async: false,
+         		 success:function(data)
+         		 {
+         			 if(data.retval==false)
+         			 {
+         				alert('获取失败');
+         			 }else{
+         				//$('#text_totas').html('');
+         				$('#text_totas').empty();
+         				$('#text_totas1').empty();
+         				//$('#text_totas1').html('');
+         				for(i in data.retval)
+         				{
+         					$('#text_totas').append('<option value="'+data.retval[i].groupname+'">'+data.retval[i].groupname+'</option>');
+         					$('#text_totas1').append('<option value="'+data.retval[i].groupname+'">'+data.retval[i].groupname+'</option>');
+         					
+         					
+         				}	 
+         			 }
+         		 }
+          	});
+    } */
+    
+    function changeuser(row)
+    {
+    	//getusergroup();
+    	var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+		var username=tr.find('.datagrid-cell').eq(1).text(); 
+    	var password=tr.find('.datagrid-cell').eq(2).text();
+    	var telphone=tr.find('.datagrid-cell').eq(3).text();
+    	var name=tr.find('.datagrid-cell').eq(4).text();
+    	var headimg=tr.find('.datagrid-cell').eq(5).text();
+    	var sign=tr.find('.datagrid-cell').eq(6).text();
+    	$('.username1').val(username);
+    	$('.password1').val(password);
+    	$('.telphone1').val(telphone);
+    	$('.name1').val(name);
+    	$('.headimg1').val(headimg);
+    	$('.sign1').val(sign);
+    	
+    	//$('#expiration_text1').val(expiration);
+    	//$('#changeuserinfo').find('#text_totas1').val(usergroup);
+    	//$('#changeuserinfo').find('#text_code').val(username);
+    	$('#changeuserinfo').window('open');
+    	 
+    	//$('#changeuserinfo').attr('closed','false');
+    }
+    
+ 	$(function(){
+ 		$("#text_totar_select1").change(function (){
+ 			var months=$(this).children('option:selected').val();
+ 			var dates=Date.parse($('#expiration_text1').attr('placeholder'))?Date.parse($('#expiration_text1').attr('placeholder')):Date.parse(new Date());
+ 			dates+=months*1000*60*60*24*31;
+ 			dates=dates/1000;
+ 			$.ajax({
+ 	          	 type:"GET",
+ 	         		 url:"index.php?app=admin&act=datestring",
+ 	         		 dataType:"json",
+ 	         		 data:{date:dates},
+ 	         		async: false,
+ 	         		 success:function(data)
+ 	         		 {
+ 	         			 if(data.retval==false)
+ 	         			 {
+ 	         				alert('获取失败');
+ 	         			 }else{
+ 	         				$('#expiration_text1').val(data.retval);
+ 	         				
+ 	         			 }
+ 	         		 }
+ 	          	});
+ 		});
+ 		
+ 	})
+    
+    $(function(){
+    	getlist(1);
+    })
+    
+   /*  $(function(){
+    	$('.l-btn-plain').click(function(){
+    		getusergroup();
+    	});
+    }) */
+    
+    
+    </script>
+    <script>
+    	function text(row){
+    		var tr = $(row).closest('tr.datagrid-row');         //获得要删除的行
+    		var username=tr.find('.datagrid-cell').eq(1).text();
+    	  var index = layer.open({
+    	  title:'数据统计',
+  		  type: 2,
+		  content: 'index.php?app=admin&act=html&html=userinfo&username='+username,
+		  area: ['300px', '195px'],
+		});
+		layer.full(index);
+    	}
+    </script>
+ </body>
+</html>

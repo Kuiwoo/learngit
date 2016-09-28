@@ -1,0 +1,2311 @@
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690248427295","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:46:39","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"123","seller_id":"2088911789850583","notify_time":"2016-05-25 17:46:39","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"3210e0cd8c0aa4262eb310c82110292lbq","use_coupon":"N","sign_type":"RSA","sign":"IjE+eXfvo2jV5hfF0Lr0MbVGHlWWumTSiZvKIJ1bao72SA3SRDZgCE8BzVo2e1kKfLFGL1EXfrGcT3la\/lhBn6iYxn2R3eE8mn9cfR4bEVMqtucYYilzmb1Z\/PqGHC1AZ3PcH8HM5ygMW8sk4j7+VGDDob1qBWJFrfH78m6IETQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MjI0Mzg2MDQ2NTA4NDMwNzczNjExNTY1ODY2ODM4MjQxODEx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0ODQyNzI5NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NDY6MzkiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTIzIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo0NjozOSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiMzIxMGUwY2Q4YzBhYTQyNjJlYjMxMGM4MjExMDI5MmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IklqRStlWGZ2bzJqVjVoZkYwTHIwTWJWR0hsV1d1bVRTaVp2S0lKMWJhbzcyU0EzU1JEWmdDRThCelZvMmUxa0tmTEZHTDFFWGZyR2NUM2xhXC9saEJuNmlZeG4yUjNlRThtbjljZlI0YkVWTXF0dWNZWWlsem1iMVpcL1BxR0hDMUFaM1BjSDhITTV5Z01XOHNrNGo3K1ZHRERvYjFxQldKRnJmSDc4bTZJRVRRPSJ9
+ 处理结果 :string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-25 17:46:39
+ 来自于支付成功2016-05-25 17:46:39
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690248427295","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:46:39","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"123","seller_id":"2088911789850583","notify_time":"2016-05-25 17:46:40","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:46:40","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"4efba5f8c34cd9631a8ed8293ecaa45lbq","use_coupon":"N","sign_type":"RSA","sign":"LjPu13yzdjQXkCYcLD9LsWDCTqjdRKKivv1cLTTC6Y7tVnISelD30uODyCY+SI21BbIRsS5Wvm\/IF7h9PxahUECG+h7vEoKMpAqwql2eIiLYg7WAJyFa8F3dhDOvvQXwWY4ZAfbjzuK51IStTMWUBFeXe+jw6Zu3zhJ2dC45dNo="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=Mjc2MTY2NzQ2Mjc3MjAzNjg3NjQyODY1MDQ0ODE2MTM2NDM3&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0ODQyNzI5NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NDY6MzkiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTIzIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo0Njo0MCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTc6NDY6NDAiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI0ZWZiYTVmOGMzNGNkOTYzMWE4ZWQ4MjkzZWNhYTQ1bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiTGpQdTEzeXpkalFYa0NZY0xEOUxzV0RDVHFqZFJLS2l2djFjTFRUQzZZN3RWbklTZWxEMzB1T0R5Q1krU0kyMUJiSVJzUzVXdm1cL0lGN2g5UHhhaFVFQ0craDd2RW9LTXBBcXdxbDJlSWlMWWc3V0FKeUZhOEYzZGhET3Z2UVh3V1k0WkFmYmp6dUs1MUlTdFRNV1VCRmVYZStqdzZadTN6aEoyZEM0NWRObz0ifQ==
+ 处理结果 :string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-25 17:46:40
+ 来自于支付成功2016-05-25 17:46:40
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004000236223180","buyer_email":"18883259156","gmt_create":"2016-05-25 17:51:31","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"124","seller_id":"2088911789850583","notify_time":"2016-05-25 17:51:31","body":"12?????????31???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"bad63d6419250f68e2a887ef22604f6g02","use_coupon":"N","sign_type":"RSA","sign":"Y90cC\/ma0etbOowgPUaZAp570jMVxC0DG867lfaZAnpy4\/GbXKIVZKNh+4K3iN7df4ZeOY3ogO68eKD9li8dDEgvM\/48pL5T\/bKbUmliu\/UJalMBGf8rSqCUOSkUj+Uf6BkPRf3nmjVmjeVorzENoLlYJOiSU+UNvctOAdyLU3w="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MjM4Nzc0Mjg3NTg0ODQ2Mjg3MTQzNjIyMzcyMjE3MTY1NTEw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQwMDAyMzYyMjMxODAiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTE6MzEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTI0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1MTozMSIsImJvZHkiOiIxMj8/Pz8/Pz8/PzMxPz8/IiwidHJhZGVfc3RhdHVzIjoiV0FJVF9CVVlFUl9QQVkiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiWSIsInRvdGFsX2ZlZSI6IjAuMDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODg4MDIzNjcyMTkwMDAiLCJub3RpZnlfaWQiOiJiYWQ2M2Q2NDE5MjUwZjY4ZTJhODg3ZWYyMjYwNGY2ZzAyIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiWTkwY0NcL21hMGV0Yk9vd2dQVWFaQXA1NzBqTVZ4QzBERzg2N2xmYVpBbnB5NFwvR2JYS0lWWktOaCs0SzNpTjdkZjRaZU9ZM29nTzY4ZUtEOWxpOGRERWd2TVwvNDhwTDVUXC9iS2JVbWxpdVwvVUphbE1CR2Y4clNxQ1VPU2tVaitVZjZCa1BSZjNubWpWbWplVm9yekVOb0xsWUpPaVNVK1VOdmN0T0FkeUxVM3c9In0=
+ 处理结果 :string(21) "
+ 安卓月份为 12"
+true &&in time :2016-05-25 17:51:31
+ 来自于支付成功2016-05-25 17:51:31
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004000236223180","buyer_email":"18883259156","gmt_create":"2016-05-25 17:51:31","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"124","seller_id":"2088911789850583","notify_time":"2016-05-25 17:51:32","body":"12?????????31???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:51:32","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"0104d1646fb310c9ce009d43b35d10cg02","use_coupon":"N","sign_type":"RSA","sign":"jFoidZzKB3XBWdy0U5alBgFDqzfkrkfLKiOi0kNleryqCUuZhfCbsmH+LXXwUdnKUMvCJ4Op7XtGSkM5mPCB6L8W8I9Ow5SbuOtw\/HTpYjUiYQEIGjO0usW+Xw8DukPfzm7RT5WuCbkebnR9HRBfsEIBoKuBJv6yQ\/KQ6pYguJs="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MzM3MjAwODY3OTQ5MzMwNjQ5OTk2Njk2ODcwODE0MTcwNjU1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQwMDAyMzYyMjMxODAiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTE6MzEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTI0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1MTozMiIsImJvZHkiOiIxMj8/Pz8/Pz8/PzMxPz8/IiwidHJhZGVfc3RhdHVzIjoiVFJBREVfU1VDQ0VTUyIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJOIiwidG90YWxfZmVlIjoiMC4wMSIsImdtdF9wYXltZW50IjoiMjAxNi0wNS0yNSAxNzo1MTozMiIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6IjAxMDRkMTY0NmZiMzEwYzljZTAwOWQ0M2IzNWQxMGNnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJqRm9pZFp6S0IzWEJXZHkwVTVhbEJnRkRxemZrcmtmTEtpT2kwa05sZXJ5cUNVdVpoZkNic21IK0xYWHdVZG5LVU12Q0o0T3A3WHRHU2tNNW1QQ0I2TDhXOEk5T3c1U2J1T3R3XC9IVHBZalVpWVFFSUdqTzB1c1crWHc4RHVrUGZ6bTdSVDVXdUNia2ViblI5SFJCZnNFSUJvS3VCSnY2eVFcL0tRNnBZZ3VKcz0ifQ==
+ 处理结果 :string(21) "
+ 安卓月份为 12"
+true &&in time :2016-05-25 17:51:32
+ 来自于支付成功2016-05-25 17:51:32
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004690236552098","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:51:58","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"125","seller_id":"2088911789850583","notify_time":"2016-05-25 17:51:58","body":"12?????????31???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"b339b5f3f23ee31793ada33550bbd91lbq","use_coupon":"N","sign_type":"RSA","sign":"WMygOGpSAIi32UGwdxPjwgeLPIKd\/ADeZeaslEiH3tDuHzf6FxC7MJ9sgT6HUUCMuHX9mkyJgqjwGkjvOakqqECD92qW1IDkpwV8oiQpeWeffMAFjZCDWmGzVkE2\/86Z\/etOGYLG0zaNglkjqeEVuNzvPJPfuqDXINNrw+DKGQ8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MjUyNTIwMDQ4OTYyMjg1MzAwNDIyNzQzNTYzNzMzNzUyNjYz&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQ2OTAyMzY1NTIwOTgiLCJidXllcl9lbWFpbCI6Imt1aV9pbnVuaUBvdXRsb29rLmNvbSIsImdtdF9jcmVhdGUiOiIyMDE2LTA1LTI1IDE3OjUxOjU4Iiwibm90aWZ5X3R5cGUiOiJ0cmFkZV9zdGF0dXNfc3luYyIsInF1YW50aXR5IjoiMSIsIm91dF90cmFkZV9ubyI6IjEyNSIsInNlbGxlcl9pZCI6IjIwODg5MTE3ODk4NTA1ODMiLCJub3RpZnlfdGltZSI6IjIwMTYtMDUtMjUgMTc6NTE6NTgiLCJib2R5IjoiMTI/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiYjMzOWI1ZjNmMjNlZTMxNzkzYWRhMzM1NTBiYmQ5MWxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IldNeWdPR3BTQUlpMzJVR3dkeFBqd2dlTFBJS2RcL0FEZVplYXNsRWlIM3REdUh6ZjZGeEM3TUo5c2dUNkhVVUNNdUhYOW1reUpncWp3R2tqdk9ha3FxRUNEOTJxVzFJRGtwd1Y4b2lRcGVXZWZmTUFGalpDRFdtR3pWa0UyXC84NlpcL2V0T0dZTEcwemFOZ2xranFlRVZ1Tnp2UEpQZnVxRFhJTk5ydytES0dROD0ifQ==
+ 处理结果 :string(21) "
+ 安卓月份为 12"
+true &&in time :2016-05-25 17:51:58
+ 来自于支付成功2016-05-25 17:51:58
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004690236552098","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:51:58","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"125","seller_id":"2088911789850583","notify_time":"2016-05-25 17:51:59","body":"12?????????31???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:51:58","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"18c01363b09a2bc5a7fba506fb9d336lbq","use_coupon":"N","sign_type":"RSA","sign":"Ivqt4FbuIkTMp1cYJ3sUcg8hZfIckqwRSdvQ7YshdpSZP5mngO0ht0pSQlESxiEqFGBVNzRVi5EUOD6vW6CH03ei\/ZOtV0HJvsrqRWfk6rGtFwE8dwfUXroSIeOddxO6X8Y7D9TaVLlAVywhplWpmxk355hO8B7I6wMAd7QmRAo="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MTA5MDQwODcyNzk5NjQxMDU5NDU1Mzk3MzEzMTM3Mzg4NzA0&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQ2OTAyMzY1NTIwOTgiLCJidXllcl9lbWFpbCI6Imt1aV9pbnVuaUBvdXRsb29rLmNvbSIsImdtdF9jcmVhdGUiOiIyMDE2LTA1LTI1IDE3OjUxOjU4Iiwibm90aWZ5X3R5cGUiOiJ0cmFkZV9zdGF0dXNfc3luYyIsInF1YW50aXR5IjoiMSIsIm91dF90cmFkZV9ubyI6IjEyNSIsInNlbGxlcl9pZCI6IjIwODg5MTE3ODk4NTA1ODMiLCJub3RpZnlfdGltZSI6IjIwMTYtMDUtMjUgMTc6NTE6NTkiLCJib2R5IjoiMTI/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTc6NTE6NTgiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiIxOGMwMTM2M2IwOWEyYmM1YTdmYmE1MDZmYjlkMzM2bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiSXZxdDRGYnVJa1RNcDFjWUozc1VjZzhoWmZJY2txd1JTZHZRN1lzaGRwU1pQNW1uZ08waHQwcFNRbEVTeGlFcUZHQlZOelJWaTVFVU9ENnZXNkNIMDNlaVwvWk90VjBISnZzcnFSV2ZrNnJHdEZ3RThkd2ZVWHJvU0llT2RkeE82WDhZN0Q5VGFWTGxBVnl3aHBsV3BteGszNTVoTzhCN0k2d01BZDdRbVJBbz0ifQ==
+ 处理结果 :string(21) "
+ 安卓月份为 12"
+true &&in time :2016-05-25 17:51:59
+ 来自于支付成功2016-05-25 17:51:59
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004000236540139","buyer_email":"18883259156","gmt_create":"2016-05-25 17:52:06","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"126","seller_id":"2088911789850583","notify_time":"2016-05-25 17:52:06","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"963078960883b8f6d132b4f5e92c7f4g02","use_coupon":"N","sign_type":"RSA","sign":"OSLjSu78crqQ8mOV+HIh9iaui1xqFfcTavlw89wOeXjZUm4lfjR6BJrWMdVf4rzCEcMOBbR2IIYAPYknjhRXelU78UPF4X83pUINCykl+1aAk0UCIb9ojET1X6wzEna+rql4SGt8p6MGubE9aFy1ZkpuUwk5bA65OP598wo4fzU="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTg4MzA1MzY3MzI0OTYwNTA1NzY1Mjc1NTM1NjYxNTI0NjYy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDAwMDIzNjU0MDEzOSIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNSAxNzo1MjowNiIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxMjYiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI1IDE3OjUyOjA2IiwiYm9keSI6IjMwPz8/IiwidHJhZGVfc3RhdHVzIjoiV0FJVF9CVVlFUl9QQVkiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiWSIsInRvdGFsX2ZlZSI6IjAuMDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODg4MDIzNjcyMTkwMDAiLCJub3RpZnlfaWQiOiI5NjMwNzg5NjA4ODNiOGY2ZDEzMmI0ZjVlOTJjN2Y0ZzAyIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiT1NMalN1NzhjcnFROG1PVitISWg5aWF1aTF4cUZmY1Rhdmx3ODl3T2VYalpVbTRsZmpSNkJKcldNZFZmNHJ6Q0VjTU9CYlIySUlZQVBZa25qaFJYZWxVNzhVUEY0WDgzcFVJTkN5a2wrMWFBazBVQ0liOW9qRVQxWDZ3ekVuYStycWw0U0d0OHA2TUd1YkU5YUZ5MVprcHVVd2s1YkE2NU9QNTk4d280ZnpVPSJ9
+ 处理结果 :string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-25 17:52:06
+ 来自于支付成功2016-05-25 17:52:06
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004000236540139","buyer_email":"18883259156","gmt_create":"2016-05-25 17:52:06","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"126","seller_id":"2088911789850583","notify_time":"2016-05-25 17:52:07","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:52:07","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"fda92125df44cfac93c0b99bddf2dadg02","use_coupon":"N","sign_type":"RSA","sign":"a3bOGS+KMjmgZVhSQtKotsJM9zZ+usuBjH9CauEXCyLUKWdhZI8S4R1DXQ0w3L45FNL7\/ojlZKL+TyOTz4x9pxNNP4OTsr\/OxMmiTAiu306uwoVUSejhJ7remebSlVyeVFKv8hA25XL4j1Jfpf6xCpUa7NTAwDlX4RMUpj5e7Bs="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTc5NTQxNzQ5Njg4MTMyMzg3NzkxNTQ2NjY5ODA2NTczNjM1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDAwMDIzNjU0MDEzOSIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNSAxNzo1MjowNiIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxMjYiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI1IDE3OjUyOjA3IiwiYm9keSI6IjMwPz8/IiwidHJhZGVfc3RhdHVzIjoiVFJBREVfU1VDQ0VTUyIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJOIiwidG90YWxfZmVlIjoiMC4wMSIsImdtdF9wYXltZW50IjoiMjAxNi0wNS0yNSAxNzo1MjowNyIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6ImZkYTkyMTI1ZGY0NGNmYWM5M2MwYjk5YmRkZjJkYWRnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJhM2JPR1MrS01qbWdaVmhTUXRLb3RzSk05elordXN1QmpIOUNhdUVYQ3lMVUtXZGhaSThTNFIxRFhRMHczTDQ1Rk5MN1wvb2psWktMK1R5T1R6NHg5cHhOTlA0T1RzclwvT3hNbWlUQWl1MzA2dXdvVlVTZWpoSjdyZW1lYlNsVnllVkZLdjhoQTI1WEw0ajFKZnBmNnhDcFVhN05UQXdEbFg0Uk1VcGo1ZTdCcz0ifQ==
+ 处理结果 :string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-25 17:52:07
+ 来自于支付成功2016-05-25 17:52:07
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004690236323101","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:57:53","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"129","seller_id":"2088911789850583","notify_time":"2016-05-25 17:57:53","body":"12?????????31???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"38a2f2c4ed13ae7174c6f2eff420aeelbq","use_coupon":"N","sign_type":"RSA","sign":"E4316VqrHhjQ7LzIxn6ffk3UakEb9iovzpvWCKwcspy9RDtRm+R4JawY+PHwGNZf4vzSiP0CypZ3Go5baj7pJzSiGG\/dIQFfGfIWeRNSRa2nwunJmM\/G05+30HKjA7bGfXRmNQZy5cx65EWn0ncAR0N3oA6FvQSkSVNtP12QU0w="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NDM2ODgzMDI5NTMwMzg3Mjc2NTE0ODMyODY0MzQ1MTk1NzY5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQ2OTAyMzYzMjMxMDEiLCJidXllcl9lbWFpbCI6Imt1aV9pbnVuaUBvdXRsb29rLmNvbSIsImdtdF9jcmVhdGUiOiIyMDE2LTA1LTI1IDE3OjU3OjUzIiwibm90aWZ5X3R5cGUiOiJ0cmFkZV9zdGF0dXNfc3luYyIsInF1YW50aXR5IjoiMSIsIm91dF90cmFkZV9ubyI6IjEyOSIsInNlbGxlcl9pZCI6IjIwODg5MTE3ODk4NTA1ODMiLCJub3RpZnlfdGltZSI6IjIwMTYtMDUtMjUgMTc6NTc6NTMiLCJib2R5IjoiMTI/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiMzhhMmYyYzRlZDEzYWU3MTc0YzZmMmVmZjQyMGFlZWxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IkU0MzE2VnFySGhqUTdMekl4bjZmZmszVWFrRWI5aW92enB2V0NLd2NzcHk5UkR0Um0rUjRKYXdZK1BId0dOWmY0dnpTaVAwQ3lwWjNHbzViYWo3cEp6U2lHR1wvZElRRmZHZklXZVJOU1JhMm53dW5KbU1cL0cwNSszMEhLakE3YkdmWFJtTlFaeTVjeDY1RVduMG5jQVIwTjNvQTZGdlFTa1NWTnRQMTJRVTB3PSJ9
+ 处理结果 :string(21) "
+ 安卓月份为 12"
+true &&in time :2016-05-25 17:57:53
+ 来自于支付成功2016-05-25 17:57:53
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052521001004690236323101","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:57:53","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"129","seller_id":"2088911789850583","notify_time":"2016-05-25 17:57:53","body":"12?????????31???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:57:53","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"d8a8e6fbdfdaaa6e46a0ff6704f2c48lbq","use_coupon":"N","sign_type":"RSA","sign":"CoCvo\/dC2Rso5yOiRRDy2GqAS6wgps9p56Mo5gDpNJSRfnVIqyqPXqJycIRWdkPQ0BztU9KeARQ2dU\/ykU+a9utYp2cNX2yzWH6SatL6O42afWhaEKvB4XDA86L8OJmDF6\/WcZRQZ0daaTZn4qgeIWgW5fmkHJhga7jJA7lzwhw="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MjE4MDcwNjc1OTE0MzE5NzQ1NDA5NjUxNDcwODAzMzM2ODMy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI1MjEwMDEwMDQ2OTAyMzYzMjMxMDEiLCJidXllcl9lbWFpbCI6Imt1aV9pbnVuaUBvdXRsb29rLmNvbSIsImdtdF9jcmVhdGUiOiIyMDE2LTA1LTI1IDE3OjU3OjUzIiwibm90aWZ5X3R5cGUiOiJ0cmFkZV9zdGF0dXNfc3luYyIsInF1YW50aXR5IjoiMSIsIm91dF90cmFkZV9ubyI6IjEyOSIsInNlbGxlcl9pZCI6IjIwODg5MTE3ODk4NTA1ODMiLCJub3RpZnlfdGltZSI6IjIwMTYtMDUtMjUgMTc6NTc6NTMiLCJib2R5IjoiMTI/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTc6NTc6NTMiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJkOGE4ZTZmYmRmZGFhYTZlNDZhMGZmNjcwNGYyYzQ4bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiQ29Ddm9cL2RDMlJzbzV5T2lSUkR5MkdxQVM2d2dwczlwNTZNbzVnRHBOSlNSZm5WSXF5cVBYcUp5Y0lSV2RrUFEwQnp0VTlLZUFSUTJkVVwveWtVK2E5dXRZcDJjTlgyeXpXSDZTYXRMNk80MmFmV2hhRUt2QjRYREE4Nkw4T0ptREY2XC9XY1pSUVowZGFhVFpuNHFnZUlXZ1c1Zm1rSEpoZ2E3akpBN2x6d2h3PSJ9
+ 处理结果 : &&in time :2016-05-25 17:57:54
+ 来自于支付成功2016-05-25 17:57:54
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690236645943","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:58:17","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"130","seller_id":"2088911789850583","notify_time":"2016-05-25 17:58:17","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"b3cc8e0ed50b4cda8afbe9408e3c3fblbq","use_coupon":"N","sign_type":"RSA","sign":"Wn7NJhLNIB\/7VzYn8SYqYO7NfMWovre0RJOZHRnvnnCdrChKveBLlmDkNpf+KeSQ0VIs0RR2XLZJiZnD6c8Lrc69YdgFemPQ1FodDY1vlFctM20p\/CD1hxqpMKv8DVDVh2hASM0umsGhF9skBupnpzedQ50Hf3hj9yNR45nEfRk="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MzUyOTQ4MDM3ODUzNTE5NzI5OTYzMTk5NzE2NzE1MDA0MDU1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDIzNjY0NTk0MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTg6MTciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1ODoxNyIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiYjNjYzhlMGVkNTBiNGNkYThhZmJlOTQwOGUzYzNmYmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IlduN05KaExOSUJcLzdWelluOFNZcVlPN05mTVdvdnJlMFJKT1pIUm52bm5DZHJDaEt2ZUJMbG1Ea05wZitLZVNRMFZJczBSUjJYTFpKaVpuRDZjOExyYzY5WWRnRmVtUFExRm9kRFkxdmxGY3RNMjBwXC9DRDFoeHFwTUt2OERWRFZoMmhBU00wdW1zR2hGOXNrQnVwbnB6ZWRRNTBIZjNoajl5TlI0NW5FZlJrPSJ9
+ 处理结果 : &&in time :2016-05-25 17:58:18
+ 来自于支付成功2016-05-25 17:58:18
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690236645943","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:58:17","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"130","seller_id":"2088911789850583","notify_time":"2016-05-25 17:58:18","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:58:18","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"2ffc1496db6de2f3e4a73d8d3151270lbq","use_coupon":"N","sign_type":"RSA","sign":"UJAC0P0\/kJUUPN7mnMFjFwZ5m7zPJtD72Oxz7\/4siNvez21Ro4nfpeE6sICyjluFm3LJVpq74QNetPWYHHXBdewpOh7LLBQ5HE377k3amgDN1N31PHhdbpBx+lAel9Xo373MtpRiuhsfqT2JHn1Keyb6MbRnn96s+Y4LuJrqCjE="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTEwNDc1MDQ3OTc2OTA3MDA3NTU4MjMzNzI3OTU1MDk1NDg1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDIzNjY0NTk0MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTg6MTciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1ODoxOCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTc6NTg6MTgiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiIyZmZjMTQ5NmRiNmRlMmYzZTRhNzNkOGQzMTUxMjcwbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiVUpBQzBQMFwva0pVVVBON21uTUZqRndaNW03elBKdEQ3Mk94ejdcLzRzaU52ZXoyMVJvNG5mcGVFNnNJQ3lqbHVGbTNMSlZwcTc0UU5ldFBXWUhIWEJkZXdwT2g3TExCUTVIRTM3N2szYW1nRE4xTjMxUEhoZGJwQngrbEFlbDlYbzM3M010cFJpdWhzZnFUMkpIbjFLZXliNk1iUm5uOTZzK1k0THVKcnFDakU9In0=
+ 处理结果 : &&in time :2016-05-25 17:58:18
+ 来自于支付成功2016-05-25 17:58:18
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690243824613","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:59:57","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"131","seller_id":"2088911789850583","notify_time":"2016-05-25 17:59:57","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"9fc197b18a06dd3f13c694731c79164lbq","use_coupon":"N","sign_type":"RSA","sign":"NOKDUIjqxLwBG\/IVqRqxuK0PvfJ6XSyYSPBHWb90Xot4vZKDlvbuzg9RKasD0ZECr69tGamLIezVstOUynf8o6ZJaVYsGSgLvCn0XLFPv\/6k81Uqx6DsB8zWXl6S05eRLLEumHdSF3RukhikGgylQxwQyrTZem0ncE\/6d5y+Gi0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MzY0MTIzMjcxODIzMjExMzIxOTU4NTUxNTk1ODE1MTI4MTQx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0MzgyNDYxMyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTk6NTciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1OTo1NyIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiOWZjMTk3YjE4YTA2ZGQzZjEzYzY5NDczMWM3OTE2NGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik5PS0RVSWpxeEx3QkdcL0lWcVJxeHVLMFB2Zko2WFN5WVNQQkhXYjkwWG90NHZaS0RsdmJ1emc5Ukthc0QwWkVDcjY5dEdhbUxJZXpWc3RPVXluZjhvNlpKYVZZc0dTZ0x2Q24wWExGUHZcLzZrODFVcXg2RHNCOHpXWGw2UzA1ZVJMTEV1bUhkU0YzUnVraGlrR2d5bFF4d1F5clRaZW0wbmNFXC82ZDV5K0dpMD0ifQ==
+ 处理结果 : &&in time :2016-05-25 17:59:58
+ 来自于支付成功2016-05-25 17:59:58
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690243824613","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 17:59:57","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"131","seller_id":"2088911789850583","notify_time":"2016-05-25 17:59:58","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 17:59:58","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"483ab3f0ae6987672c99d7d059b8916lbq","use_coupon":"N","sign_type":"RSA","sign":"NAyROyMtyi6BU099UKA\/KaZCetI3eFVlysCb3oRqW34mTFrfKb5fzjmN43UCl3nPqQJ4feR7afY7vnK8XnB7O1XggfSir1n9ZUinae\/xUDXadjmFRppkKflF1b1HX+zORSpEfbEhiLQTXTn\/WbPUxEyxvj8maIli9YsVTpAafto="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODE4NTI4NDI4MjgyMDc3Mjc3ODM0NzQ1OTc5ODUxNzE0ODIz&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0MzgyNDYxMyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTc6NTk6NTciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxNzo1OTo1OCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTc6NTk6NTgiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI0ODNhYjNmMGFlNjk4NzY3MmM5OWQ3ZDA1OWI4OTE2bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiTkF5Uk95TXR5aTZCVTA5OVVLQVwvS2FaQ2V0STNlRlZseXNDYjNvUnFXMzRtVEZyZktiNWZ6am1ONDNVQ2wzblBxUUo0ZmVSN2FmWTd2bks4WG5CN08xWGdnZlNpcjFuOVpVaW5hZVwveFVEWGFkam1GUnBwa0tmbEYxYjFIWCt6T1JTcEVmYkVoaUxRVFhUblwvV2JQVXhFeXh2ajhtYUlsaTlZc1ZUcEFhZnRvPSJ9
+ 处理结果 : &&in time :2016-05-25 17:59:59
+ 来自于支付成功2016-05-25 17:59:59
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690236552573","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 18:00:30","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"132","seller_id":"2088911789850583","notify_time":"2016-05-25 18:00:30","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"3e15e8365c19307bcc27c34e37b649dlbq","use_coupon":"N","sign_type":"RSA","sign":"lfIyT5XtkAZPITjm\/shYNPZ20VaornvYleSGxoHb35G6nMMhH3y6yOVSgVmxq2Vz1K0VLG6QVeRPCJUmotA64sYplgttQcTNwZ0B9q4GGnCjXy+sfe8dq9bbvkunfhZzfKsc1zwCTayKyEe\/viLZYdag5nRSeadPtgHJRGgw6jQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTk1MzQ4MTkyMzk1NTYyNjUwNDIwOTExMjI5ODQ4NzExNDgy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDIzNjU1MjU3MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTg6MDA6MzAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMyIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxODowMDozMCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiM2UxNWU4MzY1YzE5MzA3YmNjMjdjMzRlMzdiNjQ5ZGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6ImxmSXlUNVh0a0FaUElUam1cL3NoWU5QWjIwVmFvcm52WWxlU0d4b0hiMzVHNm5NTWhIM3k2eU9WU2dWbXhxMlZ6MUswVkxHNlFWZVJQQ0pVbW90QTY0c1lwbGd0dFFjVE53WjBCOXE0R0duQ2pYeStzZmU4ZHE5YmJ2a3VuZmhaemZLc2MxendDVGF5S3lFZVwvdmlMWllkYWc1blJTZWFkUHRnSEpSR2d3NmpRPSJ9
+ 处理结果 : &&in time :2016-05-25 18:00:30
+ 来自于支付成功2016-05-25 18:00:30
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690236552573","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 18:00:30","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"132","seller_id":"2088911789850583","notify_time":"2016-05-25 18:00:31","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 18:00:31","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"f4ff4a13ea310f82e2ac11206ac9b08lbq","use_coupon":"N","sign_type":"RSA","sign":"HZcbKzOTfTwQPMkYTnnuelSrYYbgQeHJQEvtJURcW\/UZk56oe79+E4yrtj8g+IMV+zbHaNUnXxRa7u5e32vyU6t2zJ5T+YQR6Ud0YHdWGSOSNznvKOAYqzL7nV50+BuuN9tSYaJwLE172DvvpxrHSgie6NIIHiY0\/T0f\/kbybVQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NDMxNjkyNTIwMzU1MDU4NzE5MTIyNzQyNjMwNjM0MDIxODcy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDIzNjU1MjU3MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTg6MDA6MzAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMyIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxODowMDozMSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTg6MDA6MzEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJmNGZmNGExM2VhMzEwZjgyZTJhYzExMjA2YWM5YjA4bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiSFpjYkt6T1RmVHdRUE1rWVRubnVlbFNyWVliZ1FlSEpRRXZ0SlVSY1dcL1VaazU2b2U3OStFNHlydGo4ZytJTVYremJIYU5Vblh4UmE3dTVlMzJ2eVU2dDJ6SjVUK1lRUjZVZDBZSGRXR1NPU056bnZLT0FZcXpMN25WNTArQnV1Tjl0U1lhSndMRTE3MkR2dnB4ckhTZ2llNk5JSUhpWTBcL1QwZlwva2J5YlZRPSJ9
+ 处理结果 : &&in time :2016-05-25 18:00:31
+ 来自于支付成功2016-05-25 18:00:31
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690248428123","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 18:01:50","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"133","seller_id":"2088911789850583","notify_time":"2016-05-25 18:01:50","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"7de90d2a5a570a6c532bed61ed53047lbq","use_coupon":"N","sign_type":"RSA","sign":"CLjCqG5dmxVYTh\/GB+6So\/aSrZ5us9oAmJ1U7UU39+ZduDEBocZ4olEDSrvrq40vaNhsNlbHFbbz18vHOPpP2M1jjVWFx5+JFqxGUECiIL95OKveL0rYUH9UpXb1Jnj9DEjYREC5wTDYuv07C22Wsh\/hbCmzPwZp0mSh4dVr6yY="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MjI4NDM3OTU3OTE1MjExNDUyNzA2OTc4NzcwNDUzMTk0OTYx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0ODQyODEyMyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTg6MDE6NTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMzIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxODowMTo1MCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiN2RlOTBkMmE1YTU3MGE2YzUzMmJlZDYxZWQ1MzA0N2xicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IkNMakNxRzVkbXhWWVRoXC9HQis2U29cL2FTclo1dXM5b0FtSjFVN1VVMzkrWmR1REVCb2NaNG9sRURTcnZycTQwdmFOaHNObGJIRmJiejE4dkhPUHBQMk0xampWV0Z4NStKRnF4R1VFQ2lJTDk1T0t2ZUwwcllVSDlVcFhiMUpuajlERWpZUkVDNXdURFl1djA3QzIyV3NoXC9oYkNtelB3WnAwbVNoNGRWcjZ5WT0ifQ==
+ 处理结果 :false &&in time :2016-05-25 18:01:50
+ 来自于支付成功2016-05-25 18:01:50
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052521001004690248428123","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-25 18:01:50","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"133","seller_id":"2088911789850583","notify_time":"2016-05-25 18:01:51","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-25 18:01:51","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"c19d131d8da14567b1e1a0f182fcd72lbq","use_coupon":"N","sign_type":"RSA","sign":"gP7xzIb1GCt99tl2bI3CYoAld\/LwmDaDvsjwMF4JIdNRQb+IZklUym6+QvWYCrsEQVFQvPbHokusRW\/vVi0Gnykizb0q5UayC3hLBKl\/om1OuW+G8szSpbmTV\/vdLEUiVZECC0vvhCqSDevMYyPhu7YGKCdhD0BY4agu7lXtT6I="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTA0OTQ0NTIyNjE1ODA1MzExMTE5NDY4MDkyMTQ5ODIzNTEw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjUyMTAwMTAwNDY5MDI0ODQyODEyMyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjUgMTg6MDE6NTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTMzIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNSAxODowMTo1MSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjUgMTg6MDE6NTEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJjMTlkMTMxZDhkYTE0NTY3YjFlMWEwZjE4MmZjZDcybGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiZ1A3eHpJYjFHQ3Q5OXRsMmJJM0NZb0FsZFwvTHdtRGFEdnNqd01GNEpJZE5SUWIrSVprbFV5bTYrUXZXWUNyc0VRVkZRdlBiSG9rdXNSV1wvdlZpMEdueWtpemIwcTVVYXlDM2hMQktsXC9vbTFPdVcrRzhzelNwYm1UVlwvdmRMRVVpVlpFQ0MwdnZoQ3FTRGV2TVl5UGh1N1lHS0NkaEQwQlk0YWd1N2xYdFQ2ST0ifQ==
+ 处理结果 :false &&in time :2016-05-25 18:01:51
+ 来自于支付成功2016-05-25 18:01:51
+end  
+
+ 接收到支付通知 
+[]
+ POST接收完毕 
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260010255","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 08:57:38","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"134","seller_id":"2088911789850583","notify_time":"2016-05-26 08:57:39","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"2ace8494fd7f30014cee3af60171c3flbq","use_coupon":"N","sign_type":"RSA","sign":"MOsbcp+u31qMAqtIA6CWNz8V\/Yadra+x8iqaVaAI4JTpmTYOw4MKSBh2wi4hfbubuPXJJT5tgZRBvagGFH\/EuOdJ1lsxxpMDi1ihcITC3C\/o\/LpyF7lvge2YS3frTqXPiDxcek+lTiF4GxqBV\/8E5bKX3GOKerJwAIOA3iaNEm8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzA0Mjk5MzkzOTMzNjcwNDgzNDg3ODg1OTczMzY0MjY0NDM3&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDAxMDI1NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDg6NTc6MzgiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwODo1NzozOSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiMmFjZTg0OTRmZDdmMzAwMTRjZWUzYWY2MDE3MWMzZmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik1Pc2JjcCt1MzFxTUFxdElBNkNXTno4VlwvWWFkcmEreDhpcWFWYUFJNEpUcG1UWU93NE1LU0JoMndpNGhmYnVidVBYSkpUNXRnWlJCdmFnR0ZIXC9FdU9kSjFsc3h4cE1EaTFpaGNJVEMzQ1wvb1wvTHB5RjdsdmdlMllTM2ZyVHFYUGlEeGNlaytsVGlGNEd4cUJWXC84RTViS1gzR09LZXJKd0FJT0EzaWFORW04PSJ9
+ 处理结果 :false &&in time :2016-05-26 08:57:39
+ 来自于支付成功2016-05-26 08:57:39
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260010255","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 08:57:38","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"134","seller_id":"2088911789850583","notify_time":"2016-05-26 08:57:39","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 08:57:39","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"515662a32b8048d1e77506e60871e8dlbq","use_coupon":"N","sign_type":"RSA","sign":"NH0IL3BP5tkI2ZQ71cpBxmvu17ylj++IJL83evtxejQXNpZWZiKDW43XPWLbbI1xKDWulb2EKPFL0QXpW9Xod7stXcpo1ty\/Yyj6K9TuMaLL3Nf8BX6a87NnSIz9x+anMClB61EcwIX3E0CENNsvuHUbBr1PTY+foXC7d89KwvQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzMyMDM0OTE5MjE2NjQxMjYzNzg0ODYzNDAzNjQ1OTA2NzY4&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDAxMDI1NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDg6NTc6MzgiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwODo1NzozOSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDg6NTc6MzkiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI1MTU2NjJhMzJiODA0OGQxZTc3NTA2ZTYwODcxZThkbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiTkgwSUwzQlA1dGtJMlpRNzFjcEJ4bXZ1MTd5bGorK0lKTDgzZXZ0eGVqUVhOcFpXWmlLRFc0M1hQV0xiYkkxeEtEV3VsYjJFS1BGTDBRWHBXOVhvZDdzdFhjcG8xdHlcL1l5ajZLOVR1TWFMTDNOZjhCWDZhODdOblNJejl4K2FuTUNsQjYxRWN3SVgzRTBDRU5Oc3Z1SFViQnIxUFRZK2ZvWEM3ZDg5S3d2UT0ifQ==
+ 处理结果 :false &&in time :2016-05-26 08:57:39
+ 来自于支付成功2016-05-26 08:57:39
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261004778","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:00:22","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"135","seller_id":"2088911789850583","notify_time":"2016-05-26 09:00:22","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"906de6af1f3b0a4bfb68744b053f77clbq","use_coupon":"N","sign_type":"RSA","sign":"YvjpDKqaVsc6SUqiRBDvAFz2rW30k68RptEHt513bruT7XL+CDZw3j7HaMwR4xEjAh7u1d6\/LHoBFBjLSX3cWbHiZqayWKekyeP1TsF76YkoKSkbjNEndKCIp1JdvLiXCB1KwwVtAdbwLHv5vHKjub9WcIhoTKvJmY3iMhaWVcs="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NDc1NDY2MTA0Mzc0Mjk1MjUzMzY3NDU0Nzg5ODE5MzcyMTgy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTAwNDc3OCIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDA6MjIiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM1Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowMDoyMiIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiOTA2ZGU2YWYxZjNiMGE0YmZiNjg3NDRiMDUzZjc3Y2xicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ill2anBES3FhVnNjNlNVcWlSQkR2QUZ6MnJXMzBrNjhScHRFSHQ1MTNicnVUN1hMK0NEWnczajdIYU13UjR4RWpBaDd1MWQ2XC9MSG9CRkJqTFNYM2NXYkhpWnFheVdLZWt5ZVAxVHNGNzZZa29LU2tiak5FbmRLQ0lwMUpkdkxpWENCMUt3d1Z0QWRid0xIdjV2SEtqdWI5V2NJaG9US3ZKbVkzaU1oYVdWY3M9In0=
+ 处理结果 :string(10) "alipaydata"
+false &&in time :2016-05-26 09:00:22
+ 来自于支付成功2016-05-26 09:00:22
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261004778","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:00:22","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"135","seller_id":"2088911789850583","notify_time":"2016-05-26 09:00:23","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:00:23","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"f34166e61a2e7f8f0100ddfa9cc4906lbq","use_coupon":"N","sign_type":"RSA","sign":"mx5vDcDqfunbjyJ6wNMMco8u0B+yzN5RiK\/HShhcm712vNjyTI6j0huHqLG2nzSPX\/ZXxO0\/hlGDjENkkQhJMke3Lyg9+ZHq+4z+Mjm5UnTsG8Z+cmf+x7oaYzTsXpEWDnK6mzpT661ttC9wCQEqfLFQGws8ZR7aehn5ya5rA8g="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTE4MTUwMDY0ODY2MDU4NDkwMTk1MTkxODI4OTE4ODQ0OTA5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTAwNDc3OCIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDA6MjIiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM1Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowMDoyMyIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDA6MjMiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJmMzQxNjZlNjFhMmU3ZjhmMDEwMGRkZmE5Y2M0OTA2bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoibXg1dkRjRHFmdW5ianlKNndOTU1jbzh1MEIreXpONVJpS1wvSFNoaGNtNzEydk5qeVRJNmowaHVIcUxHMm56U1BYXC9aWHhPMFwvaGxHRGpFTmtrUWhKTWtlM0x5ZzkrWkhxKzR6K01qbTVVblRzRzhaK2NtZit4N29hWXpUc1hwRVdEbks2bXpwVDY2MXR0Qzl3Q1FFcWZMRlFHd3M4WlI3YWVobjV5YTVyQThnPSJ9
+ 处理结果 :string(10) "alipaydata"
+false &&in time :2016-05-26 09:00:23
+ 来自于支付成功2016-05-26 09:00:23
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261004795","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:01:08","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"136","seller_id":"2088911789850583","notify_time":"2016-05-26 09:01:09","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"21c2f8740baccd6544743d2ff6bcdf8lbq","use_coupon":"N","sign_type":"RSA","sign":"ZUOuiWyvPq+WjeYUJ8i9J+XR1cf5H8d7m4Fpy3pJ7SkCJUU5dhVfU68P1OkVPr0xpHNEFjJkYCFRvziE4x9qSU4C8E1lKl6mbhI9Gbq7vwA87TG+uSLN0zV4WOLH52wHJEPtZH2f8MgPhTJsk2p1PM68t8eLmKe1kRWc0WvnXdE="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODEyMjM0NzUxMjYxMjg1NjA5MTcyMzU0MzAxNzY2ODc3MTI5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTAwNDc5NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDE6MDgiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM2Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowMTowOSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiMjFjMmY4NzQwYmFjY2Q2NTQ0NzQzZDJmZjZiY2RmOGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IlpVT3VpV3l2UHErV2plWVVKOGk5SitYUjFjZjVIOGQ3bTRGcHkzcEo3U2tDSlVVNWRoVmZVNjhQMU9rVlByMHhwSE5FRmpKa1lDRlJ2emlFNHg5cVNVNEM4RTFsS2w2bWJoSTlHYnE3dndBODdURyt1U0xOMHpWNFdPTEg1MndISkVQdFpIMmY4TWdQaFRKc2sycDFQTTY4dDhlTG1LZTFrUldjMFd2blhkRT0ifQ==
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261004795"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:01:08"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "136"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:01:09"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "21c2f8740baccd6544743d2ff6bcdf8lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "ZUOuiWyvPq+WjeYUJ8i9J+XR1cf5H8d7m4Fpy3pJ7SkCJUU5dhVfU68P1OkVPr0xpHNEFjJkYCFRvziE4x9qSU4C8E1lKl6mbhI9Gbq7vwA87TG+uSLN0zV4WOLH52wHJEPtZH2f8MgPhTJsk2p1PM68t8eLmKe1kRWc0WvnXdE="
+}
+false &&in time :2016-05-26 09:01:09
+ 来自于支付成功2016-05-26 09:01:09
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261004795","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:01:08","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"136","seller_id":"2088911789850583","notify_time":"2016-05-26 09:01:09","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:01:09","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"9d0b0da65646924a30089a1a410cb4dlbq","use_coupon":"N","sign_type":"RSA","sign":"AqGmDakf\/vzn\/7fVG+GVJjygPFqdbamAukvqSPsaZEP3WF+RZwX3iONA7udIrENqp5775nfchJLysWOQ8uly\/wSgWxdWvPu9cSHgZhkV9pxAPSTQrS5MXCMYoVbvMwAA8rIvxtX5K53+EeqJkaspVSNdO3\/+CsuCzp1qx4kCJMw="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTU5Mzk0NTUyODM0MTAzMjAzNjA2OTAyMjQzODA1NDQ0NjE1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTAwNDc5NSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDE6MDgiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM2Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowMTowOSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDE6MDkiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI5ZDBiMGRhNjU2NDY5MjRhMzAwODlhMWE0MTBjYjRkbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiQXFHbURha2ZcL3Z6blwvN2ZWRytHVkpqeWdQRnFkYmFtQXVrdnFTUHNhWkVQM1dGK1Jad1gzaU9OQTd1ZElyRU5xcDU3NzVuZmNoSkx5c1dPUTh1bHlcL3dTZ1d4ZFd2UHU5Y1NIZ1poa1Y5cHhBUFNUUXJTNU1YQ01Zb1Zidk13QUE4ckl2eHRYNUs1MytFZXFKa2FzcFZTTmRPM1wvK0NzdUN6cDFxeDRrQ0pNdz0ifQ==
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261004795"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:01:08"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "136"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:01:09"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:01:09"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "9d0b0da65646924a30089a1a410cb4dlbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "AqGmDakf/vzn/7fVG+GVJjygPFqdbamAukvqSPsaZEP3WF+RZwX3iONA7udIrENqp5775nfchJLysWOQ8uly/wSgWxdWvPu9cSHgZhkV9pxAPSTQrS5MXCMYoVbvMwAA8rIvxtX5K53+EeqJkaspVSNdO3/+CsuCzp1qx4kCJMw="
+}
+false &&in time :2016-05-26 09:01:09
+ 来自于支付成功2016-05-26 09:01:09
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260010397","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:04:53","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"137","seller_id":"2088911789850583","notify_time":"2016-05-26 09:04:53","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"8d501f2f2b9e720bc0d268d77eecc22lbq","use_coupon":"N","sign_type":"RSA","sign":"ia+jLJIkOgp+kF4tNck0IAOyOgSdLuyvqj+4li4VHuZTRt7sBVnH4Hatb6sU0E153kBJdkDrIYwbjnE94vIBJoExvIDDjZ93cISglWCpiauPkn8xg\/izoOokckDqsk\/QA3pg\/69cnMK6EnHYElU5DiE4F4GbF5tqIt+tPwwQqI0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=Nzk1NjQzNzMxMzQwMDc3MTc0NTA3Mjc0MDMyMzk1NDc1NzMw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDAxMDM5NyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDQ6NTMiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM3Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNDo1MyIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiOGQ1MDFmMmYyYjllNzIwYmMwZDI2OGQ3N2VlY2MyMmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6ImlhK2pMSklrT2dwK2tGNHROY2swSUFPeU9nU2RMdXl2cWorNGxpNFZIdVpUUnQ3c0JWbkg0SGF0YjZzVTBFMTUza0JKZGtEcklZd2JqbkU5NHZJQkpvRXh2SUREalo5M2NJU2dsV0NwaWF1UGtuOHhnXC9pem9Pb2tja0Rxc2tcL1FBM3BnXC82OWNuTUs2RW5IWUVsVTVEaUU0RjRHYkY1dHFJdCt0UHd3UXFJMD0ifQ==
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260010397"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:04:53"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "137"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:04:53"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "8d501f2f2b9e720bc0d268d77eecc22lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "ia+jLJIkOgp+kF4tNck0IAOyOgSdLuyvqj+4li4VHuZTRt7sBVnH4Hatb6sU0E153kBJdkDrIYwbjnE94vIBJoExvIDDjZ93cISglWCpiauPkn8xg/izoOokckDqsk/QA3pg/69cnMK6EnHYElU5DiE4F4GbF5tqIt+tPwwQqI0="
+}
+
+ 寻找的交易号为 2016052621001004690260010397 找到结果为 false &&in time :2016-05-26 09:04:53
+ 来自于支付成功2016-05-26 09:04:53
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260010397","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:04:53","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"137","seller_id":"2088911789850583","notify_time":"2016-05-26 09:04:54","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:04:53","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"54d7ca446e70b0c14ac61563918892clbq","use_coupon":"N","sign_type":"RSA","sign":"MmziBfV39U27qKz7VcB8hm3ro\/a+DzuYSB\/FRHkQJw\/azLyUZZFU+OEZqeHdIVQ4yjdF2eIrTz+t2+nmFAMwXvxslPEiiEeHQxaxKVbmI0ymQ3gOUd\/BUa6aQLe8w7jWUHhsoFhvFaFgJhpfCz+RMZjhlhQDvoxaxZ1zQRpW5tM="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NjY2ODQyMjg5NjU2MjMyMjY1Mjc2MDg4NjQ2MjM3MTI5NTAw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDAxMDM5NyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDQ6NTMiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM3Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNDo1NCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDQ6NTMiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI1NGQ3Y2E0NDZlNzBiMGMxNGFjNjE1NjM5MTg4OTJjbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiTW16aUJmVjM5VTI3cUt6N1ZjQjhobTNyb1wvYStEenVZU0JcL0ZSSGtRSndcL2F6THlVWlpGVStPRVpxZUhkSVZRNHlqZEYyZUlyVHordDIrbm1GQU13WHZ4c2xQRWlpRWVIUXhheEtWYm1JMHltUTNnT1VkXC9CVWE2YVFMZTh3N2pXVUhoc29GaHZGYUZnSmhwZkN6K1JNWmpobGhRRHZveGF4WjF6UVJwVzV0TT0ifQ==
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260010397"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:04:53"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "137"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:04:54"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:04:53"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "54d7ca446e70b0c14ac61563918892clbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "MmziBfV39U27qKz7VcB8hm3ro/a+DzuYSB/FRHkQJw/azLyUZZFU+OEZqeHdIVQ4yjdF2eIrTz+t2+nmFAMwXvxslPEiiEeHQxaxKVbmI0ymQ3gOUd/BUa6aQLe8w7jWUHhsoFhvFaFgJhpfCz+RMZjhlhQDvoxaxZ1zQRpW5tM="
+}
+
+ 寻找的交易号为 2016052621001004690260010397 找到结果为 false &&in time :2016-05-26 09:04:54
+ 来自于支付成功2016-05-26 09:04:54
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867191","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:06:00","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"138","seller_id":"2088911789850583","notify_time":"2016-05-26 09:06:00","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"0a4706e3dc833a8b9c57a372b7b3808lbq","use_coupon":"N","sign_type":"RSA","sign":"OG9pVsOMXVfzj6XLgINCSUOSZHY2JLr8dWugOm7SV9FVctQJLwb4AmxD5qLcjJ9mvBBmsIBmeUNFvxmOz3KVSn4vaDt\/PcVKf2UcmgXk1I9JnFXyKIvDbLp96Yog9PHPTgyrFPelI9TInTeBEQ7kzr8bN2JAj04iIZKyK7rs0qY="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzA0MTQxNTA0MTgyMTgyMjcyNzc5MTQwMTk0MzA1MDU3Nzk3&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzE5MSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDY6MDAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM4Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNjowMCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiMGE0NzA2ZTNkYzgzM2E4YjljNTdhMzcyYjdiMzgwOGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik9HOXBWc09NWFZmemo2WExnSU5DU1VPU1pIWTJKTHI4ZFd1Z09tN1NWOUZWY3RRSkx3YjRBbXhENXFMY2pKOW12QkJtc0lCbWVVTkZ2eG1PejNLVlNuNHZhRHRcL1BjVktmMlVjbWdYazFJOUpuRlh5S0l2RGJMcDk2WW9nOVBIUFRneXJGUGVsSTlUSW5UZUJFUTdrenI4Yk4ySkFqMDRpSVpLeUs3cnMwcVk9In0=
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867191"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:06:00"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "138"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:06:00"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "0a4706e3dc833a8b9c57a372b7b3808lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "OG9pVsOMXVfzj6XLgINCSUOSZHY2JLr8dWugOm7SV9FVctQJLwb4AmxD5qLcjJ9mvBBmsIBmeUNFvxmOz3KVSn4vaDt/PcVKf2UcmgXk1I9JnFXyKIvDbLp96Yog9PHPTgyrFPelI9TInTeBEQ7kzr8bN2JAj04iIZKyK7rs0qY="
+}
+
+ 寻找的交易号为 2016052621001004690260867191 找到结果为 false &&in time :2016-05-26 09:06:00
+ 来自于支付成功2016-05-26 09:06:00
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867191","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:06:00","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"138","seller_id":"2088911789850583","notify_time":"2016-05-26 09:06:01","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:06:01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"74a13a43388e335eedd8a0dae022d93lbq","use_coupon":"N","sign_type":"RSA","sign":"XPJkOgWgzonUYHMhTlVOe1ot+qKf5x05ziqsA44A2GQrYzY+RjixDcG7DupqJuiddtxySWiaNFE8n+2JP0Mb0dwX5O5T+RhoTkRYaCTUpRkKysPFjhV8bvDUBLDqHMRn2vRrpAPcAK1DDWQ\/ghq\/gydMiEBRSo95T0lLYNQ\/vks="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODgxNTAzNzY2NjkzODk2NDg0Mjg1OTg0NDE5Mjk4NTM3MDM5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzE5MSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDY6MDAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM4Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNjowMSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDY6MDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI3NGExM2E0MzM4OGUzMzVlZWRkOGEwZGFlMDIyZDkzbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiWFBKa09nV2d6b25VWUhNaFRsVk9lMW90K3FLZjV4MDV6aXFzQTQ0QTJHUXJZelkrUmppeERjRzdEdXBxSnVpZGR0eHlTV2lhTkZFOG4rMkpQME1iMGR3WDVPNVQrUmhvVGtSWWFDVFVwUmtLeXNQRmpoVjhidkRVQkxEcUhNUm4ydlJycEFQY0FLMUREV1FcL2docVwvZ3lkTWlFQlJTbzk1VDBsTFlOUVwvdmtzPSJ9
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867191"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:06:00"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "138"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:06:01"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:06:01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "74a13a43388e335eedd8a0dae022d93lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "XPJkOgWgzonUYHMhTlVOe1ot+qKf5x05ziqsA44A2GQrYzY+RjixDcG7DupqJuiddtxySWiaNFE8n+2JP0Mb0dwX5O5T+RhoTkRYaCTUpRkKysPFjhV8bvDUBLDqHMRn2vRrpAPcAK1DDWQ/ghq/gydMiEBRSo95T0lLYNQ/vks="
+}
+
+ 寻找的交易号为 2016052621001004690260867191 找到结果为 false &&in time :2016-05-26 09:06:01
+ 来自于支付成功2016-05-26 09:06:01
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867216","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:07:10","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"139","seller_id":"2088911789850583","notify_time":"2016-05-26 09:07:10","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"d683524dd0c232352b32a54c0e8076elbq","use_coupon":"N","sign_type":"RSA","sign":"FVuKVeEYJxYlk9afyrOFjDylMZ4aon8SCdrfxQOhc7xgfwDf15xEdHvcExgNi+mn2jv3g7+JSq6uRkGD863\/q9OAsGWp1deroeLJ6jA8FjdBEJrueC5McxFWXewRPGNzA2VUUDgv4iU+BoMZl8JGuQATEXR\/WQdfT3iZ49UsuGE="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MTI3NzAyNjU2NjUyMDc2NDYzNzgxNDcxMjU1MjA1MjI3NTcy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzIxNiIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDc6MTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM5Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNzoxMCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiZDY4MzUyNGRkMGMyMzIzNTJiMzJhNTRjMGU4MDc2ZWxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IkZWdUtWZUVZSnhZbGs5YWZ5ck9GakR5bE1aNGFvbjhTQ2RyZnhRT2hjN3hnZndEZjE1eEVkSHZjRXhnTmkrbW4yanYzZzcrSlNxNnVSa0dEODYzXC9xOU9Bc0dXcDFkZXJvZUxKNmpBOEZqZEJFSnJ1ZUM1TWN4RldYZXdSUEdOekEyVlVVRGd2NGlVK0JvTVpsOEpHdVFBVEVYUlwvV1FkZlQzaVo0OVVzdUdFPSJ9
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867216"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:07:10"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "139"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:07:10"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "d683524dd0c232352b32a54c0e8076elbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "FVuKVeEYJxYlk9afyrOFjDylMZ4aon8SCdrfxQOhc7xgfwDf15xEdHvcExgNi+mn2jv3g7+JSq6uRkGD863/q9OAsGWp1deroeLJ6jA8FjdBEJrueC5McxFWXewRPGNzA2VUUDgv4iU+BoMZl8JGuQATEXR/WQdfT3iZ49UsuGE="
+}
+
+ 寻找的交易号为 2016052621001004690260867216 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:07:10
+ 来自于支付成功2016-05-26 09:07:10
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867216","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:07:10","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"139","seller_id":"2088911789850583","notify_time":"2016-05-26 09:07:11","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:07:11","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"aab74cda266e2bb8e2aa82c34306f7dlbq","use_coupon":"N","sign_type":"RSA","sign":"Hm6sPuzp1Z\/22nXVWygYFy5pqG5dqAMh33g33855WppO+3\/zIk3hrN1sJyTyyy1v59yCBOVuiTY6Sz7\/DlexxY7mADjJNDXxYeLZUSeiWBvk8B0q54C2yqXnRbdIFqyVYiDteCNLlLBdv\/+nB5\/bLxExIE7H4HKZOxM61ngxH\/w="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODIxNDc1Mzg4NDc1NjAwMDM2OTY2NzMyNTU4NDcxOTc5MDky&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzIxNiIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDc6MTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTM5Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowNzoxMSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDc6MTEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJhYWI3NGNkYTI2NmUyYmI4ZTJhYTgyYzM0MzA2ZjdkbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiSG02c1B1enAxWlwvMjJuWFZXeWdZRnk1cHFHNWRxQU1oMzNnMzM4NTVXcHBPKzNcL3pJazNock4xc0p5VHl5eTF2NTl5Q0JPVnVpVFk2U3o3XC9EbGV4eFk3bUFEakpORFh4WWVMWlVTZWlXQnZrOEIwcTU0QzJ5cVhuUmJkSUZxeVZZaUR0ZUNOTGxMQmR2XC8rbkI1XC9iTHhFeElFN0g0SEtaT3hNNjFuZ3hIXC93PSJ9
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867216"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:07:10"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "139"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:07:11"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:07:11"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "aab74cda266e2bb8e2aa82c34306f7dlbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "Hm6sPuzp1Z/22nXVWygYFy5pqG5dqAMh33g33855WppO+3/zIk3hrN1sJyTyyy1v59yCBOVuiTY6Sz7/DlexxY7mADjJNDXxYeLZUSeiWBvk8B0q54C2yqXnRbdIFqyVYiDteCNLlLBdv/+nB5/bLxExIE7H4HKZOxM61ngxH/w="
+}
+
+ 寻找的交易号为 2016052621001004690260867216 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:07:11
+ 来自于支付成功2016-05-26 09:07:11
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867258","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:09:25","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"140","seller_id":"2088911789850583","notify_time":"2016-05-26 09:09:25","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"9492953ed2f58b2733cdd036b29ab36lbq","use_coupon":"N","sign_type":"RSA","sign":"nAJ9aeo3iukHj69mlu4+oeyTE3rhE1GGS96q4xx4+jAMTDuBf\/73GWDDb2glYLgtcTfhPfZYy3lC4f9CYGEXKhDHhWxm1LTGbp1MU11qkAM\/3\/PWBpRxCxZp6Rr\/BN55C9De1k7QUbDft51KO6KLN9KQvWrNor1ekttV88ndJI8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzQ3NDMxNDU5NDg0Njg4NjUyMzczNjA3MDgxMzE4NDI5OTM5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzI1OCIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDk6MjUiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowOToyNSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiOTQ5Mjk1M2VkMmY1OGIyNzMzY2RkMDM2YjI5YWIzNmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Im5BSjlhZW8zaXVrSGo2OW1sdTQrb2V5VEUzcmhFMUdHUzk2cTR4eDQrakFNVER1QmZcLzczR1dERGIyZ2xZTGd0Y1RmaFBmWll5M2xDNGY5Q1lHRVhLaERIaFd4bTFMVEdicDFNVTExcWtBTVwvM1wvUFdCcFJ4Q3hacDZSclwvQk41NUM5RGUxazdRVWJEZnQ1MUtPNktMTjlLUXZXck5vcjFla3R0Vjg4bmRKSTg9In0=
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867258"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:09:25"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "140"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:09:25"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "9492953ed2f58b2733cdd036b29ab36lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "nAJ9aeo3iukHj69mlu4+oeyTE3rhE1GGS96q4xx4+jAMTDuBf/73GWDDb2glYLgtcTfhPfZYy3lC4f9CYGEXKhDHhWxm1LTGbp1MU11qkAM/3/PWBpRxCxZp6Rr/BN55C9De1k7QUbDft51KO6KLN9KQvWrNor1ekttV88ndJI8="
+}
+
+ 寻找的交易号为 2016052621001004690260867258 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:09:25
+ 来自于支付成功2016-05-26 09:09:25
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867258","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:09:25","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"140","seller_id":"2088911789850583","notify_time":"2016-05-26 09:09:26","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:09:26","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"eecb807924a29ddb47dec2e0b2f3c5dlbq","use_coupon":"N","sign_type":"RSA","sign":"mzaXNsdtcr9DrxjAj+ytQVgeHPW4NQCsFIbZo8qg1PrVse8PTnRy\/gIYuihZo3C2dW80VDmzH\/au+LFpCIhmfKyVSylpV0p2163\/FtL1FF9rgPMKfZ1rqkOYOFoFSZLfxJeUcgVKqPgrJeYGyXSZbsHsCifHuIqgGEae3AnGB+8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTc3Mzg2NTMzMTAzNDQ2NzE0Nzg4Njc1NTEwNjE4NTQzNjY4&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzI1OCIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MDk6MjUiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOTowOToyNiIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MDk6MjYiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiJlZWNiODA3OTI0YTI5ZGRiNDdkZWMyZTBiMmYzYzVkbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoibXphWE5zZHRjcjlEcnhqQWoreXRRVmdlSFBXNE5RQ3NGSWJabzhxZzFQclZzZThQVG5SeVwvZ0lZdWloWm8zQzJkVzgwVkRtekhcL2F1K0xGcENJaG1mS3lWU3lscFYwcDIxNjNcL0Z0TDFGRjlyZ1BNS2ZaMXJxa09ZT0ZvRlNaTGZ4SmVVY2dWS3FQZ3JKZVlHeVhTWmJzSHNDaWZIdUlxZ0dFYWUzQW5HQis4PSJ9
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867258"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:09:25"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "140"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:09:26"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:09:26"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "eecb807924a29ddb47dec2e0b2f3c5dlbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "mzaXNsdtcr9DrxjAj+ytQVgeHPW4NQCsFIbZo8qg1PrVse8PTnRy/gIYuihZo3C2dW80VDmzH/au+LFpCIhmfKyVSylpV0p2163/FtL1FF9rgPMKfZ1rqkOYOFoFSZLfxJeUcgVKqPgrJeYGyXSZbsHsCifHuIqgGEae3AnGB+8="
+}
+
+ 寻找的交易号为 2016052621001004690260867258 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:09:26
+ 来自于支付成功2016-05-26 09:09:26
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867283","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:11:41","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"141","seller_id":"2088911789850583","notify_time":"2016-05-26 09:11:41","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"c9c9a95c371e9686ba62a6377add562lbq","use_coupon":"N","sign_type":"RSA","sign":"cBgx5G37mDRLAmaS+38nR5R\/FXVNPmkZuFCfqM56NuYJ8J020jYJ9AKi8RA58Km9cjKrS9njpEUo0XQCBf\/uzjpAV1hCdnJDnVk3LKatinsYRK5Atvxqqo5rNsdUom\/utT1\/USpUQ5rqBHtDUZWxwhXFijLTnmcUO0XxGYZ6bWA="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODQ3NDUyNDc0MTQwNzE1NjkyNTA4MDAzMzQ0NzQ4NDczNDMx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzI4MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MTE6NDEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToxMTo0MSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiYzljOWE5NWMzNzFlOTY4NmJhNjJhNjM3N2FkZDU2MmxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6ImNCZ3g1RzM3bURSTEFtYVMrMzhuUjVSXC9GWFZOUG1rWnVGQ2ZxTTU2TnVZSjhKMDIwallKOUFLaThSQTU4S205Y2pLclM5bmpwRVVvMFhRQ0JmXC91empwQVYxaENkbkpEblZrM0xLYXRpbnNZUks1QXR2eHFxbzVyTnNkVW9tXC91dFQxXC9VU3BVUTVycUJIdERVWld4d2hYRmlqTFRubWNVTzBYeEdZWjZiV0E9In0=
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867283"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:11:41"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "141"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:11:41"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "c9c9a95c371e9686ba62a6377add562lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "cBgx5G37mDRLAmaS+38nR5R/FXVNPmkZuFCfqM56NuYJ8J020jYJ9AKi8RA58Km9cjKrS9njpEUo0XQCBf/uzjpAV1hCdnJDnVk3LKatinsYRK5Atvxqqo5rNsdUom/utT1/USpUQ5rqBHtDUZWxwhXFijLTnmcUO0XxGYZ6bWA="
+}
+
+ 寻找的交易号为 2016052621001004690260867283 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:11:41
+ 来自于支付成功2016-05-26 09:11:41
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690260867283","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:11:41","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"141","seller_id":"2088911789850583","notify_time":"2016-05-26 09:11:42","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:11:41","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"938335e3bc1c57a0e7ae74783afe88clbq","use_coupon":"N","sign_type":"RSA","sign":"m0nKN7LZJmVu4muyiF+nLvzsN72oVnAXZv9BLMcS9AYSALL6aTAA8leyUp5r1SYMEQtc+llAnQnDZ\/sEb+ISHiB2ZalLwPcCTP01IMWdMmIxhkJkgRGotTPJEFmkuvsREvKqE9CYyHb7DyejE6jDE5vadxYpk5PwRT8o2Tpsoc8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NDU0Mzk2Mjk1ODMwNzcwMzc5NDM1NjMzODY4NzQ4MzI4MjMx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MDg2NzI4MyIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MTE6NDEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToxMTo0MiIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MTE6NDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI5MzgzMzVlM2JjMWM1N2EwZTdhZTc0NzgzYWZlODhjbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoibTBuS043TFpKbVZ1NG11eWlGK25MdnpzTjcyb1ZuQVhadjlCTE1jUzlBWVNBTEw2YVRBQThsZXlVcDVyMVNZTUVRdGMrbGxBblFuRFpcL3NFYitJU0hpQjJaYWxMd1BjQ1RQMDFJTVdkTW1JeGhrSmtnUkdvdFRQSkVGbWt1dnNSRXZLcUU5Q1l5SGI3RHllakU2akRFNXZhZHhZcGs1UHdSVDhvMlRwc29jOD0ifQ==
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690260867283"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:11:41"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "141"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:11:42"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:11:41"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "938335e3bc1c57a0e7ae74783afe88clbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "m0nKN7LZJmVu4muyiF+nLvzsN72oVnAXZv9BLMcS9AYSALL6aTAA8leyUp5r1SYMEQtc+llAnQnDZ/sEb+ISHiB2ZalLwPcCTP01IMWdMmIxhkJkgRGotTPJEFmkuvsREvKqE9CYyHb7DyejE6jDE5vadxYpk5PwRT8o2Tpsoc8="
+}
+
+ 寻找的交易号为 2016052621001004690260867283 找到结果为 false 交易号重叠 &&in time :2016-05-26 09:11:42
+ 来自于支付成功2016-05-26 09:11:42
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261874351","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:12:37","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"142","seller_id":"2088911789850583","notify_time":"2016-05-26 09:12:37","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"999603b901047f0c6f27bdf5b7a7738lbq","use_coupon":"N","sign_type":"RSA","sign":"nhKqpWhRvPR7f2LNR35fhKTkyTClF3PieubcYp7g0Ch8wFlEGv6SBC584942Dy4VCF7bVd7UbFO+bJZUwkGuiOjQhTf0z\/N243ykL8MHyTb1Sz5EXb64h4Ozn8U32X3yY1MJ7pRdPDGXgkmPwNs1alHHmFbFfl5I2bw+Q1nbQSY="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODU4MDQyMDU2MjkwMDAxODY0MzI1MjI4MjAwMzc2NTIzNDY1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTg3NDM1MSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MTI6MzciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQyIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToxMjozNyIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiOTk5NjAzYjkwMTA0N2YwYzZmMjdiZGY1YjdhNzczOGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Im5oS3FwV2hSdlBSN2YyTE5SMzVmaEtUa3lUQ2xGM1BpZXViY1lwN2cwQ2g4d0ZsRUd2NlNCQzU4NDk0MkR5NFZDRjdiVmQ3VWJGTytiSlpVd2tHdWlPalFoVGYwelwvTjI0M3lrTDhNSHlUYjFTejVFWGI2NGg0T3puOFUzMlgzeVkxTUo3cFJkUERHWGdrbVB3TnMxYWxISG1GYkZmbDVJMmJ3K1ExbmJRU1k9In0=
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261874351"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:12:37"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "142"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:12:37"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "999603b901047f0c6f27bdf5b7a7738lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "nhKqpWhRvPR7f2LNR35fhKTkyTClF3PieubcYp7g0Ch8wFlEGv6SBC584942Dy4VCF7bVd7UbFO+bJZUwkGuiOjQhTf0z/N243ykL8MHyTb1Sz5EXb64h4Ozn8U32X3yY1MJ7pRdPDGXgkmPwNs1alHHmFbFfl5I2bw+Q1nbQSY="
+}
+
+ 寻找的交易号为 2016052621001004690261874351 找到结果为 string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-26 09:12:37
+ 来自于支付成功2016-05-26 09:12:37
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261874351","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:12:37","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"142","seller_id":"2088911789850583","notify_time":"2016-05-26 09:12:38","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:12:37","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"0ae69b091c94755cd099036968e72b4lbq","use_coupon":"N","sign_type":"RSA","sign":"o23hMAa3L6tUFMgpL87GQxHY8+ixNpJ17kOjXmqtqnvqKAmTKbZX+jjar9a4I6UpLcv46d8vEgphMpbP7w0ewJyMDrng9OnWKePDTp8xc1iiFAbwRZE4xgfbIXEMkwDcvvIUrOKv2Dc5gp\/75G+1TOTi\/kOAafWQKzym5Ka\/KX0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MTMxNDAwMjg0MTc4MjIyNDkxNTc3MTAwMDYyNTIyMzIwODIz&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTg3NDM1MSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MTI6MzciLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQyIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToxMjozOCIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MTI6MzciLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiIwYWU2OWIwOTFjOTQ3NTVjZDA5OTAzNjk2OGU3MmI0bGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoibzIzaE1BYTNMNnRVRk1ncEw4N0dReEhZOCtpeE5wSjE3a09qWG1xdHFudnFLQW1US2JaWCtqamFyOWE0STZVcExjdjQ2ZDh2RWdwaE1wYlA3dzBld0p5TURybmc5T25XS2VQRFRwOHhjMWlpRkFid1JaRTR4Z2ZiSVhFTWt3RGN2dklVck9LdjJEYzVncFwvNzVHKzFUT1RpXC9rT0FhZldRS3p5bTVLYVwvS1gwPSJ9
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261874351"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:12:37"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "142"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:12:38"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:12:37"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "0ae69b091c94755cd099036968e72b4lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "o23hMAa3L6tUFMgpL87GQxHY8+ixNpJ17kOjXmqtqnvqKAmTKbZX+jjar9a4I6UpLcv46d8vEgphMpbP7w0ewJyMDrng9OnWKePDTp8xc1iiFAbwRZE4xgfbIXEMkwDcvvIUrOKv2Dc5gp/75G+1TOTi/kOAafWQKzym5Ka/KX0="
+}
+
+ 寻找的交易号为 2016052621001004690261874351 找到结果为 2false 交易号重叠 &&in time :2016-05-26 09:12:38
+ 来自于支付成功2016-05-26 09:12:38
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000249321988","buyer_email":"18883259156","gmt_create":"2016-05-26 09:21:20","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"143","seller_id":"2088911789850583","notify_time":"2016-05-26 09:21:20","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"796551317202b3e345afaac986fcedag02","use_coupon":"N","sign_type":"RSA","sign":"ctZvkzJJuZASaoEikh3rFZ3i3aHkm31Qi+\/CHFHoJTUH2S0hV4Bm2Kth+fcOQvptnlaa+eiwg\/x3R7lZPKivWGQcbclY9K8LWCnsX3wvfDky8zQxT684BOD1o4bUqd7WEliqfC5y+anuDpN0QtjB18fPxjgM++P9z33XQ1OOkyA="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODA3MDAwOTc2NzI0NzkxMjEzNjI5NjUwNTU3NzQ1OTI4OTc5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0OTMyMTk4OCIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAwOToyMToyMCIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNDMiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDA5OjIxOjIwIiwiYm9keSI6IjMwPz8/IiwidHJhZGVfc3RhdHVzIjoiV0FJVF9CVVlFUl9QQVkiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiWSIsInRvdGFsX2ZlZSI6IjAuMDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODg4MDIzNjcyMTkwMDAiLCJub3RpZnlfaWQiOiI3OTY1NTEzMTcyMDJiM2UzNDVhZmFhYzk4NmZjZWRhZzAyIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiY3Radmt6Skp1WkFTYW9FaWtoM3JGWjNpM2FIa20zMVFpK1wvQ0hGSG9KVFVIMlMwaFY0Qm0yS3RoK2ZjT1F2cHRubGFhK2Vpd2dcL3gzUjdsWlBLaXZXR1FjYmNsWTlLOExXQ25zWDN3dmZEa3k4elF4VDY4NEJPRDFvNGJVcWQ3V0VsaXFmQzV5K2FudURwTjBRdGpCMThmUHhqZ00rK1A5ejMzWFExT09reUE9In0=
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004000249321988"
+  ["buyer_email"]=>
+  string(11) "18883259156"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:21:20"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "143"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:21:20"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088802367219000"
+  ["notify_id"]=>
+  string(34) "796551317202b3e345afaac986fcedag02"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "ctZvkzJJuZASaoEikh3rFZ3i3aHkm31Qi+/CHFHoJTUH2S0hV4Bm2Kth+fcOQvptnlaa+eiwg/x3R7lZPKivWGQcbclY9K8LWCnsX3wvfDky8zQxT684BOD1o4bUqd7WEliqfC5y+anuDpN0QtjB18fPxjgM++P9z33XQ1OOkyA="
+}
+
+ 寻找的交易号为 2016052621001004000249321988 找到结果为 string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-26 09:21:20
+ 来自于支付成功2016-05-26 09:21:20
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000249321988","buyer_email":"18883259156","gmt_create":"2016-05-26 09:21:20","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"143","seller_id":"2088911789850583","notify_time":"2016-05-26 09:21:21","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:21:21","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"d74ca255517c6ec8b02d5bcfc55c65fg02","use_coupon":"N","sign_type":"RSA","sign":"luwIaxmdNjSk1aLW1G53Up7hXGJbUhBZwEBEd6czToRKFTWd+Lqs2jADMk4c8lYMGPh9Q6ifPDq032oadYuDt6sf3mF3YKN\/p0JwFevyQrQiTn2pNZv8d85iRR6doMjfOcCFYKmd2uTaXgtoOSGYNWNfj95Ehnt3EoVo6JVjLpY="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODMzNTM1MzYwODYyMTY4MDcwMjkzOTQyODk0NjU3OTc4ODEx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0OTMyMTk4OCIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAwOToyMToyMCIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNDMiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDA5OjIxOjIxIiwiYm9keSI6IjMwPz8/IiwidHJhZGVfc3RhdHVzIjoiVFJBREVfU1VDQ0VTUyIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJOIiwidG90YWxfZmVlIjoiMC4wMSIsImdtdF9wYXltZW50IjoiMjAxNi0wNS0yNiAwOToyMToyMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6ImQ3NGNhMjU1NTE3YzZlYzhiMDJkNWJjZmM1NWM2NWZnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJsdXdJYXhtZE5qU2sxYUxXMUc1M1VwN2hYR0piVWhCWndFQkVkNmN6VG9SS0ZUV2QrTHFzMmpBRE1rNGM4bFlNR1BoOVE2aWZQRHEwMzJvYWRZdUR0NnNmM21GM1lLTlwvcDBKd0ZldnlRclFpVG4ycE5adjhkODVpUlI2ZG9NamZPY0NGWUttZDJ1VGFYZ3RvT1NHWU5XTmZqOTVFaG50M0VvVm82SlZqTHBZPSJ9
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004000249321988"
+  ["buyer_email"]=>
+  string(11) "18883259156"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:21:20"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "143"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:21:21"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:21:21"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088802367219000"
+  ["notify_id"]=>
+  string(34) "d74ca255517c6ec8b02d5bcfc55c65fg02"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "luwIaxmdNjSk1aLW1G53Up7hXGJbUhBZwEBEd6czToRKFTWd+Lqs2jADMk4c8lYMGPh9Q6ifPDq032oadYuDt6sf3mF3YKN/p0JwFevyQrQiTn2pNZv8d85iRR6doMjfOcCFYKmd2uTaXgtoOSGYNWNfj95Ehnt3EoVo6JVjLpY="
+}
+
+ 寻找的交易号为 2016052621001004000249321988 找到结果为 3false 交易号重叠 &&in time :2016-05-26 09:21:21
+ 来自于支付成功2016-05-26 09:21:21
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"3month","trade_no":"2016052621001004000247273275","buyer_email":"18883259156","gmt_create":"2016-05-26 09:23:50","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"144","seller_id":"2088911789850583","notify_time":"2016-05-26 09:23:50","body":"3?????????31???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"ea48dc5fed1c8ad35e5bce837782ed4g02","use_coupon":"N","sign_type":"RSA","sign":"VRF9hKRNr4ypQkMK6DXJWEVMzMiwug8OiG9ewS4ILhytpEohkYZi0rjCtS7UXyK7aOpEx1+DxrFJRI02dVaPeD\/8KJ0ncztaLUiH7W8QTXafdie\/BOJJ1v28iEdXQpZ1L8Z8r2IykvBdJnNDNZRaKCoC5oGNgXI+KJxBNLfC+os="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODg3OTkyNjA2OTU0NzIwNDY1MTQxNTc0ODM1NDQ1ODg0MzYy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjNtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0NzI3MzI3NSIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAwOToyMzo1MCIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNDQiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDA5OjIzOjUwIiwiYm9keSI6IjM/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiZWE0OGRjNWZlZDFjOGFkMzVlNWJjZTgzNzc4MmVkNGcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IlZSRjloS1JOcjR5cFFrTUs2RFhKV0VWTXpNaXd1ZzhPaUc5ZXdTNElMaHl0cEVvaGtZWmkwcmpDdFM3VVh5SzdhT3BFeDErRHhyRkpSSTAyZFZhUGVEXC84S0owbmN6dGFMVWlIN1c4UVRYYWZkaWVcL0JPSkoxdjI4aUVkWFFwWjFMOFo4cjJJeWt2QmRKbk5ETlpSYUtDb0M1b0dOZ1hJK0tKeEJOTGZDK29zPSJ9
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "3month"
+  ["trade_no"]=>
+  string(28) "2016052621001004000247273275"
+  ["buyer_email"]=>
+  string(11) "18883259156"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:23:50"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "144"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:23:50"
+  ["body"]=>
+  string(15) "3?????????31???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088802367219000"
+  ["notify_id"]=>
+  string(34) "ea48dc5fed1c8ad35e5bce837782ed4g02"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "VRF9hKRNr4ypQkMK6DXJWEVMzMiwug8OiG9ewS4ILhytpEohkYZi0rjCtS7UXyK7aOpEx1+DxrFJRI02dVaPeD/8KJ0ncztaLUiH7W8QTXafdie/BOJJ1v28iEdXQpZ1L8Z8r2IykvBdJnNDNZRaKCoC5oGNgXI+KJxBNLfC+os="
+}
+
+ 寻找的交易号为 2016052621001004000247273275 找到结果为 string(20) "
+ 安卓月份为 3"
+true &&in time :2016-05-26 09:23:51
+ 来自于支付成功2016-05-26 09:23:51
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"3month","trade_no":"2016052621001004000247273275","buyer_email":"18883259156","gmt_create":"2016-05-26 09:23:50","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"144","seller_id":"2088911789850583","notify_time":"2016-05-26 09:23:51","body":"3?????????31???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:23:51","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"7240f902e30c0095fe102b331f3bd84g02","use_coupon":"N","sign_type":"RSA","sign":"i1yHaZebtI1gPpYzvUnATHNJn4AXqbTKtC5+Hph4gTE11nCSzGvNlk20lHzoeGVnTxongLNzPzbTPJvgLtfcHoAL8uk20onoTqapeH2WwEt5FP2Fvj7ZeaopcOuF7Vm+YNmTsdjWHB295pIcFfRfdmW0H2a1K2lmgT\/mFuav4U8="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NjM2Mzk0MTAzNTc4MDc5NzU5NzU5MjgyMzg2NDczNzU1MDM5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjNtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0NzI3MzI3NSIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAwOToyMzo1MCIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNDQiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDA5OjIzOjUxIiwiYm9keSI6IjM/Pz8/Pz8/Pz8zMT8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MjM6NTEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODg4MDIzNjcyMTkwMDAiLCJub3RpZnlfaWQiOiI3MjQwZjkwMmUzMGMwMDk1ZmUxMDJiMzMxZjNiZDg0ZzAyIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiaTF5SGFaZWJ0STFnUHBZenZVbkFUSE5KbjRBWHFiVEt0QzUrSHBoNGdURTExbkNTekd2TmxrMjBsSHpvZUdWblR4b25nTE56UHpiVFBKdmdMdGZjSG9BTDh1azIwb25vVHFhcGVIMld3RXQ1RlAyRnZqN1plYW9wY091RjdWbStZTm1Uc2RqV0hCMjk1cEljRmZSZmRtVzBIMmExSzJsbWdUXC9tRnVhdjRVOD0ifQ==
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "3month"
+  ["trade_no"]=>
+  string(28) "2016052621001004000247273275"
+  ["buyer_email"]=>
+  string(11) "18883259156"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:23:50"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "144"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:23:51"
+  ["body"]=>
+  string(15) "3?????????31???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:23:51"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088802367219000"
+  ["notify_id"]=>
+  string(34) "7240f902e30c0095fe102b331f3bd84g02"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "i1yHaZebtI1gPpYzvUnATHNJn4AXqbTKtC5+Hph4gTE11nCSzGvNlk20lHzoeGVnTxongLNzPzbTPJvgLtfcHoAL8uk20onoTqapeH2WwEt5FP2Fvj7ZeaopcOuF7Vm+YNmTsdjWHB295pIcFfRfdmW0H2a1K2lmgT/mFuav4U8="
+}
+
+ 寻找的交易号为 2016052621001004000247273275 找到结果为 4false 交易号重叠 &&in time :2016-05-26 09:23:51
+ 来自于支付成功2016-05-26 09:23:51
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261537179","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:25:45","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"145","seller_id":"2088911789850583","notify_time":"2016-05-26 09:25:45","body":"30???","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"e482f919b5d4584005c9a75a866bfd4lbq","use_coupon":"N","sign_type":"RSA","sign":"YzlAY\/7SgRs6v+F7e6furBljhcSNOu5KE5ES6K5PbqvUESHAOoOgRAoTN7YiYQfwvux184Cm1fJy8xj7UicyFKhs5nqpwzKgO9\/fKRzIfsbkQQDBgC0WckwOOxBOVSQlMHyBb0XRHiIILm+y\/omQEymJj2WfKmaS07RxC4SpULY="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTI1ODE0MTMyMTA3NjM0MDIxNTk2NjY4NzIxMjgxNDY5NTkw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTUzNzE3OSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MjU6NDUiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQ1Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToyNTo0NSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IldBSVRfQlVZRVJfUEFZIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6IlkiLCJ0b3RhbF9mZWUiOiIwLjAxIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4MDIyOTUwNDc5NjkxIiwibm90aWZ5X2lkIjoiZTQ4MmY5MTliNWQ0NTg0MDA1YzlhNzVhODY2YmZkNGxicSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ill6bEFZXC83U2dSczZ2K0Y3ZTZmdXJCbGpoY1NOT3U1S0U1RVM2SzVQYnF2VUVTSEFPb09nUkFvVE43WWlZUWZ3dnV4MTg0Q20xZkp5OHhqN1VpY3lGS2hzNW5xcHd6S2dPOVwvZktSeklmc2JrUVFEQmdDMFdja3dPT3hCT1ZTUWxNSHlCYjBYUkhpSUlMbSt5XC9vbVFFeW1KajJXZkttYVMwN1J4QzRTcFVMWT0ifQ==
+ 处理结果 :array(22) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261537179"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:25:45"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "145"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:25:45"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(14) "WAIT_BUYER_PAY"
+  ["is_total_fee_adjust"]=>
+  string(1) "Y"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "e482f919b5d4584005c9a75a866bfd4lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "YzlAY/7SgRs6v+F7e6furBljhcSNOu5KE5ES6K5PbqvUESHAOoOgRAoTN7YiYQfwvux184Cm1fJy8xj7UicyFKhs5nqpwzKgO9/fKRzIfsbkQQDBgC0WckwOOxBOVSQlMHyBb0XRHiIILm+y/omQEymJj2WfKmaS07RxC4SpULY="
+}
+
+ 寻找的交易号为 2016052621001004690261537179 找到结果为 string(20) "
+ 安卓月份为 1"
+true &&in time :2016-05-26 09:25:45
+ 来自于支付成功2016-05-26 09:25:45
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004690261537179","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-26 09:25:45","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"145","seller_id":"2088911789850583","notify_time":"2016-05-26 09:25:45","body":"30???","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 09:25:45","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"29a8158f8f56c8bc49ab09b1f1cabb0lbq","use_coupon":"N","sign_type":"RSA","sign":"D3dBR8Uo8AssBLbRGOQPSdGnIu4e2O5AfBXke2bun4VOKT7OBXstMEC84QvhVoNfFhht4xe8n1nV+bPX7wVfKovXnOaNcXXq2fE\/qn6gkfKhof9TATkmHKTzqNHzs6DD8IVR7IA5RyuzKR03as2PA6WaDtFyA4XlryYGiV5SFWA="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=ODcxNjA0NDEyNjIwNzc0MzEwOTcwMzYzMTQ1MzQyNjEwNjM1&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDY5MDI2MTUzNzE3OSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMDk6MjU6NDUiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTQ1Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAwOToyNTo0NSIsImJvZHkiOiIzMD8/PyIsInRyYWRlX3N0YXR1cyI6IlRSQURFX1NVQ0NFU1MiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiTiIsInRvdGFsX2ZlZSI6IjAuMDEiLCJnbXRfcGF5bWVudCI6IjIwMTYtMDUtMjYgMDk6MjU6NDUiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiIyOWE4MTU4ZjhmNTZjOGJjNDlhYjA5YjFmMWNhYmIwbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiRDNkQlI4VW84QXNzQkxiUkdPUVBTZEduSXU0ZTJPNUFmQlhrZTJidW40Vk9LVDdPQlhzdE1FQzg0UXZoVm9OZkZoaHQ0eGU4bjFuVitiUFg3d1ZmS292WG5PYU5jWFhxMmZFXC9xbjZna2ZLaG9mOVRBVGttSEtUenFOSHpzNkREOElWUjdJQTVSeXV6S1IwM2FzMlBBNldhRHRGeUE0WGxyeVlHaVY1U0ZXQT0ifQ==
+ 处理结果 :array(23) {
+  ["discount"]=>
+  string(4) "0.00"
+  ["payment_type"]=>
+  string(1) "1"
+  ["subject"]=>
+  string(6) "1month"
+  ["trade_no"]=>
+  string(28) "2016052621001004690261537179"
+  ["buyer_email"]=>
+  string(21) "kui_inuni@outlook.com"
+  ["gmt_create"]=>
+  string(19) "2016-05-26 09:25:45"
+  ["notify_type"]=>
+  string(17) "trade_status_sync"
+  ["quantity"]=>
+  string(1) "1"
+  ["out_trade_no"]=>
+  string(3) "145"
+  ["seller_id"]=>
+  string(16) "2088911789850583"
+  ["notify_time"]=>
+  string(19) "2016-05-26 09:25:45"
+  ["body"]=>
+  string(5) "30???"
+  ["trade_status"]=>
+  string(13) "TRADE_SUCCESS"
+  ["is_total_fee_adjust"]=>
+  string(1) "N"
+  ["total_fee"]=>
+  string(4) "0.01"
+  ["gmt_payment"]=>
+  string(19) "2016-05-26 09:25:45"
+  ["seller_email"]=>
+  string(27) "zhangyuan@chinalight.com.cn"
+  ["price"]=>
+  string(4) "0.01"
+  ["buyer_id"]=>
+  string(16) "2088022950479691"
+  ["notify_id"]=>
+  string(34) "29a8158f8f56c8bc49ab09b1f1cabb0lbq"
+  ["use_coupon"]=>
+  string(1) "N"
+  ["sign_type"]=>
+  string(3) "RSA"
+  ["sign"]=>
+  string(172) "D3dBR8Uo8AssBLbRGOQPSdGnIu4e2O5AfBXke2bun4VOKT7OBXstMEC84QvhVoNfFhht4xe8n1nV+bPX7wVfKovXnOaNcXXq2fE/qn6gkfKhof9TATkmHKTzqNHzs6DD8IVR7IA5RyuzKR03as2PA6WaDtFyA4XlryYGiV5SFWA="
+}
+
+ 寻找的交易号为 2016052621001004690261537179 找到结果为 5false 交易号重叠 &&in time :2016-05-26 09:25:46
+ 来自于支付成功2016-05-26 09:25:46
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052621001004000247513484","buyer_email":"18883259156","gmt_create":"2016-05-26 11:17:13","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"154","seller_id":"2088911789850583","notify_time":"2016-05-26 11:17:13","body":"????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"fbc35ed90b881982dbb7be4814c181ag02","use_coupon":"N","sign_type":"RSA","sign":"N92abgQhJ1aOeSHFQC+C0OwNDcO5ajNjBMFDbBTyxTnxnU43I0jmm9esHm0uCAYvuyxyjCgWqG+3fizRduhnCP8Ww0IId4DBwHSMQhKOo2HBflW7w1dbfk2x43xGyzCMR6IFvd4jh4S0MOkk6TWRmwatEzwFc5V1Cm6qqMgTs2A="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=Mjg1NjQwODgyNzUxMjg3NTIzODA3Nzk4MzcxNzc2ODA2OTU0&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI2MjEwMDEwMDQwMDAyNDc1MTM0ODQiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMTE6MTc6MTMiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTU0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAxMToxNzoxMyIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6ImZiYzM1ZWQ5MGI4ODE5ODJkYmI3YmU0ODE0YzE4MWFnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJOOTJhYmdRaEoxYU9lU0hGUUMrQzBPd05EY081YWpOakJNRkRiQlR5eFRueG5VNDNJMGptbTllc0htMHVDQVl2dXl4eWpDZ1dxRyszZml6UmR1aG5DUDhXdzBJSWQ0REJ3SFNNUWhLT28ySEJmbFc3dzFkYmZrMng0M3hHeXpDTVI2SUZ2ZDRqaDRTME1Pa2s2VFdSbXdhdEV6d0ZjNVYxQ202cXFNZ1RzMkE9In0=
+ 处理结果 :true &&in time :2016-05-26 11:17:13
+ 来自于支付成功2016-05-26 11:17:13
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052621001004000247513484","buyer_email":"18883259156","gmt_create":"2016-05-26 11:17:13","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"154","seller_id":"2088911789850583","notify_time":"2016-05-26 11:17:14","body":"????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 11:17:14","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"9bca38a5ae8ab775173d9d6641f8b39g02","use_coupon":"N","sign_type":"RSA","sign":"hrIOvA6qzsUPWZWVxErnl22sEszOB6yTKFBkm4NLXlcHVOVTPGupCI4dvDjudU\/Xd2iSjSAanmDP8W+9iCjSRwXZ4SyP1Z0jrsU7Be8\/iLNrQwABLRIdxyY2PuXy+S+chC2s0Jo6f83+JuWV\/bXGobbkeDJuFq3\/5x9IKGCOIlI="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTk3MDQ2MDc4MzIxMTc2MTYzNTE0OTAwMzQ3NTQ5NDU5ODkz&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI2MjEwMDEwMDQwMDAyNDc1MTM0ODQiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMTE6MTc6MTMiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTU0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAxMToxNzoxNCIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI2IDExOjE3OjE0Iiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiOWJjYTM4YTVhZThhYjc3NTE3M2Q5ZDY2NDFmOGIzOWcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6ImhySU92QTZxenNVUFdaV1Z4RXJubDIyc0Vzek9CNnlUS0ZCa200TkxYbGNIVk9WVFBHdXBDSTRkdkRqdWRVXC9YZDJpU2pTQWFubURQOFcrOWlDalNSd1haNFN5UDFaMGpyc1U3QmU4XC9pTE5yUXdBQkxSSWR4eVkyUHVYeStTK2NoQzJzMEpvNmY4MytKdVdWXC9iWEdvYmJrZURKdUZxM1wvNXg5SUtHQ09JbEk9In0=
+ 处理结果 :false 交易号重叠 &&in time :2016-05-26 11:17:14
+ 来自于支付成功2016-05-26 11:17:14
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000246867574","buyer_email":"18883259156","gmt_create":"2016-05-26 11:19:57","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"155","seller_id":"2088911789850583","notify_time":"2016-05-26 11:19:57","body":"?????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"6a5c8b2125b5aea8c5ade27e394fda7g02","use_coupon":"N","sign_type":"RSA","sign":"TiaS7CAXGoKiPkD7wVAaGqeVg03JPDcmr2bmv+DMU9yHcLu8ty59+EehydZSnCQx4h\/Xl8b1Rh9Cf4GB91ohSifX0aJPaT6JpDy2odBo1TdryaNA\/yjIuu64rVD7Rpu6YHnF\/H40pDo7JNBTlOtB\/ccFNrKUZGFQ\/xPYdfQC7RQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MzA2NTYxNTQzMTE1MzEyOTg2ODA0MzkxNzYwOTU2MDYxNzYx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0Njg2NzU3NCIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxMToxOTo1NyIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNTUiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDExOjE5OjU3IiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6IjZhNWM4YjIxMjViNWFlYThjNWFkZTI3ZTM5NGZkYTdnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJUaWFTN0NBWEdvS2lQa0Q3d1ZBYUdxZVZnMDNKUERjbXIyYm12K0RNVTl5SGNMdTh0eTU5K0VlaHlkWlNuQ1F4NGhcL1hsOGIxUmg5Q2Y0R0I5MW9oU2lmWDBhSlBhVDZKcER5Mm9kQm8xVGRyeWFOQVwveWpJdXU2NHJWRDdScHU2WUhuRlwvSDQwcERvN0pOQlRsT3RCXC9jY0ZOcktVWkdGUVwveFBZZGZRQzdSUT0ifQ==
+ 处理结果 :true &&in time :2016-05-26 11:19:57
+ 来自于支付成功2016-05-26 11:19:57
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000246867574","buyer_email":"18883259156","gmt_create":"2016-05-26 11:19:57","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"155","seller_id":"2088911789850583","notify_time":"2016-05-26 11:19:58","body":"?????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 11:19:58","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"d717b2e5688cf05811d1dcf121c015dg02","use_coupon":"N","sign_type":"RSA","sign":"LNd\/yt1sDLyb19y1OVvbpAdqhHXRIQZBfZumCYTWDXzoSD\/zOIZChFe0kpXoUjDI3CDcuRkO2PzcaIDK4G6es0R9+JG1KEumesRd96PHRWoCtdr0rrrVh0gSWIUgoAa40gwphSdvdv1F2rS9auAe\/POVuxLEJkmij\/DC\/9EPL0Q="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NTMzMTA3ODA4MTYxNjMwNTA0MTUzNTY2ODAzODU4NTYyMzcy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0Njg2NzU3NCIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxMToxOTo1NyIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNTUiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDExOjE5OjU4IiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI2IDExOjE5OjU4Iiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiZDcxN2IyZTU2ODhjZjA1ODExZDFkY2YxMjFjMDE1ZGcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IkxOZFwveXQxc0RMeWIxOXkxT1Z2YnBBZHFoSFhSSVFaQmZadW1DWVRXRFh6b1NEXC96T0laQ2hGZTBrcFhvVWpESTNDRGN1UmtPMlB6Y2FJREs0RzZlczBSOStKRzFLRXVtZXNSZDk2UEhSV29DdGRyMHJyclZoMGdTV0lVZ29BYTQwZ3dwaFNkdmR2MUYyclM5YXVBZVwvUE9WdXhMRUprbWlqXC9EQ1wvOUVQTDBRPSJ9
+ 处理结果 :false 交易号重叠 &&in time :2016-05-26 11:19:58
+ 来自于支付成功2016-05-26 11:19:58
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000247207062","buyer_email":"18883259156","gmt_create":"2016-05-26 11:22:51","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"156","seller_id":"2088911789850583","notify_time":"2016-05-26 11:22:51","body":"?????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"516ddfeba00ffca4aa7e160c01a1569g02","use_coupon":"N","sign_type":"RSA","sign":"Wpb5\/LfXSSW4JH9gtYCqpHPApiEZMGReIkmLql3+7D45CKhn1UquLQ16JLGmHX+NYV7S1g8\/ms6uowAeh57NLz4d+8y5orIe2xS4T8gXryEDnXoOBJ+9+tVa439xwffvT+ZJMOk0nYMZ9m3K\/aCLfqZ22hrZwJogVWQY2QaDL80="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=Mjc0NjE2NDcwMjgzOTA3NTY2Mzk1NDU1NDU1MzYxMDMwMzQy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0NzIwNzA2MiIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxMToyMjo1MSIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNTYiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDExOjIyOjUxIiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6IjUxNmRkZmViYTAwZmZjYTRhYTdlMTYwYzAxYTE1NjlnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJXcGI1XC9MZlhTU1c0Skg5Z3RZQ3FwSFBBcGlFWk1HUmVJa21McWwzKzdENDVDS2huMVVxdUxRMTZKTEdtSFgrTllWN1MxZzhcL21zNnVvd0FlaDU3Tkx6NGQrOHk1b3JJZTJ4UzRUOGdYcnlFRG5Yb09CSis5K3RWYTQzOXh3ZmZ2VCtaSk1PazBuWU1aOW0zS1wvYUNMZnFaMjJoclp3Sm9nVldRWTJRYURMODA9In0=
+ 处理结果 :true &&in time :2016-05-26 11:22:51
+ 来自于支付成功2016-05-26 11:22:51
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004000247207062","buyer_email":"18883259156","gmt_create":"2016-05-26 11:22:51","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"156","seller_id":"2088911789850583","notify_time":"2016-05-26 11:22:52","body":"?????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 11:22:52","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"c7e0956532ef4ae339226e44bacd87cg02","use_coupon":"N","sign_type":"RSA","sign":"M98hf8w1d4Tayz1d0dbtW99nPhbegAomfNoFxeCN\/SGWAoL1xDH4Dm7ROZkqM6Bdt0g5QfpJCY+c1dlMXLviKpItdllbf6SVBg7SlY10pvGADHWB1BItOM0JeBPkmiMXlILPiQDQE41jJAynjpeW1mXX4myy9T2hS\/DwUkxPAl0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=OTk1NjE4MDQ5NTI3NDQ5ODU3MzYzODYxODI4MTcwMTQxODg2&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDAwMDI0NzIwNzA2MiIsImJ1eWVyX2VtYWlsIjoiMTg4ODMyNTkxNTYiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxMToyMjo1MSIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNTYiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDExOjIyOjUyIiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI2IDExOjIyOjUyIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiYzdlMDk1NjUzMmVmNGFlMzM5MjI2ZTQ0YmFjZDg3Y2cwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik05OGhmOHcxZDRUYXl6MWQwZGJ0Vzk5blBoYmVnQW9tZk5vRnhlQ05cL1NHV0FvTDF4REg0RG03Uk9aa3FNNkJkdDBnNVFmcEpDWStjMWRsTVhMdmlLcEl0ZGxsYmY2U1ZCZzdTbFkxMHB2R0FESFdCMUJJdE9NMEplQlBrbWlNWGxJTFBpUURRRTQxakpBeW5qcGVXMW1YWDRteXk5VDJoU1wvRHdVa3hQQWwwPSJ9
+ 处理结果 :false 交易号重叠 &&in time :2016-05-26 11:22:52
+ 来自于支付成功2016-05-26 11:22:52
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052621001004000247221588","buyer_email":"18883259156","gmt_create":"2016-05-26 17:04:12","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"171","seller_id":"2088911789850583","notify_time":"2016-05-26 17:04:12","body":"????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"fa75c2f91ecc9d19b63b88b900cda4dg02","use_coupon":"N","sign_type":"RSA","sign":"ADt+kf4nfpeQL+99Gn0IceV9yGQ7pSfMKo5GzGohwT4jU69ELiizG2pFA78feTUxpAvV4k9e9zjwX+RdbytFCqOMhTCKAH24gYPgZm5Yy+DFkY43Db+YQLJK04OvfzGCT+s0tkLXAxBXHbxr\/3qUDGjP32zmbVh4E2c5oVc4kYE="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NjY3NjY1MjMzOTc5NjI5Mzg5NjE1ODM4Njc0NjI4NDg3ODY5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI2MjEwMDEwMDQwMDAyNDcyMjE1ODgiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMTc6MDQ6MTIiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTcxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAxNzowNDoxMiIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6ImZhNzVjMmY5MWVjYzlkMTliNjNiODhiOTAwY2RhNGRnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJBRHQra2Y0bmZwZVFMKzk5R24wSWNlVjl5R1E3cFNmTUtvNUd6R29od1Q0alU2OUVMaWl6RzJwRkE3OGZlVFV4cEF2VjRrOWU5emp3WCtSZGJ5dEZDcU9NaFRDS0FIMjRnWVBnWm01WXkrREZrWTQzRGIrWVFMSkswNE92ZnpHQ1QrczB0a0xYQXhCWEhieHJcLzNxVURHalAzMnptYlZoNEUyYzVvVmM0a1lFPSJ9
+ 处理结果 :true &&in time :2016-05-26 17:04:12
+ 来自于支付成功2016-05-26 17:04:12
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052621001004000247221588","buyer_email":"18883259156","gmt_create":"2016-05-26 17:04:12","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"171","seller_id":"2088911789850583","notify_time":"2016-05-26 17:04:13","body":"????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 17:04:13","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"9557af60e5768cf9ce06b8de1a457f4g02","use_coupon":"N","sign_type":"RSA","sign":"Jl4kNOAeeSTFtyFLKUcQUwr8y2E5DTDD9doEGqBUFXQnMsWjCcSt2gF8L4WVAqcJv2NW5ltfhqdqYlcJ0PZb9vVyYopBPQHnQ6XKEDefDmbONHrkJr1PB+ZGqldiCSDinWg44cX2Z\/pz+6+Sjc0IY+TFHSDQNOcfFO4UHQuqwyg="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NTkwODMzOTAzNDQ1NTgzMzE1NjIyMDgxMDc1NjI0NjA2ODU5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI2MjEwMDEwMDQwMDAyNDcyMjE1ODgiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjYgMTc6MDQ6MTIiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTcxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNiAxNzowNDoxMyIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI2IDE3OjA0OjEzIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiOTU1N2FmNjBlNTc2OGNmOWNlMDZiOGRlMWE0NTdmNGcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6IkpsNGtOT0FlZVNURnR5RkxLVWNRVXdyOHkyRTVEVEREOWRvRUdxQlVGWFFuTXNXakNjU3QyZ0Y4TDRXVkFxY0p2Mk5XNWx0ZmhxZHFZbGNKMFBaYjl2VnlZb3BCUFFIblE2WEtFRGVmRG1iT05IcmtKcjFQQitaR3FsZGlDU0RpbldnNDRjWDJaXC9weis2K1NqYzBJWStURkhTRFFOT2NmRk80VUhRdXF3eWc9In0=
+ 处理结果 :false 交易号重叠 &&in time :2016-05-26 17:04:13
+ 来自于支付成功2016-05-26 17:04:13
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004120248770924","buyer_email":"18215521729","gmt_create":"2016-05-26 17:53:33","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"174","seller_id":"2088911789850583","notify_time":"2016-05-26 17:53:33","body":"?????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088902076923123","notify_id":"fe89b5895dbe9fd3ec24f28852a44b9gxe","use_coupon":"N","sign_type":"RSA","sign":"hxse7ljq7cOJyFWgNL9VOp7EZ0luY0lDWQAnR8c329GbSrGX8jMeUezXITcbjAleOMWJR38S4eW6IplWnYoagnV24MmPuGKvc1jpYgE3vU2TLOYpfV8Cwbx2Hre+POk+y8Ng7MOaoeKU2i5XjZRK\/QBqJehlJvjwcmbRZx06Xc0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NDk4NTg0MjY4NDE5NzE3ODU5MTY2MzYwMjczOTA2OTcyMTAy&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDEyMDI0ODc3MDkyNCIsImJ1eWVyX2VtYWlsIjoiMTgyMTU1MjE3MjkiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxNzo1MzozMyIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNzQiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDE3OjUzOjMzIiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODkwMjA3NjkyMzEyMyIsIm5vdGlmeV9pZCI6ImZlODliNTg5NWRiZTlmZDNlYzI0ZjI4ODUyYTQ0YjlneGUiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJoeHNlN2xqcTdjT0p5RldnTkw5Vk9wN0VaMGx1WTBsRFdRQW5SOGMzMjlHYlNyR1g4ak1lVWV6WElUY2JqQWxlT01XSlIzOFM0ZVc2SXBsV25Zb2FnblYyNE1tUHVHS3ZjMWpwWWdFM3ZVMlRMT1lwZlY4Q3dieDJIcmUrUE9rK3k4Tmc3TU9hb2VLVTJpNVhqWlJLXC9RQnFKZWhsSnZqd2NtYlJaeDA2WGMwPSJ9
+ 处理结果 :true &&in time :2016-05-26 17:53:33
+ 来自于支付成功2016-05-26 17:53:33
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052621001004120248770924","buyer_email":"18215521729","gmt_create":"2016-05-26 17:53:33","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"174","seller_id":"2088911789850583","notify_time":"2016-05-26 17:53:58","body":"?????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-26 17:53:58","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088902076923123","notify_id":"d539a8f87217913266e060f97ffcc24gxe","use_coupon":"N","sign_type":"RSA","sign":"OPs7uMB5gLOOCiJ6NSbZTFDEFZtaQcQPsVh6REnLhjLAsnA32ce67lmtp7WK0OG+RNjMla7XC4v\/lCCGzjy4fXHJmujuD3oH2XWLKxfOnsrMCu3+\/Q5zSRuPdx\/iZctqzoWiRZ2l0iN5inLkKW0qLRLvZQDZrQk610eEgbfJVg0="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzU0NzI4OTY2NDY2OTkyMjg5ODMwMTA4ODM2MjU0MDk1NjQz&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjYyMTAwMTAwNDEyMDI0ODc3MDkyNCIsImJ1eWVyX2VtYWlsIjoiMTgyMTU1MjE3MjkiLCJnbXRfY3JlYXRlIjoiMjAxNi0wNS0yNiAxNzo1MzozMyIsIm5vdGlmeV90eXBlIjoidHJhZGVfc3RhdHVzX3N5bmMiLCJxdWFudGl0eSI6IjEiLCJvdXRfdHJhZGVfbm8iOiIxNzQiLCJzZWxsZXJfaWQiOiIyMDg4OTExNzg5ODUwNTgzIiwibm90aWZ5X3RpbWUiOiIyMDE2LTA1LTI2IDE3OjUzOjU4IiwiYm9keSI6Ij8/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI2IDE3OjUzOjU4Iiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4OTAyMDc2OTIzMTIzIiwibm90aWZ5X2lkIjoiZDUzOWE4Zjg3MjE3OTEzMjY2ZTA2MGY5N2ZmY2MyNGd4ZSIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik9Qczd1TUI1Z0xPT0NpSjZOU2JaVEZERUZadGFRY1FQc1ZoNlJFbkxoakxBc25BMzJjZTY3bG10cDdXSzBPRytSTmpNbGE3WEM0dlwvbENDR3pqeTRmWEhKbXVqdUQzb0gyWFdMS3hmT25zck1DdTMrXC9RNXpTUnVQZHhcL2laY3Rxem9XaVJaMmwwaU41aW5Ma0tXMHFMUkx2WlFEWnJRazYxMGVFZ2JmSlZnMD0ifQ==
+ 处理结果 :false 交易号重叠 &&in time :2016-05-26 17:53:58
+ 来自于支付成功2016-05-26 17:53:58
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052721001004690259714521","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-27 09:12:51","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"179","seller_id":"2088911789850583","notify_time":"2016-05-27 09:12:51","body":"?????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"83129c6e0b8dab81e7dbd030ff660d3lbq","use_coupon":"N","sign_type":"RSA","sign":"PwH9AsBGqOc8DrT6w8kTj\/V2HPtcnhDBysnZglciiwZdNaREmMGGMNS+kyketE6nd\/mhr1h8e8\/ksipmXMb0+o+Rlq0pik7dUC0yLlZ\/VPokpTWCFLbMOUv6PkjWm5XJO9msLPXvWs1SJobNtLkDxU\/3o3VVInlK3wAdZGyGHTE="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzYxNDgyMDY0NjgyMDEwNjc1NDQ4MDMxNDc1NzY4MTcyMjg0&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjcyMTAwMTAwNDY5MDI1OTcxNDUyMSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6MTI6NTEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTc5Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToxMjo1MSIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8/IiwidHJhZGVfc3RhdHVzIjoiV0FJVF9CVVlFUl9QQVkiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiWSIsInRvdGFsX2ZlZSI6IjAuMDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI4MzEyOWM2ZTBiOGRhYjgxZTdkYmQwMzBmZjY2MGQzbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoiUHdIOUFzQkdxT2M4RHJUNnc4a1RqXC9WMkhQdGNuaERCeXNuWmdsY2lpd1pkTmFSRW1NR0dNTlMra3lrZXRFNm5kXC9taHIxaDhlOFwva3NpcG1YTWIwK28rUmxxMHBpazdkVUMweUxsWlwvVlBva3BUV0NGTGJNT1V2NlBraldtNVhKTzltc0xQWHZXczFTSm9iTnRMa0R4VVwvM28zVlZJbmxLM3dBZFpHeUdIVEU9In0=
+ 处理结果 :true &&in time :2016-05-27 09:12:52
+ 来自于支付成功2016-05-27 09:12:52
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052721001004690259714521","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-27 09:12:51","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"179","seller_id":"2088911789850583","notify_time":"2016-05-27 09:12:52","body":"?????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-27 09:12:52","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"54f68e0c7a1f3eb024f2c3038b0276dlbq","use_coupon":"N","sign_type":"RSA","sign":"fzNBmIQMxTvC0vIxXeOPdMbT5y40h72UEc6lwtb2UG7kgcA7s7GS9fL5rw58VJTJ9cZrfuPkjXR9cfUGpMyP1Gp2HVPzac1xbP6Yk1JX8wxhT1JJUlNkV0D7nD7Cu6h1DKtcFcD9qvhNhM73TygJB2Fg7URF9D9DQXkBPePyfMI="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=Njk5NDgwNDcxODUzMzE2Nzc5MTI2MjA5OTg5MzI0OTIwODM0&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjcyMTAwMTAwNDY5MDI1OTcxNDUyMSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6MTI6NTEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTc5Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToxMjo1MiIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8/IiwidHJhZGVfc3RhdHVzIjoiVFJBREVfU1VDQ0VTUyIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJOIiwidG90YWxfZmVlIjoiMC4wMSIsImdtdF9wYXltZW50IjoiMjAxNi0wNS0yNyAwOToxMjo1MiIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODAyMjk1MDQ3OTY5MSIsIm5vdGlmeV9pZCI6IjU0ZjY4ZTBjN2ExZjNlYjAyNGYyYzMwMzhiMDI3NmRsYnEiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJmek5CbUlRTXhUdkMwdkl4WGVPUGRNYlQ1eTQwaDcyVUVjNmx3dGIyVUc3a2djQTdzN0dTOWZMNXJ3NThWSlRKOWNacmZ1UGtqWFI5Y2ZVR3BNeVAxR3AySFZQemFjMXhiUDZZazFKWDh3eGhUMUpKVWxOa1YwRDduRDdDdTZoMURLdGNGY0Q5cXZoTmhNNzNUeWdKQjJGZzdVUkY5RDlEUVhrQlBlUHlmTUk9In0=
+ 处理结果 :false 交易号重叠 &&in time :2016-05-27 09:12:52
+ 来自于支付成功2016-05-27 09:12:52
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052721001004690259980621","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-27 09:13:10","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"180","seller_id":"2088911789850583","notify_time":"2016-05-27 09:13:10","body":"?????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"93dbe8cf058def16b7b2eb9389060fdlbq","use_coupon":"N","sign_type":"RSA","sign":"klrWJ1P2ZyNAPB+PopL7shyT4dfZRErG\/5o4i+IS+yzpN4HNZXvmNTkTi2f6NZW8ZZtnbyXRPhSbwxHdi7h6AKt1FKSQjxAoxKsH1iDhQhdRiD3aO4M1tYsbjoOhv6+5rBC0N4jQ7\/v1H0e4nofz3xutrKOglR40GyHXJvn3Yes="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=MTY2NjMwMDgyMjQxODA3NzMzNjgzOTQwMTY1MTAxMTI0NjQw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjcyMTAwMTAwNDY5MDI1OTk4MDYyMSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6MTM6MTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTgwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToxMzoxMCIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8/IiwidHJhZGVfc3RhdHVzIjoiV0FJVF9CVVlFUl9QQVkiLCJpc190b3RhbF9mZWVfYWRqdXN0IjoiWSIsInRvdGFsX2ZlZSI6IjAuMDEiLCJzZWxsZXJfZW1haWwiOiJ6aGFuZ3l1YW5AY2hpbmFsaWdodC5jb20uY24iLCJwcmljZSI6IjAuMDEiLCJidXllcl9pZCI6IjIwODgwMjI5NTA0Nzk2OTEiLCJub3RpZnlfaWQiOiI5M2RiZThjZjA1OGRlZjE2YjdiMmViOTM4OTA2MGZkbGJxIiwidXNlX2NvdXBvbiI6Ik4iLCJzaWduX3R5cGUiOiJSU0EiLCJzaWduIjoia2xyV0oxUDJaeU5BUEIrUG9wTDdzaHlUNGRmWlJFckdcLzVvNGkrSVMreXpwTjRITlpYdm1OVGtUaTJmNk5aVzhaWnRuYnlYUlBoU2J3eEhkaTdoNkFLdDFGS1NRanhBb3hLc0gxaURoUWhkUmlEM2FPNE0xdFlzYmpvT2h2Nis1ckJDME40alE3XC92MUgwZTRub2Z6M3h1dHJLT2dsUjQwR3lIWEp2bjNZZXM9In0=
+ 处理结果 :true &&in time :2016-05-27 09:13:10
+ 来自于支付成功2016-05-27 09:13:10
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"1month","trade_no":"2016052721001004690259980621","buyer_email":"kui_inuni@outlook.com","gmt_create":"2016-05-27 09:13:10","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"180","seller_id":"2088911789850583","notify_time":"2016-05-27 09:13:11","body":"?????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-27 09:13:11","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088022950479691","notify_id":"0df4ee1121067973e3c575380343329lbq","use_coupon":"N","sign_type":"RSA","sign":"Z6H4Y6LaoSgEgCwkWGPwCNOCEXg+PHa6Zx\/aaWcFanMW10LMhqJAedDTxfrLWsq8qdjGFeo+xjnHPWxZP3GPBq2Go1h1PYxU4stvgCWTDRBiQNDkRaadUEuLNTu8MKZVQ+FTmAwTnq4kqnH8aB+0ycj4D9Nm9nAqwqfASn7jmSs="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzQ2MzE0MjMwODM2MzEzNjA3Nzk2MTUyMDA1NjIyNTAyMDAx&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjFtb250aCIsInRyYWRlX25vIjoiMjAxNjA1MjcyMTAwMTAwNDY5MDI1OTk4MDYyMSIsImJ1eWVyX2VtYWlsIjoia3VpX2ludW5pQG91dGxvb2suY29tIiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6MTM6MTAiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTgwIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToxMzoxMSIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8/IiwidHJhZGVfc3RhdHVzIjoiVFJBREVfU1VDQ0VTUyIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJOIiwidG90YWxfZmVlIjoiMC4wMSIsImdtdF9wYXltZW50IjoiMjAxNi0wNS0yNyAwOToxMzoxMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODAyMjk1MDQ3OTY5MSIsIm5vdGlmeV9pZCI6IjBkZjRlZTExMjEwNjc5NzNlM2M1NzUzODAzNDMzMjlsYnEiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJaNkg0WTZMYW9TZ0VnQ3drV0dQd0NOT0NFWGcrUEhhNlp4XC9hYVdjRmFuTVcxMExNaHFKQWVkRFR4ZnJMV3NxOHFkakdGZW8reGpuSFBXeFpQM0dQQnEyR28xaDFQWXhVNHN0dmdDV1REUkJpUU5Ea1JhYWRVRXVMTlR1OE1LWlZRK0ZUbUF3VG5xNGtxbkg4YUIrMHljajREOU5tOW5BcXdxZkFTbjdqbVNzPSJ9
+ 处理结果 :false 交易号重叠 &&in time :2016-05-27 09:13:11
+ 来自于支付成功2016-05-27 09:13:11
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052721001004000248000303","buyer_email":"18883259156","gmt_create":"2016-05-27 09:28:44","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"181","seller_id":"2088911789850583","notify_time":"2016-05-27 09:28:44","body":"????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"22b06af6eacee9935cb72d02a4adaecg02","use_coupon":"N","sign_type":"RSA","sign":"JWfEiZbD+iXM4ho5awSM4L5mnW7CCBequUsp84gEXVFKqz3B6iQQcs0RrZvbTYVfi9K68o77uqDtbXQ9M2brrmzQv\/CNBqllZmDylkwOLXMHY2lK+O5NtVU42MVRSOUQvFPTJuGqh41ZePYze9FPSPNqPhs0oc8SJswoocVGBPg="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzUzNzQyNTE5NjAyNTE3OTM2MTQzNTQxNTYyMTc2MzAwMjQw&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI3MjEwMDEwMDQwMDAyNDgwMDAzMDMiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6Mjg6NDQiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTgxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToyODo0NCIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6IjIyYjA2YWY2ZWFjZWU5OTM1Y2I3MmQwMmE0YWRhZWNnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJKV2ZFaVpiRCtpWE00aG81YXdTTTRMNW1uVzdDQ0JlcXVVc3A4NGdFWFZGS3F6M0I2aVFRY3MwUnJadmJUWVZmaTlLNjhvNzd1cUR0YlhROU0yYnJybXpRdlwvQ05CcWxsWm1EeWxrd09MWE1IWTJsSytPNU50VlU0Mk1WUlNPVVF2RlBUSnVHcWg0MVplUFl6ZTlGUFNQTnFQaHMwb2M4U0pzd29vY1ZHQlBnPSJ9
+ 处理结果 :true &&in time :2016-05-27 09:28:44
+ 来自于支付成功2016-05-27 09:28:44
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016052721001004000248000303","buyer_email":"18883259156","gmt_create":"2016-05-27 09:28:44","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"181","seller_id":"2088911789850583","notify_time":"2016-05-27 09:28:45","body":"????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-27 09:28:45","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"27623fb5f0ad24bb880ade0662da4ceg02","use_coupon":"N","sign_type":"RSA","sign":"ObDQQZvYgkfW6rQenGgZ7wiHC3M33ucdh5P00lsNa0XiapaUMWJaI0aaSH9ZAlj\/op2s6AXuWsJEdRtOnajbzWwI5f6ZucF2214jJ+P93MbybHoaY8hhIr9PKjqfF1++jnbFtabj4Df9BMjYmYminK1NWb1JfbolhZdwUuO3eAQ="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NzI2ODE0MzI3NzU3NjUyMTIyMzM4OTAwMDgyNzAxMjE0Mzc0&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTI3MjEwMDEwMDQwMDAyNDgwMDAzMDMiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMjcgMDk6Mjg6NDQiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTgxIiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0yNyAwOToyODo0NSIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTI3IDA5OjI4OjQ1Iiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiMjc2MjNmYjVmMGFkMjRiYjg4MGFkZTA2NjJkYTRjZWcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Ik9iRFFRWnZZZ2tmVzZyUWVuR2daN3dpSEMzTTMzdWNkaDVQMDBsc05hMFhpYXBhVU1XSmFJMGFhU0g5WkFsalwvb3AyczZBWHVXc0pFZFJ0T25hamJ6V3dJNWY2WnVjRjIyMTRqSitQOTNNYnliSG9hWThoaElyOVBLanFmRjErK2puYkZ0YWJqNERmOUJNalltWW1pbksxTldiMUpmYm9saFpkd1V1TzNlQVE9In0=
+ 处理结果 :false 交易号重叠 &&in time :2016-05-27 09:28:45
+ 来自于支付成功2016-05-27 09:28:45
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016053021001004000284178171","buyer_email":"18883259156","gmt_create":"2016-05-30 00:33:21","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"194","seller_id":"2088911789850583","notify_time":"2016-05-30 00:33:21","body":"????????????","trade_status":"WAIT_BUYER_PAY","is_total_fee_adjust":"Y","total_fee":"0.01","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"a7a0aba4d5a304204ac58c6c8a52da7g02","use_coupon":"N","sign_type":"RSA","sign":"aWkr4gVyzYXz5XkhneAXjKAKkHAFeiWX2HQ0C9BgozV4+nmEWYSt3EkGpDOIRBPGMDyQCEwQbt18b9H9ka+HCGGLWDlo7vesqa4c3axwM6Vo24wQDZKzb8a\/lFsDsaIG8D23J\/rgILLr+XUHOOjPEbEpWIvTvI6aZfhUo4Q38aU="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NjM2ODkzMzQ2NjQ1MDI3MjY1NjA5NjAxNDgyNjMxODEzNzQ5&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTMwMjEwMDEwMDQwMDAyODQxNzgxNzEiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMzAgMDA6MzM6MjEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTk0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0zMCAwMDozMzoyMSIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJXQUlUX0JVWUVSX1BBWSIsImlzX3RvdGFsX2ZlZV9hZGp1c3QiOiJZIiwidG90YWxfZmVlIjoiMC4wMSIsInNlbGxlcl9lbWFpbCI6InpoYW5neXVhbkBjaGluYWxpZ2h0LmNvbS5jbiIsInByaWNlIjoiMC4wMSIsImJ1eWVyX2lkIjoiMjA4ODgwMjM2NzIxOTAwMCIsIm5vdGlmeV9pZCI6ImE3YTBhYmE0ZDVhMzA0MjA0YWM1OGM2YzhhNTJkYTdnMDIiLCJ1c2VfY291cG9uIjoiTiIsInNpZ25fdHlwZSI6IlJTQSIsInNpZ24iOiJhV2tyNGdWeXpZWHo1WGtobmVBWGpLQUtrSEFGZWlXWDJIUTBDOUJnb3pWNCtubUVXWVN0M0VrR3BET0lSQlBHTUR5UUNFd1FidDE4YjlIOWthK0hDR0dMV0Rsbzd2ZXNxYTRjM2F4d002Vm8yNHdRRFpLemI4YVwvbEZzRHNhSUc4RDIzSlwvcmdJTExyK1hVSE9PalBFYkVwV0l2VHZJNmFaZmhVbzRRMzhhVT0ifQ==
+ 处理结果 :true &&in time :2016-05-30 00:33:21
+ 来自于支付成功2016-05-30 00:33:21
+end  
+
+ 接收到支付通知 
+{"discount":"0.00","payment_type":"1","subject":"12month","trade_no":"2016053021001004000284178171","buyer_email":"18883259156","gmt_create":"2016-05-30 00:33:21","notify_type":"trade_status_sync","quantity":"1","out_trade_no":"194","seller_id":"2088911789850583","notify_time":"2016-05-30 00:33:22","body":"????????????","trade_status":"TRADE_SUCCESS","is_total_fee_adjust":"N","total_fee":"0.01","gmt_payment":"2016-05-30 00:33:22","seller_email":"zhangyuan@chinalight.com.cn","price":"0.01","buyer_id":"2088802367219000","notify_id":"52994eea074f7bab1ed2987d5f7af8ag02","use_coupon":"N","sign_type":"RSA","sign":"mja6i5dtL41z+Pk4srSDAgCj331jibbKl\/tzGPq2crc8Xl64cSsLlR5bOK0aS2BJeouMMzzPuAddjiICwwM63y\/3cXWby73ngTty8RwVRypInng33On1QZMTsfCMwPZ4xJmuRMKyf5PDbGzl02B\/nx8WnNSH+DRdMu4QnRsHfrM="}
+ POST接收完毕 
+
+ 接收验证成功 
+
+ 记录接受次数 
+
+ 开始连接到数据库 
+
+ 连接到数据库成功 
+
+ 创建token成功 
+
+ 增加token成功 
+
+  开始接受处理结果
+  开启接口:http://123.56.183.145/index.php?app=user&act=alipay&paytoken=NjM0NTYzNjUwNTg4OTAzOTU5Njk1MDk5NzE1NjI0MTY5MTg3&alipaydata=eyJkaXNjb3VudCI6IjAuMDAiLCJwYXltZW50X3R5cGUiOiIxIiwic3ViamVjdCI6IjEybW9udGgiLCJ0cmFkZV9ubyI6IjIwMTYwNTMwMjEwMDEwMDQwMDAyODQxNzgxNzEiLCJidXllcl9lbWFpbCI6IjE4ODgzMjU5MTU2IiwiZ210X2NyZWF0ZSI6IjIwMTYtMDUtMzAgMDA6MzM6MjEiLCJub3RpZnlfdHlwZSI6InRyYWRlX3N0YXR1c19zeW5jIiwicXVhbnRpdHkiOiIxIiwib3V0X3RyYWRlX25vIjoiMTk0Iiwic2VsbGVyX2lkIjoiMjA4ODkxMTc4OTg1MDU4MyIsIm5vdGlmeV90aW1lIjoiMjAxNi0wNS0zMCAwMDozMzoyMiIsImJvZHkiOiI/Pz8/Pz8/Pz8/Pz8iLCJ0cmFkZV9zdGF0dXMiOiJUUkFERV9TVUNDRVNTIiwiaXNfdG90YWxfZmVlX2FkanVzdCI6Ik4iLCJ0b3RhbF9mZWUiOiIwLjAxIiwiZ210X3BheW1lbnQiOiIyMDE2LTA1LTMwIDAwOjMzOjIyIiwic2VsbGVyX2VtYWlsIjoiemhhbmd5dWFuQGNoaW5hbGlnaHQuY29tLmNuIiwicHJpY2UiOiIwLjAxIiwiYnV5ZXJfaWQiOiIyMDg4ODAyMzY3MjE5MDAwIiwibm90aWZ5X2lkIjoiNTI5OTRlZWEwNzRmN2JhYjFlZDI5ODdkNWY3YWY4YWcwMiIsInVzZV9jb3Vwb24iOiJOIiwic2lnbl90eXBlIjoiUlNBIiwic2lnbiI6Im1qYTZpNWR0TDQxeitQazRzclNEQWdDajMzMWppYmJLbFwvdHpHUHEyY3JjOFhsNjRjU3NMbFI1Yk9LMGFTMkJKZW91TU16elB1QWRkamlJQ3d3TTYzeVwvM2NYV2J5NzNuZ1R0eThSd1ZSeXBJbm5nMzNPbjFRWk1Uc2ZDTXdQWjR4Sm11Uk1LeWY1UERiR3psMDJCXC9ueDhXbk5TSCtEUmRNdTRRblJzSGZyTT0ifQ==
+ 处理结果 :false 交易号重叠 &&in time :2016-05-30 00:33:22
+ 来自于支付成功2016-05-30 00:33:22
+end  

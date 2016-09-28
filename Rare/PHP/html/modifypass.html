@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="data/resours/css/head.css" />
+<link rel="stylesheet" type="text/css"
+	href="data/resours/css/styles.css" />
+<script type="text/javascript" src="data/resours/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<!--头部-->
+	<header>
+		<div class="log_img"></div>
+	</header>
+	<!--尾部-->
+	<footer>
+		<div class="login_left">
+			<div class="log_img2" style="margin-left: 20%"></div>
+		</div>
+		<div class="login_right">
+			<div class="log_form">
+				<div class="log_viod">
+					<!--<span id="void1">L</span>
+						<span id="void2">O</span>
+						<span id="void3">G</span>
+						<span id="void4">I<span>
+						<span id="void5">N</span>-->
+				</div>
+				<div class="log_viod2">
+					<span style="line-height: 50px; font-family:"黑体";">设置新密码：</span><br />
+					<input type="text" id="first_pass" class="text"
+						style="margin-left: 20px; height: 40px;" /><br /> <span
+						style="line-height: 50px;">确认密码：</span><br /> <input type="text"
+						id="second_pass" class="text"
+						style="margin-left: 20px; height: 40px;" /><br /> <input
+						type="button" class="btn"
+						style="margin-left: 20px; color: white; font-weight: bold; font-size: 18px;"
+						onclick="setpassword();" value="确认" /><br />
+
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		
+			function setpassword(){
+				var newpass1=$('#first_pass').val();
+				//alert(newpass1);
+				var newpass2=$('#second_pass').val();
+				if(newpass1.length==0 || newpass2.length==0 || newpass1!=newpass2)
+					{
+					alert('请输入新密码，并保持一致');
+					}else if(newpass1.length<6 || newpass1.length>16){
+						alert('密码长度为6-16位');
+					}else{
+						$.post('index.php?app=login&act=newpass',{password:newpass1},function(res){
+							if(res.retval==false)
+								{
+								alert('密码重置失败，请重新尝试');
+								location.href="index.php?app=login&act=forgetpassword1";
+								}else{
+									alert('密码重置成功，请返回登陆');
+									location.href="index.php";
+								}
+						});
+					}
+			}
+	
+		
+		</script>
+</body>
+</html>

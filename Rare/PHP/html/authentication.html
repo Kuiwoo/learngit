@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" href="data/resours/css/head.css" />
+<link rel="stylesheet" href="data/resours/css/styles.css" />
+<script type="text/javascript" src="data/resours/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="data/resours/js/js.js"></script>
+</head>
+<body>
+	<!--头部-->
+	<header>
+		<div class="log_img"></div>
+	</header>
+	<!--尾部-->
+	<footer style="border: 1px solid white;">
+		<div class="auth_foot1">
+			<span>验证省份</span>
+		</div>
+		<p class="auth_foot_p">
+			请点击获取验证码并在手机：<span id="tel_str">155****6893</span>中查看短信，并填写验证码
+		</p>
+		<input type="text" id="code_str" placeholder="短信验证码"
+			class="auth_foot_btn1" /> <input type="button" onclick="telcode();"
+			value="获取验证码" id="wait_btn"></input><br /> <span id="codeerror"
+			style="color: red; font-size: 16px; margin-left: 680px; display: none;">验证码输入错误请重新获取</span>
+		<input type="button" onclick="putcode();" value="下一步" id="auth_btn" />
+	</footer>
+
+	<script>
+		$(function(){
+			$.get('index.php?app=login&act=telphone',function(res){
+				if(res.retval==false)
+				{
+					alert('账号并未设置手机号，请联系管理员');
+				}else{
+					$('#tel_str').html(res.retval);
+				}
+			});
+		});
+		
+		function telcode()
+		{
+			$.get('index.php?app=login&act=forgettelcode',function(res){
+				if(res.retval==false)
+				{
+					alert('短信发送失败，请稍后再试');
+				}else{
+					$('#codeerror').hide();
+					//$('#wait_btn').val('已发送短信');
+				}
+			});
+		}
+		
+		function putcode()
+		{
+			var code=$('#code_str').val();
+			if(code.length==0){alert('请输入验证码');}else{
+				$.get('index.php?app=login&act=putforgetcode&code='+code,function(res){
+					if(res.retval==false)
+					{
+						$('#codeerror').show();
+					}else{
+						location.href='index.php?app=login&act=forgetpassword3';
+						//$('#wait_btn').val('已发送短信');
+					}
+				});
+			}
+			
+		}
+		</script>
+
+</body>
+</html>

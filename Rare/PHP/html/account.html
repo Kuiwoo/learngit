@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>填写账户</title>
+<link rel="stylesheet" href="data/resours/css/head.css" />
+<link rel="stylesheet" href="data/resours/css/styles.css" />
+<script type="text/javascript" src="data/resours/js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+	<!--头部-->
+	<header>
+		<div class="log_img"></div>
+	</header>
+	<!--尾部-->
+	<footer style="border: 1px solid white;">
+		<div class="account_img">
+			<span>填写账户</span>
+		</div>
+		<p class="newpass_p1">
+			登录名:<input type="text" id="account_btn1" placeholder="会员账号"
+				class="text" />
+		</p>
+		<!-- <p class="newpass_p2">
+				验证码:<input type="text" id="account_btn2" class="text"/>
+			</p>
+			<span id="error_title" style="margin-left: 810px;color: red;display: none;">账号输入错误</span><br /> -->
+		<input type="button" value="提&nbsp;&nbsp;&nbsp;&nbsp;交"
+			onclick="putusername();" id="account_btn3" />
+	</footer>
+	<script>
+		function putusername()
+		{
+			$('#error_title').hide();
+			var username1=$('#account_btn1').val();
+			if(username1.length==0)
+				{
+				alert('请输入账号');
+				}else{
+					$.get('index.php?app=login&act=checkusername&username='+username1,{},function(res){
+						if(res.retval==true)
+							{
+								location.href="index.php?app=login&act=forgetpassword2&username="+username1;
+							}else{
+								
+								$('#error_title').show();
+							}
+					});
+				}
+		}
+		</script>
+</body>
+</html>

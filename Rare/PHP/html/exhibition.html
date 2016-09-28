@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="pt-br" />
+<title></title>
+
+
+<!-- Page Style -->
+<link type="text/css" href="data/resours/css/lunbo.css" rel="stylesheet" />
+
+<!-- jQuery Library -->
+<script type="text/javascript" src="data/resours/js/jquery.js"></script>
+
+<link rel="stylesheet" href="data/resours/css/FaceBox.css"
+	type="text/css" media="screen" charset="utf-8" />
+<script src="data/resours/js/FaceBox.min.js" type="text/javascript"
+	charset="utf-8"></script>
+
+<script type="text/javascript" src="data/resours/js/resize.js"></script>
+<script type="text/javascript"
+	src="data/resours/js/jquery.mousewheel.js"></script>
+<script type="text/javascript"
+	src="data/resours/js/jquery.jscrollpane.min.js"></script>
+<link href="data/resours/css/jquery.jscrollpane.css" type="text/css"
+	rel="stylesheet" />
+<style type="text/css">
+.head_lang a {
+	font-size: 13px;
+	font-weight: 200;
+	font-style: italic;
+}
+</style>
+</head>
+
+<body>
+
+	<!--头部-->
+	<header>
+		<div class="head_left">
+			<div class="head_img"></div>
+		</div>
+		<div class="head_right">
+			<div class="head_lang">
+				<a href="index.php?app=user&act=logout">安全退出</a>
+			</div>
+			<div class="head_min">童画森林国际艺术中心</div>
+			<div class="head_list">
+				<ul type="none">
+					<li><div class="indexi" style="border: none;">
+							<a href="http://www.magicforestart.com/">首页</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/col.jsp?id=110">中心简介</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/pl.jsp">优势与理念</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/col.jsp?id=109">课程设置</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/nl.jsp">新闻动态</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/msgBoard.jsp">优秀作品展示</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/col.jsp?id=101">师资力量</a>
+						</div></li>
+					<li><div class="indexi">
+							<a href="http://www.magicforestart.com/col.jsp?id=102">联系我们</a>
+						</div></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="center">
+		<div class="center_role">
+			<div class="role_img">
+				<div style="height: 25px;"></div>
+				<div id="user_headimg" class="role_img1"></div>
+				<div class="role_stu">
+					<span id="show_name">张晓艺</span>
+				</div>
+			</div>
+			<div class="role_oper">
+				<!-- <div class="oper_list ff" style="margin-left: 45px;" id="oper_list1">素描</div>
+					<div class="oper_list" id="oper_list2">色彩</div>
+					<div class="oper_list" id="oper_list3">速写</div> -->
+			</div>
+		</div>
+		<div style="width: 100%; height: 80px;"></div>
+		<!--素描-->
+		<div class="allcent">
+			<!-- <div class="center_content" id="center_content1" ">
+	        	<div class="Column" style="width: 99%;">
+	                <div class="boxButton">
+	                    <ul class="Gallery">
+	                        
+	                    </ul>
+	                </div>
+				</div>
+        	</div>
+        	色彩
+        	<div class="center_content" id="center_content2" style="display: none;">
+	        	<div class="Column" style="width: 99%;">
+	                <div class="boxButton">
+	                    <ul class="Gallery">
+	                        
+	                    </ul>
+	                </div>
+				</div>
+        	</div>
+        	速写
+        	<div class="center_content" id="center_content3" style="display: none;">
+	        	<div class="Column" style="width: 99%;">
+	                <div class="boxButton">
+	                    <ul class="Gallery">
+	                        
+	                    </ul>
+	                </div>
+				</div>
+				
+        	</div> -->
+		</div>
+		<div class="allbutton">
+			<!-- <div class="most" id="most1">
+						<input type="button" id="more1" onclick="getdata('sumiao');" class="btn"  value="更多"/>
+					</div>	
+	    	 <div class="most" id="most2" style="display: none;">
+				<input type="button" id="more2"  onclick="getdata('secai');" class="btn" value="更多"/>
+			</div>
+			<div class="most" id="most3" style="display: none;">
+				<input type="button" id="more3"  onclick="getdata('suxie');" class="btn" value="更多"/>
+			</div> -->
+		</div>
+
+	</div>
+	<!--尾部-->
+	<footer>
+		<br /> <a href="http://www.magicforestart.com/">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<a href="http://www.magicforestart.com/pl.jsp">优势与理念</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+		<a href="javascript:void(0)">联系我们</a><br />
+		&copy;2016&nbsp;&nbsp;童画森林国际儿童艺术中心&nbsp;&nbsp;版权所有<br /> 本站使用<img
+			src="img/QQ图片20160612174049.png" alt="" />凡科建站&nbsp;&nbsp;<a
+			href="javascript:void(0)">搭建</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a
+			href="javascript:void(0)">管理登录</a>
+	</footer>
+
+	<script type="text/javascript" charset="utf-8">
+       
+       function chtitle(index)
+       {
+    	   $("[id^=oper_list]").removeClass("ff");
+			$("#oper_list"+index).addClass("ff");
+			$("[id^=center_content]").hide();
+			$("[id^=most]").hide();
+			$("#center_content"+index).show();
+			$("#most"+index).show();
+			
+			if($("#center_content"+index+" div div ul li").length==0)
+			{
+			getdata($('#oper_list'+index).text(),index);
+			}
+       }
+       
+      // $('.oper_list').click(function(){
+		//	alert('123');
+			//$(".oper_list").removeClass("ff");
+			//$(this).addClass("ff");
+			
+			
+		//});
+      
+       nowtitle=1;
+       page={};
+       page['素描']=1;
+       page['色彩']=1;
+       page['速写']=1;
+		sumiao_page=1;
+		secai_page=1;
+		suxie_page=1;
+		
+		$(function(){
+			$.get("index.php?app=user&act=userinfo",{},function(result){
+			    if(result.retval==false)
+			    {
+			    	alert('获取个人信息失败');
+			    	
+			    }else{
+			    	var info=result.retval;
+			    	$('#user_headimg').attr('src','/data/resours/headimg/'+info.headimg);
+			    	$('#show_name').html(info.name);
+			    	//location.href='index.php?app=user&act=index&token='+result.retval;
+			    }
+			  });
+			$.get("index.php?app=user&act=taglist",function(result){
+				if(result.retval==false)
+			    {
+			    	alert('获取标签列表失败');
+			    	
+			    }else{
+			    	var info=result.retval;
+			    	var tagstr='';
+			    	var tagcent='';
+			    	var tagbutton='';
+			    	for(var i=0;i<info.length;i++)
+			    		{
+			    		page[info[i].tag]=1;
+			    		   tagstr+='<div class="oper_list" onclick="chtitle('+i+')" id="oper_list'+i+'">'+info[i].tag+'</div>';
+			    		   tagcent+='<div class="center_content" id="center_content'+i+'" style="display:none">'
+			   	        	+'<div class="Column" style="width: 99%;">'
+			             + '  <div class="boxButton">'
+			                 + '  <ul class="Gallery">'
+			                  +  '</ul>'
+			               + '</div>'
+						+'</div>'
+		        	+'</div>';
+		        	tagbutton+='<div class="most" id="most'+i+'" style="display:none">'
+						+'<input type="button" id="more'+i+'" onclick="getdata(\''+info[i].tag+'\','+i+');" class="btn"  value="更多"/>'
+					+'</div>	';
+			    		}
+			    	$('.role_oper').append(tagstr);
+			    	$('.allcent').append(tagcent);
+			    	$('.allbutton').append(tagbutton);
+			    	
+			    	chtitle(0);
+			    	
+			    }
+			});
+		});
+		
+		
+			
+		function getdata(type,index)
+		{
+			var page_str=page[type];
+			var tag_str=type;
+			var id_str=index;
+			
+			
+			$.get("index.php?app=user&act=production",{page:page_str,tag:tag_str},function(result){
+			    if(result.retval==false)
+			    {
+			    	alert('没有更多的作品了');
+			    	$('#more'+id_str).hide();
+			    }else{
+			    	page[type]+=1;
+			    	
+			    	var info=result.retval;
+			    	var body='';
+			    	for(i=0;i<info.length;i++)
+			    		{
+			    	
+			    		body+='<li>'
+                    	+'<a href="'+info[i].filename+'" rel="FaceBox[gallery'+id_str+']">'
+                    	+	'<img src="'+info[i].smallfilename+'" style="width: 100%;height: 467px;" alt="'+info[i].title+'" />'
+                    	+'</a>'
+                    	+'<div class="sda"></div>'
+                    	+'<div class="content_text1" style="clear: both;">'
+						+	'<div class="text1_content" >'+info[i].body+'</div>'
+						+'</div>'
+                  + ' </li>';
+			    		
+			    		
+			    		}
+			    	console.log(id_str);
+			    	console.log($('#center_content'+id_str).html());
+			    	$('#center_content'+id_str+' div div ul').append(body);
+			    	$('[rel^="FaceBox"]').FaceBox();
+			    	if(info.length<6)
+			    	{
+			    		$('#more'+id_str).hide();
+			    	}
+			    	
+			    }
+			  });
+		}
+        	$(function(){
+            	$('[rel^="FaceBox"]').FaceBox();
+			});
+			/*
+			 功能切换
+			 * */
+			
+			
+				
+			
+			/*
+			 色彩
+			 * */
+		
+		</script>
+</body>
+</html>
+
+
