@@ -69,7 +69,7 @@
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>分类</label>
                                         <select class="select" id="type1">
-                                            <option>普通（无）</option>
+                                            <option value='norm'>普通（无）</option>
                                            
                                             <option class="addSome addType1" id="addType1">新增分类</option>
                                         </select>
@@ -77,7 +77,7 @@
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>次级分类</label>
                                         <select class="select" id="type2">
-                                           <option>普通（无）</option>
+                                           <option value='norm'>普通（无）</option>
                                            
                                             <option class="addSome addType1" id="addType2">新增分类</option>
                                         </select>
@@ -85,7 +85,7 @@
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>小分类</label>
                                         <select class="select" id="type3">
-                                            <option>普通（无）</option>
+                                            <option value='norm'>普通（无）</option>
                                           
                                             <option class="addSome"  id="addType3">新增分类</option>
                                         </select>
@@ -197,19 +197,16 @@
 						if(result && result.retval!=false){
 							var data=result.retval;
 							typeData=data;
-							
-							for(var i in data['0']){
-								console.log(data['0'][i].title);
-								$('#addType1').before('<option value="'+data['0'][i].Id+'">'+data['0'][i].title+'</option>');
-								typeList[data['0'][i].title]=data['0'][i].id;
+							for(var n in data){
+								for(var i in data[n]){
+									console.log(data[n][i].title);
+									$('#addType'+(parseInt(n)+1)).before('<option value="'+data[n][i].id+'" class="select-index-'+(parseInt(n)+1)+ '  selectone'+data[n][i].id+'">'+data[n][i].title+'</option>');
+									typeList[data[n][i].title]=data[n][i].id;
+								}
 							}
-								
-								
 						if($('.select')[0]) {
 						    $('.select').selectpicker();
 						}
-				//$('.select').selectpicker();
-						//location.reload();
 						}else{
 						alert('获取数据出错');
         			return false;
@@ -222,19 +219,19 @@
             	var selected=$(this).find("option:selected").text();
             	var selectId=$(this).attr('id');
             	var id=selectId.replace('type','');
-            	
+            	console.log($(this).find("option:selected").val());
             	if(id<3){
-            		var chaildListId=typeList[selected];
-            		var chaildList=typeData[chaildListId];
-            		console.log(typeList);
-            		console.log(chaildListId);
-            			for(var i in chaildList){
-								console.log(chaildList[i].title);
-								$('#addType'+(id+1)).before('<option value="'+chaildList[i].Id+'">'+chaildList[i].title+'</option>');
-								typeList[chaildList[i].title]=chaildList[i].Id;
-							}
-            			$('.select').selectpicker();
+            		var parentId=typeList[selected];
+            		var chaildList=typeData[parentId];
+            		$('.select-index-'+(parseInt(id)+1)).parent('li').hide();
+            		for(var i in typeData[id]){
+            			console.log(typeData[id][i]);
+            			if(typeData[id][i].parentId==parentId){
+            				$('.selectone'+typeData[id][i].id).parent('li').show();
+            			}
+            		}
             	}
+            	$('#type'+(parseInt(id)+1)).selectpicker('val','norm');
             });
        </script>
        
