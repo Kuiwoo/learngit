@@ -23,6 +23,7 @@
         <style type="text/css">
         	.addSome{
         		color: #33BE40!important;
+        		display: none;
         	}
         </style>
     </head>
@@ -60,34 +61,28 @@
                                     </ul>
                                 </div-->
                                 
-                                <form role="form" class="p-15">
+                                <div role="form" class="p-15">
                                     <div class="form-group m-b-15">
                                         <label>标题</label>
-                                        <input type="text" class="form-control input-sm">
+                                        <input type="text" id="title" class="form-control input-sm">
                                     </div>
                                     
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>分类</label>
                                         <select class="select" id="type1">
-                                            <option value='norm'>普通（无）</option>
-                                           
-                                            <option class="addSome addType1" id="addType1">新增分类</option>
+                                          
                                         </select>
                                     </div>
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>次级分类</label>
                                         <select class="select" id="type2">
-                                           <option value='norm'>普通（无）</option>
-                                           
-                                            <option class="addSome addType1" id="addType2">新增分类</option>
+                                     
                                         </select>
                                     </div>
                                     <div class="form-group m-b-15 col-xs-4">
                                         <label>小分类</label>
                                         <select class="select" id="type3">
-                                            <option value='norm'>普通（无）</option>
-                                          
-                                            <option class="addSome"  id="addType3">新增分类</option>
+                                 
                                         </select>
                                     </div>
                                     
@@ -96,10 +91,10 @@
                                         <div class="wysiwye-editor"></div>
                                     </div>
                                     
-                                    <button type="submit" class="btn btn-sm">Submit</button>
-                                    <button type="submit" class="btn btn-sm">Clear</button>
+                                    <button type="submit" class="btn btn-sm" id="write-done" onclick="writeDone();">Submit</button>
+                                    <button type="submit" class="btn btn-sm" id="write-clear">Clear</button>
                                     
-                                </form>
+                                </div>
                             </div>
                         </div>
                         <div class="clearfix"></div>
@@ -108,6 +103,63 @@
             </section>
         </section>
         
+        <!--
+        	作者：410232436@qq.com
+        	时间：2016-09-29
+        	描述：新增类型拟态框
+        -->
+        	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                <h4 class="modal-title" id="myModalLabel">添加分类</h4>
+			            </div>
+			            <div class="modal-body">父级分类：<span id="parent-text">默认</span></div>
+			            <div class="form-group">
+			            <input type="text"  class="form-control" id="newTypeText" parent="" placeholder="请输入名称"/>
+			             </div>
+			            <div class="modal-footer">
+			                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+			                <button type="button" class="btn btn-success" data-dismiss="modal" onclick="addType();" style="background-color: green;">添加</button>
+			            </div>
+			        </div><!-- /.modal-content -->
+			    </div><!-- /.modal -->
+			</div>
+			
+		<div class="modal fade" id="success" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                <h4 class="modal-title" id="myModalLabel">完成</h4>
+			            </div>
+			    		<div class="modal-body">添加成功。</div>
+			            <div class="modal-footer">
+			                
+			                <button type="button" class="btn btn-success" data-dismiss="modal" onclick="location.href='blog.html'" style="background-color: green;">确定</button>
+			            </div>
+			        </div><!-- /.modal-content -->
+			    </div><!-- /.modal -->
+			</div>	
+			
+			
+			
+			<div class="modal fade" id="faild" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			    <div class="modal-dialog">
+			        <div class="modal-content">
+			            <div class="modal-header">
+			                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			                <h4 class="modal-title" id="myModalLabel">完成</h4>
+			            </div>
+			    		<div class="modal-body">添加失败，请重试。</div>
+			            <div class="modal-footer">
+			                
+			                <button type="button" class="btn btn-success" data-dismiss="modal" onclick="" style="background-color: #AC1C00 ;">确定</button>
+			            </div>
+			        </div><!-- /.modal-content -->
+			    </div><!-- /.modal -->
+			</div>	
         <!-- Javascript Libraries -->
         <!-- jQuery -->
         <script src="js/jquery.min.js"></script> <!-- jQuery Library -->
@@ -139,50 +191,7 @@
         		getTypeList();
         	});
         
-            $(document).ready(function() {
-                
-                //Calendar
-                (function(){
-                    var date = new Date();
-                    var d = date.getDate();
-                    var m = date.getMonth();
-                    var y = date.getFullYear();
-                    
-                    
-                    $('body').on('click', '#addEvent', function(){
-                         var eventForm =  $(this).closest('.modal').find('.form-validation');
-                         eventForm.validationEngine('validate');
-                         
-                         if (!(eventForm).find('.formErrorContent')[0]) {
-                              
-                              //Event Name
-                              var eventName = $('#eventName').val();
-    
-                              //Render Event
-                              $('#calendar').fullCalendar('renderEvent',{
-                                   title: eventName,
-                                   start: $('#getStart').val(),
-                                   end:  $('#getEnd').val(),
-                                   allDay: true,
-                              },true ); //Stick the event
-                              
-                              $('#addNew-event form')[0].reset()
-                              $('#addNew-event').modal('hide');
-                         } 
-                    });
-                    
-                    //Calendar views
-                    $('body').on('click', '.calendar-actions > li > a', function(e){
-                       // e.preventDefault();
-                        var dataView = $(this).attr('data-view');
-                        $('#calendar').fullCalendar('changeView', dataView);
-                        
-                        //Custom scrollbar
-                        var overflowRegular, overflowInvisible = false;
-                        overflowRegular = $('.overflow').niceScroll();     
-                    });      
-                })();
-            });    
+          
             
             $(function(){
             	$('.note-editable').css('height','400px');
@@ -197,13 +206,15 @@
 						if(result && result.retval!=false){
 							var data=result.retval;
 							typeData=data;
-							for(var n in data){
-								for(var i in data[n]){
-									console.log(data[n][i].title);
-									$('#addType'+(parseInt(n)+1)).before('<option value="'+data[n][i].id+'" class="select-index-'+(parseInt(n)+1)+ '  selectone'+data[n][i].id+'">'+data[n][i].title+'</option>');
-									typeList[data[n][i].title]=data[n][i].id;
+								setMust('#type1',true);
+								setMust('#type2',false);
+								setMust('#type3',false);
+								for(var i in data[0]){
+									
+									$('#type1').append('<option value="'+data[0][i].id+'">'+data[0][i].title+'</option>');
+									typeList[data[0][i].title]=data[0][i].id;
 								}
-							}
+							
 						if($('.select')[0]) {
 						    $('.select').selectpicker();
 						}
@@ -219,20 +230,103 @@
             	var selected=$(this).find("option:selected").text();
             	var selectId=$(this).attr('id');
             	var id=selectId.replace('type','');
-            	console.log($(this).find("option:selected").val());
+            	var thisVal=$(this).find("option:selected").val();
+            	if(thisVal=="addType"){
+            		var parentText=id>1?$('#type'+(parseInt(id)-1)).find("option:selected").text():'';
+            		var parentId=id>1?$('#type'+(parseInt(id)-1)).find("option:selected").val():'';
+            		$('#parent-text').text(parentText);
+            		$('#newTypeText').attr('parent',parentId);
+            		$('#myModal').modal('show');
+            		
+            	}
+            	
             	if(id<3){
             		var parentId=typeList[selected];
             		var chaildList=typeData[parentId];
-            		$('.select-index-'+(parseInt(id)+1)).parent('li').hide();
-            		for(var i in typeData[id]){
-            			console.log(typeData[id][i]);
-            			if(typeData[id][i].parentId==parentId){
-            				$('.selectone'+typeData[id][i].id).parent('li').show();
-            			}
+            		var nextType='#type'+(parseInt(id)+1);
+            		$(nextType).html('');
+            	
+            		if(thisVal=='norm' || thisVal=='addType' ){
+            			setMust(nextType,false);
+            		}else{
+            			setMust(nextType,true);
+		            		for(var i in typeData[id]){
+		            			console.log(typeData[id][i]);
+		            			console.log(parentId);
+		            			if(typeData[id][i].parentId==parentId){
+		            				$(nextType).append('<option value="'+typeData[id][i].id+'">'+typeData[id][i].title+'</option>');
+		            				typeList[typeData[id][i].title]=typeData[id][i].id;
+		            			}
+		            		}
             		}
+            		$(nextType).selectpicker('refresh');
+            		$(nextType).selectpicker('val','norm');
             	}
-            	$('#type'+(parseInt(id)+1)).selectpicker('val','norm');
+            	
             });
+            
+            function addType(){
+            	var newType=$('#newTypeText').val();
+            	var parent=$('#newTypeText').attr('parent');
+            	if(newType.length==0){
+            		return false;
+            	}
+            	$.ajax({
+					url: 'http://localhost/index.php?app=user&act=typeList',
+					type: 'POST',
+					data: {type:newType,parentId:parent},
+					success: function(result) {
+						if(result && result.retval!=false){
+							var data=result.retval;
+							typeData[data.indexs]=data;
+							var nextType='#type'+(parseInt(data.indexs)+1);
+							$(nextType).append('<option value="'+data.Id+'">'+data.title+'</option>');
+							$(nextType).selectpicker('refresh');
+            				$(nextType).selectpicker('val',data.Id);
+						}else{
+						alert('获取数据出错');
+        			return false;
+						}
+						}
+					});
+            	$('#addType3').before('<option value="" class="select-index- selectone">'+$('#newTypeText').val()+'</option>');
+            	$('.select').selectpicker('refresh');
+            }
+            
+            function setMust(BigType,addType){
+            	var norm="<option value='norm'>普通（无）</option>";
+                var add="<option class='addSome' value='addType' >新增分类</option>"; 
+                addType?$(BigType).append(norm+add):$(BigType).append(norm);
+                return true;
+            }
+            
+            function writeDone(){
+            	var titile1=$('#title').val();
+            	var types=[$('#type1').find("option:selected").val(),$('#type2').find("option:selected").val(),$('#type3').find("option:selected").val()];
+           		var length=2;
+           		while(types[length]=='addType' || types[length]=='norm'){
+           			length--;
+           			if(length==0){break;}
+           		}
+           		var type=(types[length]=='addType' || types[length]=='norm')?0:types[length];
+           		var body1=$('.note-editable').html();
+           		
+           		//return;
+           		$.ajax({
+					url: 'http://localhost/index.php?app=user&act=article',
+					type: 'POST',
+					data: {title:titile1,typeId:type,body:body1},
+					success: function(result) {
+						if(result && result.retval!=false){
+							
+							$('#success').modal('show');
+						}else{
+						$('#faild').modal('show');
+        			return false;
+						}
+						}
+					});
+            }
        </script>
        
          <!-- Form Related -->

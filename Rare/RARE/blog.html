@@ -37,7 +37,7 @@
 			<div class="main clearfix">		
 				<div class="column">
 					<div id="dl-menu" class="dl-menuwrapper">
-						<button class="dl-trigger">Open Menu</button>
+						<button class="dl-trigger">分类</button>
 						<ul class="dl-menu">
 							<li>
 								<a href="#">Fashion</a>
@@ -156,61 +156,13 @@
 	<main class="cd-main-content">
 		<div class="cd-fixed-bg cd-bg-1" style="">
 			<div class="brickfolio" style="background-color: rgba(255,255,255,0.7);padding-top: 6em;padding-bottom: 7em;">
-				<div class="bf-item">
-					<img src="img/1.jpg">
-					<h4>Lorem ipsum dolor sit</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eadem nunc mea adversum te oratio est. Itaque his sapiens semper vacabit. Tamen a proposito, inquam, aberramus. Prave, nequiter, turpiter cenabat;</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/2.jpg">
-					<h4>Quare attende, quaeso</h4>
-					<p>Quare attende, quaeso. Sed plane dicit quod intellegit. Non semper, inquam; Nos commodius agimus. Illa tamen simplicia, vestra versuta. Moriatur, inquit. Et nemo nimium beatus est; Haec dicuntur inconstantissime.</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/3.jpg">
-					<h4>Duo Reges</h4>
-					<p>Duo Reges: constructio interrete. Tu quidem reddes; Nihilo magis. Haec igitur Epicuri non probo, inquam.</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/4.jpg">
-					<h4>Vide, quaeso, rectumne</h4>
-					<p>Vide, quaeso, rectumne sit. Nihil ad rem! Ne sit sane; Tibi hoc incredibile, quod beatissimum. Falli igitur possumus. Easdemne res?</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/5.jpg">
-					<h4>Bonum incolumis acies</h4>
-					<p>Bonum incolumis acies: misera caecitas. Istam voluptatem, inquit, Epicurus ignorat? Confecta res esset. Iam contemni non poteris. Ecce aliud simile dissimile. Audeo dicere, inquit.</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/5.jpg">
-					<h4>Urgent tamen</h4>
-					<p>Urgent tamen et nihil remittunt. Quam ob rem tandem, inquit, non satisfacit? Hoc simile tandem est? Istam voluptatem perpetuam quis potest praestare sapienti? Cur id non ita fit? Teneo, inquit, finem illi videri nihil dolere.</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/4.jpg">
-					<h4>Mauris hendrerit est</h4>
-					<p>Prave, nequiter, turpiter cenabat; Nos commodius agimus. Quod iam a me expectare noli. Illi enim inter se dissentiunt. Comprehensum, quod cognitum non habet? Ad eas enim res ab Epicuro praecepta dantur. Prioris generis est docilitas, memoria; Hic ambiguo ludimur.</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/3.jpg">
-					<h4>Quibus ego vehementer</h4>
-					<p>Quibus ego vehementer assentior. Eam tum adesse, cum dolor omnis absit; Beatum, inquit. Quid de Pythagora? At enim hic etiam dolore. Quid me istud rogas? Cur id non ita fit</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/2.jpg">
-					<h4>Quibus ego vehementer</h4>
-					<p>Quibus ego vehementer assentior. Eam tum adesse, cum dolor omnis absit; Beatum, inquit. Quid de Pythagora? At enim hic etiam dolore. Quid me istud rogas? Cur id non ita fit</p>
-				</div>
-				<div class="bf-item">
-					<img src="img/1.jpg">
-					<h4>Quibus ego vehementer</h4>
-					<p>Quibus ego vehementer assentior. Eam tum adesse, cum dolor omnis absit; Beatum, inquit. Quid de Pythagora? At enim hic etiam dolore. Quid me istud rogas? Cur id non ita fit</p>
-				</div>
+				
+				
 			</div>
 		
 		</div> <!-- cd-fixed-bg -->
 
-		<div class="cd-scrolling-bg cd-color-2">
+		<div class="cd-scrolling-bg cd-color-2" style="display: none;">
 			<div class="cd-container">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt suscipit similique, dolor corrupti cumque qui consectetur autem laborum fuga quas ipsam doloribus sequi, mollitia, repellendus sapiente repudiandae labore rerum amet culpa inventore, modi non. Quo nisi veritatis vitae nam, labore fugit. Inventore culpa iusto, officia exercitationem. Voluptates quibusdam odit odio incidunt consequatur, consectetur aspernatur optio vitae molestias, quas repellendus fugit ullam culpa, eligendi et dignissimos voluptatibus illum? Molestias aliquam nostrum quasi ipsa culpa, iusto explicabo ut error, consequuntur enim temporibus, adipisci tempora voluptate, id consequatur mollitia eveniet blanditiis. Illo quod repellendus alias? Cum rem doloremque adipisci accusantium? Saepe, necessitatibus!
@@ -224,14 +176,105 @@
 	<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.dlmenu.js"></script>
 		<script>
+		articlePage=0;
 			$(function() {
-				$( '#dl-menu' ).dlmenu();
+				getTypeList();
+				getArticleList('');
 			});
-		</script>
-	<script src="src/js/jquery.brickfolio-kp.js"></script>
-	<script>
-		jQuery(function($){
-			var $container = $('.brickfolio'),
+			
+			function typeSearch(typeId){
+				getArticleList(typeId);
+				$('.dl-trigger').click();
+			}
+			
+			function getTypeList(type,page=0){
+				$.ajax({
+					url: 'http://localhost/index.php?app=user&act=typeList',
+					type: 'GET',
+					success: function(result) {
+						$('.dl-menu').html('');
+						if(result && result.retval!=false){
+							var data=result.retval;
+							var typeData={};
+							var indexsData=[];
+							var text='';
+							for(var n in data){
+								for(var i in data[n]){
+									typeData[data[n][i].id]=data[n][i];
+								}
+							}
+							for(var n in typeData){
+								if(typeData[n].indexs==0){
+									text+='<li>'
+											+'<a >'+typeData[n].title+'</a>'
+											+'<ul class="dl-submenu">';
+									for(var i in typeData){
+										if(typeData[i].indexs==1 && typeData[i].parentId==typeData[n].id){
+											text+='<li>'
+													+'<a >'+typeData[i].title+'</a>'
+													+'<ul class="dl-submenu">';
+													for(var x in typeData){
+														if(typeData[x].indexs==2 && typeData[x].parentId==typeData[i].id){
+																text+='<li><a onclick="typeSearch('+typeData[x].id+')">'+typeData[x].title+'</a></li>';
+													}
+												}
+													text+='<li>'
+											+'<a onclick="typeSearch('+typeData[n].id+')">全部</a>'
+											+'';
+											text+='</li>';	
+											text+=	'</ul></li>';
+									}
+								}
+									text+='<li>'
+											+'<a onclick="typeSearch('+typeData[i].id+')">全部</a>';
+									text+='</li>';	
+									text+='</ul></li>';
+							}
+						}
+							text+='<li>'
+											+'<a onclick="typeSearch(0)">默认</a>'
+											+'';
+							text+='</li>';	
+							text+='<li>'
+											+'<a onclick="typeSearch(\'\')">全部</a>'
+											+'';
+							text+='</li>';		
+							text+='</ul></li>';		
+							$('.dl-menu').append(text);
+							$( '#dl-menu' ).dlmenu();
+						}else{
+						alert('获取数据出错');
+        			return false;
+						}
+						}
+					});
+			}
+			
+			function getArticleList(type){
+				$.get('http://localhost/index.php?app=user&act=articleList&typeId='+type,function(data){
+				$('.brickfolio').html('');
+				if(data.retval!=false){
+					
+					var text='';
+					for(var i in data.retval){
+						var body=data.retval[i].body;
+						body=body.replace(/<[\S|\s]+?>/g,'');
+						body=body.slice(0,80);
+						console.log(body);
+						text+='<div class="bf-item" onclick="location.href=\'blog-world.html#'+data.retval[i].Id+'\'">'
+					+'<img src="img/1.jpg">'
+				+	'<h4>'+data.retval[i].title+'</h4>'
+				+	'<p>'+body+'</p>'
+				+'</div>';
+					}
+					$('.brickfolio').append(text);
+				
+				
+				
+				}else{
+					$('.brickfolio').append('<div class="bf-item" style="padding: 5px;text-align: center;"><p style="font-size: 16px;margin: auto;height: 280px;">查无数据</p></div>');
+				}
+				var $container = $('.brickfolio'),
 					$load_delay = $('#load_delay'),
 					$animation = $('#animation'),
 					$mixed_delay = $('#mixed_delay'),
@@ -247,7 +290,11 @@
 				$container.brickfolio({animation: getAnimation(), loadTime: getLoadTime()});
 			});
 			$container.brickfolio({animation: getAnimation(), loadTime: getLoadTime()});
-		});
-	</script>	
+				});
+				
+			}
+		</script>
+	<script src="src/js/jquery.brickfolio-kp.js"></script>
+
 </body>
 </html>

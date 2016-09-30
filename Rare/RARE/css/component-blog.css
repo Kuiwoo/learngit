@@ -96,7 +96,8 @@
 	font-family: 'icomoon';
 	speak: none;
 	-webkit-font-smoothing: antialiased;
-	content: "\e000";
+	color:white;
+	content: ">";/*\e000*/
 }
 
 .dl-menuwrapper li.dl-back:after {
